@@ -1,0 +1,2616 @@
+2025-04-14 20:32:53,522 - INFO - Data loaded successfully
+2025-04-14 20:32:53,526 - INFO - Training started at 2025-04-14 20:32:53
+2025-04-14 20:32:53,535 - INFO - 
+Starting Fold 1/5
+2025-04-14 20:32:54,724 - INFO - Starting learning rate finder...
+2025-04-14 20:32:59,664 - INFO - Optimal learning rate found: 0.000030
+2025-04-14 20:33:16,910 - INFO - Epoch 1/100:
+2025-04-14 20:33:16,914 - INFO - Train Loss: 2.4506, Train Acc: 0.0934
+2025-04-14 20:33:16,915 - INFO - Confidence Threshold: 0.9184
+2025-04-14 20:33:16,915 - INFO - Val Loss: 2.3961, Val Acc: 0.0988
+2025-04-14 20:33:17,037 - INFO - Saved new best model with val_acc: 0.0988
+2025-04-14 20:33:34,795 - INFO - Epoch 2/100:
+2025-04-14 20:33:34,796 - INFO - Train Loss: 2.4640, Train Acc: 0.0925
+2025-04-14 20:33:34,797 - INFO - Confidence Threshold: 0.8885
+2025-04-14 20:33:34,798 - INFO - Val Loss: 2.3969, Val Acc: 0.0900
+2025-04-14 20:33:34,799 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:33:51,587 - INFO - Epoch 3/100:
+2025-04-14 20:33:51,587 - INFO - Train Loss: 2.4445, Train Acc: 0.0963
+2025-04-14 20:33:51,588 - INFO - Confidence Threshold: 0.8597
+2025-04-14 20:33:51,589 - INFO - Val Loss: 2.3936, Val Acc: 0.0975
+2025-04-14 20:34:08,335 - INFO - Epoch 4/100:
+2025-04-14 20:34:08,335 - INFO - Train Loss: 2.4565, Train Acc: 0.0934
+2025-04-14 20:34:08,337 - INFO - Confidence Threshold: 0.8325
+2025-04-14 20:34:08,338 - INFO - Val Loss: 2.3947, Val Acc: 0.0912
+2025-04-14 20:34:08,339 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:34:25,166 - INFO - Epoch 5/100:
+2025-04-14 20:34:25,166 - INFO - Train Loss: 2.4568, Train Acc: 0.0934
+2025-04-14 20:34:25,167 - INFO - Confidence Threshold: 0.8068
+2025-04-14 20:34:25,168 - INFO - Val Loss: 2.3943, Val Acc: 0.0963
+2025-04-14 20:34:25,169 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:34:42,548 - INFO - Epoch 6/100:
+2025-04-14 20:34:42,549 - INFO - Train Loss: 2.4624, Train Acc: 0.0959
+2025-04-14 20:34:42,551 - INFO - Confidence Threshold: 0.7821
+2025-04-14 20:34:42,552 - INFO - Val Loss: 2.3937, Val Acc: 0.0975
+2025-04-14 20:34:42,554 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:35:00,087 - INFO - Epoch 7/100:
+2025-04-14 20:35:00,088 - INFO - Train Loss: 2.4606, Train Acc: 0.0928
+2025-04-14 20:35:00,089 - INFO - Confidence Threshold: 0.7584
+2025-04-14 20:35:00,091 - INFO - Val Loss: 2.3952, Val Acc: 0.0988
+2025-04-14 20:35:00,092 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:35:16,858 - INFO - Epoch 8/100:
+2025-04-14 20:35:16,859 - INFO - Train Loss: 2.4553, Train Acc: 0.0894
+2025-04-14 20:35:16,860 - INFO - Confidence Threshold: 0.7359
+2025-04-14 20:35:16,860 - INFO - Val Loss: 2.3968, Val Acc: 0.1000
+2025-04-14 20:35:17,001 - INFO - Saved new best model with val_acc: 0.1000
+2025-04-14 20:35:17,003 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:35:33,582 - INFO - Epoch 9/100:
+2025-04-14 20:35:33,583 - INFO - Train Loss: 2.4635, Train Acc: 0.0916
+2025-04-14 20:35:33,584 - INFO - Confidence Threshold: 0.7146
+2025-04-14 20:35:33,585 - INFO - Val Loss: 2.3951, Val Acc: 0.0950
+2025-04-14 20:35:33,585 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:35:50,274 - INFO - Epoch 10/100:
+2025-04-14 20:35:50,275 - INFO - Train Loss: 2.4540, Train Acc: 0.0959
+2025-04-14 20:35:50,276 - INFO - Confidence Threshold: 0.6942
+2025-04-14 20:35:50,276 - INFO - Val Loss: 2.3859, Val Acc: 0.1000
+2025-04-14 20:36:08,331 - INFO - Epoch 11/100:
+2025-04-14 20:36:08,332 - INFO - Train Loss: 2.4614, Train Acc: 0.0894
+2025-04-14 20:36:08,333 - INFO - Confidence Threshold: 0.6748
+2025-04-14 20:36:08,334 - INFO - Val Loss: 2.3849, Val Acc: 0.0975
+2025-04-14 20:36:25,061 - INFO - Epoch 12/100:
+2025-04-14 20:36:25,062 - INFO - Train Loss: 2.4580, Train Acc: 0.0869
+2025-04-14 20:36:25,063 - INFO - Confidence Threshold: 0.6567
+2025-04-14 20:36:25,064 - INFO - Val Loss: 2.3832, Val Acc: 0.0950
+2025-04-14 20:36:41,728 - INFO - Epoch 13/100:
+2025-04-14 20:36:41,729 - INFO - Train Loss: 2.4475, Train Acc: 0.0956
+2025-04-14 20:36:41,731 - INFO - Confidence Threshold: 0.6393
+2025-04-14 20:36:41,732 - INFO - Val Loss: 2.3884, Val Acc: 0.0963
+2025-04-14 20:36:41,734 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:36:58,608 - INFO - Epoch 14/100:
+2025-04-14 20:36:58,609 - INFO - Train Loss: 2.4562, Train Acc: 0.0887
+2025-04-14 20:36:58,610 - INFO - Confidence Threshold: 0.6226
+2025-04-14 20:36:58,611 - INFO - Val Loss: 2.3833, Val Acc: 0.0925
+2025-04-14 20:36:58,612 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:37:15,363 - INFO - Epoch 15/100:
+2025-04-14 20:37:15,366 - INFO - Train Loss: 2.4594, Train Acc: 0.0938
+2025-04-14 20:37:15,367 - INFO - Confidence Threshold: 0.6066
+2025-04-14 20:37:15,368 - INFO - Val Loss: 2.3803, Val Acc: 0.1062
+2025-04-14 20:37:15,539 - INFO - Saved new best model with val_acc: 0.1062
+2025-04-14 20:37:33,069 - INFO - Epoch 16/100:
+2025-04-14 20:37:33,069 - INFO - Train Loss: 2.4549, Train Acc: 0.0922
+2025-04-14 20:37:33,070 - INFO - Confidence Threshold: 0.5914
+2025-04-14 20:37:33,071 - INFO - Val Loss: 2.3883, Val Acc: 0.1037
+2025-04-14 20:37:33,072 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:37:49,679 - INFO - Epoch 17/100:
+2025-04-14 20:37:49,680 - INFO - Train Loss: 2.4460, Train Acc: 0.0916
+2025-04-14 20:37:49,681 - INFO - Confidence Threshold: 0.5768
+2025-04-14 20:37:49,682 - INFO - Val Loss: 2.3786, Val Acc: 0.1013
+2025-04-14 20:38:06,251 - INFO - Epoch 18/100:
+2025-04-14 20:38:06,251 - INFO - Train Loss: 2.4529, Train Acc: 0.0959
+2025-04-14 20:38:06,253 - INFO - Confidence Threshold: 0.5630
+2025-04-14 20:38:06,254 - INFO - Val Loss: 2.3874, Val Acc: 0.0988
+2025-04-14 20:38:06,255 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:38:23,055 - INFO - Epoch 19/100:
+2025-04-14 20:38:23,056 - INFO - Train Loss: 2.4647, Train Acc: 0.0887
+2025-04-14 20:38:23,058 - INFO - Confidence Threshold: 0.5499
+2025-04-14 20:38:23,059 - INFO - Val Loss: 2.3818, Val Acc: 0.0950
+2025-04-14 20:38:23,060 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:38:40,562 - INFO - Epoch 20/100:
+2025-04-14 20:38:40,565 - INFO - Train Loss: 2.4502, Train Acc: 0.0975
+2025-04-14 20:38:40,566 - INFO - Confidence Threshold: 0.5374
+2025-04-14 20:38:40,568 - INFO - Val Loss: 2.3768, Val Acc: 0.1000
+2025-04-14 20:38:57,613 - INFO - Epoch 21/100:
+2025-04-14 20:38:57,614 - INFO - Train Loss: 2.4520, Train Acc: 0.0959
+2025-04-14 20:38:57,615 - INFO - Confidence Threshold: 0.5254
+2025-04-14 20:38:57,616 - INFO - Val Loss: 2.3799, Val Acc: 0.1037
+2025-04-14 20:38:57,616 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:39:14,317 - INFO - Epoch 22/100:
+2025-04-14 20:39:14,317 - INFO - Train Loss: 2.4346, Train Acc: 0.1094
+2025-04-14 20:39:14,320 - INFO - Confidence Threshold: 0.5144
+2025-04-14 20:39:14,321 - INFO - Val Loss: 2.3764, Val Acc: 0.1037
+2025-04-14 20:39:31,069 - INFO - Epoch 23/100:
+2025-04-14 20:39:31,069 - INFO - Train Loss: 2.4445, Train Acc: 0.0978
+2025-04-14 20:39:31,070 - INFO - Confidence Threshold: 0.5038
+2025-04-14 20:39:31,071 - INFO - Val Loss: 2.3772, Val Acc: 0.1037
+2025-04-14 20:39:31,072 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:39:47,539 - INFO - Epoch 24/100:
+2025-04-14 20:39:47,540 - INFO - Train Loss: 2.4610, Train Acc: 0.0975
+2025-04-14 20:39:47,541 - INFO - Confidence Threshold: 0.4936
+2025-04-14 20:39:47,542 - INFO - Val Loss: 2.3771, Val Acc: 0.1050
+2025-04-14 20:39:47,543 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:40:04,936 - INFO - Epoch 25/100:
+2025-04-14 20:40:04,937 - INFO - Train Loss: 2.4384, Train Acc: 0.1016
+2025-04-14 20:40:04,938 - INFO - Confidence Threshold: 0.4840
+2025-04-14 20:40:04,938 - INFO - Val Loss: 2.3761, Val Acc: 0.1062
+2025-04-14 20:40:22,011 - INFO - Epoch 26/100:
+2025-04-14 20:40:22,012 - INFO - Train Loss: 2.4426, Train Acc: 0.0984
+2025-04-14 20:40:22,013 - INFO - Confidence Threshold: 0.4747
+2025-04-14 20:40:22,014 - INFO - Val Loss: 2.3752, Val Acc: 0.1062
+2025-04-14 20:40:38,514 - INFO - Epoch 27/100:
+2025-04-14 20:40:38,515 - INFO - Train Loss: 2.4403, Train Acc: 0.0900
+2025-04-14 20:40:38,516 - INFO - Confidence Threshold: 0.4658
+2025-04-14 20:40:38,517 - INFO - Val Loss: 2.3745, Val Acc: 0.1062
+2025-04-14 20:40:55,166 - INFO - Epoch 28/100:
+2025-04-14 20:40:55,166 - INFO - Train Loss: 2.4524, Train Acc: 0.0916
+2025-04-14 20:40:55,167 - INFO - Confidence Threshold: 0.4578
+2025-04-14 20:40:55,168 - INFO - Val Loss: 2.3671, Val Acc: 0.1050
+2025-04-14 20:41:11,763 - INFO - Epoch 29/100:
+2025-04-14 20:41:11,764 - INFO - Train Loss: 2.4486, Train Acc: 0.1013
+2025-04-14 20:41:11,765 - INFO - Confidence Threshold: 0.4496
+2025-04-14 20:41:11,766 - INFO - Val Loss: 2.3711, Val Acc: 0.0950
+2025-04-14 20:41:11,767 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:41:29,275 - INFO - Epoch 30/100:
+2025-04-14 20:41:29,276 - INFO - Train Loss: 2.4419, Train Acc: 0.1009
+2025-04-14 20:41:29,277 - INFO - Confidence Threshold: 0.4419
+2025-04-14 20:41:29,278 - INFO - Val Loss: 2.3749, Val Acc: 0.1000
+2025-04-14 20:41:29,278 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:41:46,044 - INFO - Epoch 31/100:
+2025-04-14 20:41:46,045 - INFO - Train Loss: 2.4314, Train Acc: 0.1069
+2025-04-14 20:41:46,046 - INFO - Confidence Threshold: 0.4345
+2025-04-14 20:41:46,047 - INFO - Val Loss: 2.3742, Val Acc: 0.0988
+2025-04-14 20:41:46,048 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:42:02,690 - INFO - Epoch 32/100:
+2025-04-14 20:42:02,691 - INFO - Train Loss: 2.4390, Train Acc: 0.1009
+2025-04-14 20:42:02,692 - INFO - Confidence Threshold: 0.4277
+2025-04-14 20:42:02,693 - INFO - Val Loss: 2.3720, Val Acc: 0.1025
+2025-04-14 20:42:02,693 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:42:19,184 - INFO - Epoch 33/100:
+2025-04-14 20:42:19,185 - INFO - Train Loss: 2.4316, Train Acc: 0.1031
+2025-04-14 20:42:19,186 - INFO - Confidence Threshold: 0.4217
+2025-04-14 20:42:19,186 - INFO - Val Loss: 2.3703, Val Acc: 0.1075
+2025-04-14 20:42:19,315 - INFO - Saved new best model with val_acc: 0.1075
+2025-04-14 20:42:19,316 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:42:36,091 - INFO - Epoch 34/100:
+2025-04-14 20:42:36,091 - INFO - Train Loss: 2.4382, Train Acc: 0.1056
+2025-04-14 20:42:36,092 - INFO - Confidence Threshold: 0.4155
+2025-04-14 20:42:36,093 - INFO - Val Loss: 2.3675, Val Acc: 0.1087
+2025-04-14 20:42:36,207 - INFO - Saved new best model with val_acc: 0.1087
+2025-04-14 20:42:36,208 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:42:54,392 - INFO - Epoch 35/100:
+2025-04-14 20:42:54,393 - INFO - Train Loss: 2.4327, Train Acc: 0.0941
+2025-04-14 20:42:54,394 - INFO - Confidence Threshold: 0.4095
+2025-04-14 20:42:54,395 - INFO - Val Loss: 2.3658, Val Acc: 0.0988
+2025-04-14 20:43:10,879 - INFO - Epoch 36/100:
+2025-04-14 20:43:10,880 - INFO - Train Loss: 2.4457, Train Acc: 0.0975
+2025-04-14 20:43:10,881 - INFO - Confidence Threshold: 0.4040
+2025-04-14 20:43:10,882 - INFO - Val Loss: 2.3642, Val Acc: 0.1100
+2025-04-14 20:43:11,008 - INFO - Saved new best model with val_acc: 0.1100
+2025-04-14 20:43:27,686 - INFO - Epoch 37/100:
+2025-04-14 20:43:27,687 - INFO - Train Loss: 2.4441, Train Acc: 0.0969
+2025-04-14 20:43:27,688 - INFO - Confidence Threshold: 0.3985
+2025-04-14 20:43:27,689 - INFO - Val Loss: 2.3696, Val Acc: 0.1075
+2025-04-14 20:43:27,690 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:43:44,351 - INFO - Epoch 38/100:
+2025-04-14 20:43:44,351 - INFO - Train Loss: 2.4353, Train Acc: 0.0988
+2025-04-14 20:43:44,352 - INFO - Confidence Threshold: 0.3933
+2025-04-14 20:43:44,353 - INFO - Val Loss: 2.3668, Val Acc: 0.0963
+2025-04-14 20:43:44,355 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:44:01,304 - INFO - Epoch 39/100:
+2025-04-14 20:44:01,305 - INFO - Train Loss: 2.4441, Train Acc: 0.1034
+2025-04-14 20:44:01,307 - INFO - Confidence Threshold: 0.3884
+2025-04-14 20:44:01,308 - INFO - Val Loss: 2.3647, Val Acc: 0.1113
+2025-04-14 20:44:01,472 - INFO - Saved new best model with val_acc: 0.1113
+2025-04-14 20:44:01,473 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:44:18,800 - INFO - Epoch 40/100:
+2025-04-14 20:44:18,801 - INFO - Train Loss: 2.4361, Train Acc: 0.0981
+2025-04-14 20:44:18,801 - INFO - Confidence Threshold: 0.3836
+2025-04-14 20:44:18,803 - INFO - Val Loss: 2.3606, Val Acc: 0.1100
+2025-04-14 20:44:35,527 - INFO - Epoch 41/100:
+2025-04-14 20:44:35,528 - INFO - Train Loss: 2.4294, Train Acc: 0.1013
+2025-04-14 20:44:35,529 - INFO - Confidence Threshold: 0.3792
+2025-04-14 20:44:35,530 - INFO - Val Loss: 2.3643, Val Acc: 0.1100
+2025-04-14 20:44:35,531 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:44:52,007 - INFO - Epoch 42/100:
+2025-04-14 20:44:52,007 - INFO - Train Loss: 2.4364, Train Acc: 0.1013
+2025-04-14 20:44:52,008 - INFO - Confidence Threshold: 0.3752
+2025-04-14 20:44:52,009 - INFO - Val Loss: 2.3643, Val Acc: 0.1025
+2025-04-14 20:44:52,010 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:45:08,710 - INFO - Epoch 43/100:
+2025-04-14 20:45:08,710 - INFO - Train Loss: 2.4362, Train Acc: 0.0991
+2025-04-14 20:45:08,712 - INFO - Confidence Threshold: 0.3710
+2025-04-14 20:45:08,713 - INFO - Val Loss: 2.3642, Val Acc: 0.1013
+2025-04-14 20:45:08,714 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:45:26,145 - INFO - Epoch 44/100:
+2025-04-14 20:45:26,146 - INFO - Train Loss: 2.4468, Train Acc: 0.0972
+2025-04-14 20:45:26,147 - INFO - Confidence Threshold: 0.3671
+2025-04-14 20:45:26,148 - INFO - Val Loss: 2.3700, Val Acc: 0.0988
+2025-04-14 20:45:26,149 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:45:43,097 - INFO - Epoch 45/100:
+2025-04-14 20:45:43,097 - INFO - Train Loss: 2.4428, Train Acc: 0.0978
+2025-04-14 20:45:43,099 - INFO - Confidence Threshold: 0.3633
+2025-04-14 20:45:43,099 - INFO - Val Loss: 2.3625, Val Acc: 0.1062
+2025-04-14 20:45:43,100 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:45:59,870 - INFO - Epoch 46/100:
+2025-04-14 20:45:59,870 - INFO - Train Loss: 2.4238, Train Acc: 0.0978
+2025-04-14 20:45:59,871 - INFO - Confidence Threshold: 0.3594
+2025-04-14 20:45:59,872 - INFO - Val Loss: 2.3513, Val Acc: 0.1025
+2025-04-14 20:46:16,830 - INFO - Epoch 47/100:
+2025-04-14 20:46:16,831 - INFO - Train Loss: 2.4301, Train Acc: 0.0981
+2025-04-14 20:46:16,832 - INFO - Confidence Threshold: 0.3560
+2025-04-14 20:46:16,833 - INFO - Val Loss: 2.3596, Val Acc: 0.1025
+2025-04-14 20:46:16,833 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:46:33,824 - INFO - Epoch 48/100:
+2025-04-14 20:46:33,830 - INFO - Train Loss: 2.4402, Train Acc: 0.0969
+2025-04-14 20:46:33,830 - INFO - Confidence Threshold: 0.3527
+2025-04-14 20:46:33,831 - INFO - Val Loss: 2.3535, Val Acc: 0.1037
+2025-04-14 20:46:33,831 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:46:51,311 - INFO - Epoch 49/100:
+2025-04-14 20:46:51,312 - INFO - Train Loss: 2.4355, Train Acc: 0.1037
+2025-04-14 20:46:51,313 - INFO - Confidence Threshold: 0.3496
+2025-04-14 20:46:51,314 - INFO - Val Loss: 2.3575, Val Acc: 0.1062
+2025-04-14 20:46:51,315 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:47:07,838 - INFO - Epoch 50/100:
+2025-04-14 20:47:07,839 - INFO - Train Loss: 2.4298, Train Acc: 0.1044
+2025-04-14 20:47:07,840 - INFO - Confidence Threshold: 0.3467
+2025-04-14 20:47:07,841 - INFO - Val Loss: 2.3570, Val Acc: 0.1075
+2025-04-14 20:47:07,842 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:47:24,202 - INFO - Epoch 51/100:
+2025-04-14 20:47:24,203 - INFO - Train Loss: 2.4293, Train Acc: 0.0984
+2025-04-14 20:47:24,204 - INFO - Confidence Threshold: 0.3442
+2025-04-14 20:47:24,205 - INFO - Val Loss: 2.3583, Val Acc: 0.1100
+2025-04-14 20:47:24,206 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:47:40,863 - INFO - Epoch 52/100:
+2025-04-14 20:47:40,863 - INFO - Train Loss: 2.4349, Train Acc: 0.0912
+2025-04-14 20:47:40,865 - INFO - Confidence Threshold: 0.3415
+2025-04-14 20:47:40,866 - INFO - Val Loss: 2.3591, Val Acc: 0.1062
+2025-04-14 20:47:40,867 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:47:58,288 - INFO - Epoch 53/100:
+2025-04-14 20:47:58,290 - INFO - Train Loss: 2.4257, Train Acc: 0.1028
+2025-04-14 20:47:58,292 - INFO - Confidence Threshold: 0.3391
+2025-04-14 20:47:58,293 - INFO - Val Loss: 2.3596, Val Acc: 0.1163
+2025-04-14 20:47:58,453 - INFO - Saved new best model with val_acc: 0.1163
+2025-04-14 20:47:58,454 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 20:48:15,514 - INFO - Epoch 54/100:
+2025-04-14 20:48:15,514 - INFO - Train Loss: 2.4330, Train Acc: 0.0953
+2025-04-14 20:48:15,517 - INFO - Confidence Threshold: 0.3369
+2025-04-14 20:48:15,518 - INFO - Val Loss: 2.3550, Val Acc: 0.1163
+2025-04-14 20:48:15,519 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 20:48:32,364 - INFO - Epoch 55/100:
+2025-04-14 20:48:32,365 - INFO - Train Loss: 2.4301, Train Acc: 0.0947
+2025-04-14 20:48:32,366 - INFO - Confidence Threshold: 0.3347
+2025-04-14 20:48:32,367 - INFO - Val Loss: 2.3571, Val Acc: 0.1075
+2025-04-14 20:48:32,368 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 20:48:48,950 - INFO - Epoch 56/100:
+2025-04-14 20:48:48,951 - INFO - Train Loss: 2.4346, Train Acc: 0.0988
+2025-04-14 20:48:48,952 - INFO - Confidence Threshold: 0.3323
+2025-04-14 20:48:48,953 - INFO - Val Loss: 2.3454, Val Acc: 0.1138
+2025-04-14 20:49:05,684 - INFO - Epoch 57/100:
+2025-04-14 20:49:05,686 - INFO - Train Loss: 2.4173, Train Acc: 0.0969
+2025-04-14 20:49:05,686 - INFO - Confidence Threshold: 0.3300
+2025-04-14 20:49:05,687 - INFO - Val Loss: 2.3538, Val Acc: 0.1087
+2025-04-14 20:49:05,688 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:49:23,580 - INFO - Epoch 58/100:
+2025-04-14 20:49:23,581 - INFO - Train Loss: 2.4241, Train Acc: 0.1016
+2025-04-14 20:49:23,583 - INFO - Confidence Threshold: 0.3276
+2025-04-14 20:49:23,584 - INFO - Val Loss: 2.3518, Val Acc: 0.1050
+2025-04-14 20:49:23,585 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:49:40,429 - INFO - Epoch 59/100:
+2025-04-14 20:49:40,430 - INFO - Train Loss: 2.4262, Train Acc: 0.0919
+2025-04-14 20:49:40,432 - INFO - Confidence Threshold: 0.3257
+2025-04-14 20:49:40,432 - INFO - Val Loss: 2.3491, Val Acc: 0.1175
+2025-04-14 20:49:40,617 - INFO - Saved new best model with val_acc: 0.1175
+2025-04-14 20:49:40,618 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:49:57,089 - INFO - Epoch 60/100:
+2025-04-14 20:49:57,089 - INFO - Train Loss: 2.4338, Train Acc: 0.0956
+2025-04-14 20:49:57,090 - INFO - Confidence Threshold: 0.3242
+2025-04-14 20:49:57,091 - INFO - Val Loss: 2.3468, Val Acc: 0.1113
+2025-04-14 20:49:57,093 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:50:13,876 - INFO - Epoch 61/100:
+2025-04-14 20:50:13,876 - INFO - Train Loss: 2.4271, Train Acc: 0.0978
+2025-04-14 20:50:13,877 - INFO - Confidence Threshold: 0.3225
+2025-04-14 20:50:13,878 - INFO - Val Loss: 2.3527, Val Acc: 0.1062
+2025-04-14 20:50:13,879 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:50:31,253 - INFO - Epoch 62/100:
+2025-04-14 20:50:31,254 - INFO - Train Loss: 2.4256, Train Acc: 0.1069
+2025-04-14 20:50:31,255 - INFO - Confidence Threshold: 0.3210
+2025-04-14 20:50:31,257 - INFO - Val Loss: 2.3467, Val Acc: 0.1062
+2025-04-14 20:50:31,258 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:50:48,275 - INFO - Epoch 63/100:
+2025-04-14 20:50:48,276 - INFO - Train Loss: 2.4159, Train Acc: 0.1006
+2025-04-14 20:50:48,277 - INFO - Confidence Threshold: 0.3192
+2025-04-14 20:50:48,278 - INFO - Val Loss: 2.3462, Val Acc: 0.1100
+2025-04-14 20:50:48,278 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 20:51:04,800 - INFO - Epoch 64/100:
+2025-04-14 20:51:04,801 - INFO - Train Loss: 2.4164, Train Acc: 0.1075
+2025-04-14 20:51:04,803 - INFO - Confidence Threshold: 0.3177
+2025-04-14 20:51:04,804 - INFO - Val Loss: 2.3503, Val Acc: 0.1138
+2025-04-14 20:51:04,805 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 20:51:21,460 - INFO - Epoch 65/100:
+2025-04-14 20:51:21,461 - INFO - Train Loss: 2.4249, Train Acc: 0.0978
+2025-04-14 20:51:21,462 - INFO - Confidence Threshold: 0.3160
+2025-04-14 20:51:21,464 - INFO - Val Loss: 2.3539, Val Acc: 0.1100
+2025-04-14 20:51:21,464 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 20:51:38,085 - INFO - Epoch 66/100:
+2025-04-14 20:51:38,086 - INFO - Train Loss: 2.4286, Train Acc: 0.0934
+2025-04-14 20:51:38,087 - INFO - Confidence Threshold: 0.3147
+2025-04-14 20:51:38,088 - INFO - Val Loss: 2.3424, Val Acc: 0.1113
+2025-04-14 20:51:55,565 - INFO - Epoch 67/100:
+2025-04-14 20:51:55,569 - INFO - Train Loss: 2.4341, Train Acc: 0.1003
+2025-04-14 20:51:55,570 - INFO - Confidence Threshold: 0.3137
+2025-04-14 20:51:55,570 - INFO - Val Loss: 2.3426, Val Acc: 0.1075
+2025-04-14 20:51:55,571 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:52:12,703 - INFO - Epoch 68/100:
+2025-04-14 20:52:12,704 - INFO - Train Loss: 2.4213, Train Acc: 0.1047
+2025-04-14 20:52:12,705 - INFO - Confidence Threshold: 0.3126
+2025-04-14 20:52:12,706 - INFO - Val Loss: 2.3504, Val Acc: 0.1037
+2025-04-14 20:52:12,707 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:52:29,146 - INFO - Epoch 69/100:
+2025-04-14 20:52:29,147 - INFO - Train Loss: 2.4158, Train Acc: 0.1109
+2025-04-14 20:52:29,148 - INFO - Confidence Threshold: 0.3113
+2025-04-14 20:52:29,149 - INFO - Val Loss: 2.3373, Val Acc: 0.1100
+2025-04-14 20:52:45,894 - INFO - Epoch 70/100:
+2025-04-14 20:52:45,895 - INFO - Train Loss: 2.4241, Train Acc: 0.0988
+2025-04-14 20:52:45,896 - INFO - Confidence Threshold: 0.3100
+2025-04-14 20:52:45,897 - INFO - Val Loss: 2.3437, Val Acc: 0.1187
+2025-04-14 20:52:46,008 - INFO - Saved new best model with val_acc: 0.1187
+2025-04-14 20:52:46,010 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:53:02,650 - INFO - Epoch 71/100:
+2025-04-14 20:53:02,652 - INFO - Train Loss: 2.4200, Train Acc: 0.1016
+2025-04-14 20:53:02,653 - INFO - Confidence Threshold: 0.3091
+2025-04-14 20:53:02,655 - INFO - Val Loss: 2.3388, Val Acc: 0.1175
+2025-04-14 20:53:02,656 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:53:20,677 - INFO - Epoch 72/100:
+2025-04-14 20:53:20,677 - INFO - Train Loss: 2.4210, Train Acc: 0.0959
+2025-04-14 20:53:20,678 - INFO - Confidence Threshold: 0.3080
+2025-04-14 20:53:20,679 - INFO - Val Loss: 2.3433, Val Acc: 0.1150
+2025-04-14 20:53:20,680 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:53:37,250 - INFO - Epoch 73/100:
+2025-04-14 20:53:37,250 - INFO - Train Loss: 2.4229, Train Acc: 0.1066
+2025-04-14 20:53:37,251 - INFO - Confidence Threshold: 0.3068
+2025-04-14 20:53:37,252 - INFO - Val Loss: 2.3407, Val Acc: 0.1113
+2025-04-14 20:53:37,253 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:53:53,891 - INFO - Epoch 74/100:
+2025-04-14 20:53:53,891 - INFO - Train Loss: 2.4223, Train Acc: 0.1037
+2025-04-14 20:53:53,892 - INFO - Confidence Threshold: 0.3058
+2025-04-14 20:53:53,893 - INFO - Val Loss: 2.3402, Val Acc: 0.1175
+2025-04-14 20:53:53,894 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:54:10,666 - INFO - Epoch 75/100:
+2025-04-14 20:54:10,667 - INFO - Train Loss: 2.4157, Train Acc: 0.1009
+2025-04-14 20:54:10,669 - INFO - Confidence Threshold: 0.3048
+2025-04-14 20:54:10,669 - INFO - Val Loss: 2.3432, Val Acc: 0.1150
+2025-04-14 20:54:10,670 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:54:27,827 - INFO - Epoch 76/100:
+2025-04-14 20:54:27,828 - INFO - Train Loss: 2.4151, Train Acc: 0.1103
+2025-04-14 20:54:27,830 - INFO - Confidence Threshold: 0.3038
+2025-04-14 20:54:27,832 - INFO - Val Loss: 2.3431, Val Acc: 0.1100
+2025-04-14 20:54:27,833 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 20:54:45,178 - INFO - Epoch 77/100:
+2025-04-14 20:54:45,179 - INFO - Train Loss: 2.4107, Train Acc: 0.1075
+2025-04-14 20:54:45,180 - INFO - Confidence Threshold: 0.3030
+2025-04-14 20:54:45,181 - INFO - Val Loss: 2.3329, Val Acc: 0.1175
+2025-04-14 20:55:01,835 - INFO - Epoch 78/100:
+2025-04-14 20:55:01,835 - INFO - Train Loss: 2.4166, Train Acc: 0.0966
+2025-04-14 20:55:01,837 - INFO - Confidence Threshold: 0.3021
+2025-04-14 20:55:01,838 - INFO - Val Loss: 2.3395, Val Acc: 0.1087
+2025-04-14 20:55:01,839 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:55:18,589 - INFO - Epoch 79/100:
+2025-04-14 20:55:18,590 - INFO - Train Loss: 2.4248, Train Acc: 0.0941
+2025-04-14 20:55:18,591 - INFO - Confidence Threshold: 0.3014
+2025-04-14 20:55:18,591 - INFO - Val Loss: 2.3384, Val Acc: 0.1075
+2025-04-14 20:55:18,592 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:55:35,393 - INFO - Epoch 80/100:
+2025-04-14 20:55:35,394 - INFO - Train Loss: 2.4169, Train Acc: 0.1006
+2025-04-14 20:55:35,395 - INFO - Confidence Threshold: 0.3004
+2025-04-14 20:55:35,396 - INFO - Val Loss: 2.3293, Val Acc: 0.1175
+2025-04-14 20:55:53,371 - INFO - Epoch 81/100:
+2025-04-14 20:55:53,371 - INFO - Train Loss: 2.4187, Train Acc: 0.0991
+2025-04-14 20:55:53,372 - INFO - Confidence Threshold: 0.2999
+2025-04-14 20:55:53,373 - INFO - Val Loss: 2.3362, Val Acc: 0.1187
+2025-04-14 20:55:53,374 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:56:10,186 - INFO - Epoch 82/100:
+2025-04-14 20:56:10,187 - INFO - Train Loss: 2.4127, Train Acc: 0.1013
+2025-04-14 20:56:10,188 - INFO - Confidence Threshold: 0.2990
+2025-04-14 20:56:10,189 - INFO - Val Loss: 2.3363, Val Acc: 0.1087
+2025-04-14 20:56:10,189 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:56:26,677 - INFO - Epoch 83/100:
+2025-04-14 20:56:26,678 - INFO - Train Loss: 2.4194, Train Acc: 0.1028
+2025-04-14 20:56:26,680 - INFO - Confidence Threshold: 0.2982
+2025-04-14 20:56:26,681 - INFO - Val Loss: 2.3290, Val Acc: 0.1150
+2025-04-14 20:56:43,597 - INFO - Epoch 84/100:
+2025-04-14 20:56:43,597 - INFO - Train Loss: 2.4175, Train Acc: 0.1022
+2025-04-14 20:56:43,599 - INFO - Confidence Threshold: 0.2976
+2025-04-14 20:56:43,600 - INFO - Val Loss: 2.3357, Val Acc: 0.1125
+2025-04-14 20:56:43,600 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:57:00,444 - INFO - Epoch 85/100:
+2025-04-14 20:57:00,445 - INFO - Train Loss: 2.4072, Train Acc: 0.1109
+2025-04-14 20:57:00,446 - INFO - Confidence Threshold: 0.2969
+2025-04-14 20:57:00,446 - INFO - Val Loss: 2.3251, Val Acc: 0.1138
+2025-04-14 20:57:18,223 - INFO - Epoch 86/100:
+2025-04-14 20:57:18,224 - INFO - Train Loss: 2.3986, Train Acc: 0.1106
+2025-04-14 20:57:18,225 - INFO - Confidence Threshold: 0.2959
+2025-04-14 20:57:18,225 - INFO - Val Loss: 2.3307, Val Acc: 0.1237
+2025-04-14 20:57:18,339 - INFO - Saved new best model with val_acc: 0.1237
+2025-04-14 20:57:18,341 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 20:57:34,839 - INFO - Epoch 87/100:
+2025-04-14 20:57:34,840 - INFO - Train Loss: 2.4142, Train Acc: 0.0978
+2025-04-14 20:57:34,841 - INFO - Confidence Threshold: 0.2953
+2025-04-14 20:57:34,842 - INFO - Val Loss: 2.3355, Val Acc: 0.1087
+2025-04-14 20:57:34,843 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 20:57:51,574 - INFO - Epoch 88/100:
+2025-04-14 20:57:51,574 - INFO - Train Loss: 2.4153, Train Acc: 0.1022
+2025-04-14 20:57:51,575 - INFO - Confidence Threshold: 0.2948
+2025-04-14 20:57:51,576 - INFO - Val Loss: 2.3303, Val Acc: 0.1250
+2025-04-14 20:57:51,687 - INFO - Saved new best model with val_acc: 0.1250
+2025-04-14 20:57:51,689 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 20:58:08,538 - INFO - Epoch 89/100:
+2025-04-14 20:58:08,539 - INFO - Train Loss: 2.4072, Train Acc: 0.1069
+2025-04-14 20:58:08,540 - INFO - Confidence Threshold: 0.2944
+2025-04-14 20:58:08,542 - INFO - Val Loss: 2.3401, Val Acc: 0.1175
+2025-04-14 20:58:08,543 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 20:58:26,580 - INFO - Epoch 90/100:
+2025-04-14 20:58:26,581 - INFO - Train Loss: 2.4055, Train Acc: 0.1119
+2025-04-14 20:58:26,582 - INFO - Confidence Threshold: 0.2942
+2025-04-14 20:58:26,583 - INFO - Val Loss: 2.3284, Val Acc: 0.1138
+2025-04-14 20:58:26,584 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 20:58:43,418 - INFO - Epoch 91/100:
+2025-04-14 20:58:43,419 - INFO - Train Loss: 2.4158, Train Acc: 0.1044
+2025-04-14 20:58:43,420 - INFO - Confidence Threshold: 0.2939
+2025-04-14 20:58:43,421 - INFO - Val Loss: 2.3293, Val Acc: 0.1275
+2025-04-14 20:58:43,534 - INFO - Saved new best model with val_acc: 0.1275
+2025-04-14 20:58:43,536 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 20:59:00,216 - INFO - Epoch 92/100:
+2025-04-14 20:59:00,217 - INFO - Train Loss: 2.4052, Train Acc: 0.1103
+2025-04-14 20:59:00,218 - INFO - Confidence Threshold: 0.2931
+2025-04-14 20:59:00,219 - INFO - Val Loss: 2.3325, Val Acc: 0.1113
+2025-04-14 20:59:00,220 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 20:59:16,964 - INFO - Epoch 93/100:
+2025-04-14 20:59:16,965 - INFO - Train Loss: 2.3964, Train Acc: 0.1116
+2025-04-14 20:59:16,966 - INFO - Confidence Threshold: 0.2925
+2025-04-14 20:59:16,967 - INFO - Val Loss: 2.3260, Val Acc: 0.1212
+2025-04-14 20:59:16,967 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 20:59:33,637 - INFO - Epoch 94/100:
+2025-04-14 20:59:33,638 - INFO - Train Loss: 2.3996, Train Acc: 0.1100
+2025-04-14 20:59:33,639 - INFO - Confidence Threshold: 0.2919
+2025-04-14 20:59:33,640 - INFO - Val Loss: 2.3246, Val Acc: 0.1100
+2025-04-14 20:59:51,681 - INFO - Epoch 95/100:
+2025-04-14 20:59:51,682 - INFO - Train Loss: 2.4134, Train Acc: 0.1041
+2025-04-14 20:59:51,684 - INFO - Confidence Threshold: 0.2913
+2025-04-14 20:59:51,685 - INFO - Val Loss: 2.3285, Val Acc: 0.1125
+2025-04-14 20:59:51,687 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:00:08,473 - INFO - Epoch 96/100:
+2025-04-14 21:00:08,474 - INFO - Train Loss: 2.4120, Train Acc: 0.0994
+2025-04-14 21:00:08,475 - INFO - Confidence Threshold: 0.2907
+2025-04-14 21:00:08,476 - INFO - Val Loss: 2.3266, Val Acc: 0.1288
+2025-04-14 21:00:08,589 - INFO - Saved new best model with val_acc: 0.1288
+2025-04-14 21:00:08,591 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:00:25,340 - INFO - Epoch 97/100:
+2025-04-14 21:00:25,340 - INFO - Train Loss: 2.4147, Train Acc: 0.0887
+2025-04-14 21:00:25,342 - INFO - Confidence Threshold: 0.2901
+2025-04-14 21:00:25,343 - INFO - Val Loss: 2.3268, Val Acc: 0.1113
+2025-04-14 21:00:25,344 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:00:42,342 - INFO - Epoch 98/100:
+2025-04-14 21:00:42,343 - INFO - Train Loss: 2.4047, Train Acc: 0.1113
+2025-04-14 21:00:42,344 - INFO - Confidence Threshold: 0.2899
+2025-04-14 21:00:42,345 - INFO - Val Loss: 2.3260, Val Acc: 0.1200
+2025-04-14 21:00:42,346 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:01:00,441 - INFO - Epoch 99/100:
+2025-04-14 21:01:00,442 - INFO - Train Loss: 2.3922, Train Acc: 0.1066
+2025-04-14 21:01:00,443 - INFO - Confidence Threshold: 0.2891
+2025-04-14 21:01:00,444 - INFO - Val Loss: 2.3187, Val Acc: 0.1200
+2025-04-14 21:01:17,247 - INFO - Epoch 100/100:
+2025-04-14 21:01:17,248 - INFO - Train Loss: 2.3967, Train Acc: 0.1109
+2025-04-14 21:01:17,249 - INFO - Confidence Threshold: 0.2886
+2025-04-14 21:01:17,249 - INFO - Val Loss: 2.3270, Val Acc: 0.1200
+2025-04-14 21:01:17,250 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:01:17,278 - INFO - 
+Starting Fold 2/5
+2025-04-14 21:01:17,539 - INFO - Starting learning rate finder...
+2025-04-14 21:01:20,976 - INFO - Optimal learning rate found: 0.000000
+2025-04-14 21:01:37,399 - INFO - Epoch 1/100:
+2025-04-14 21:01:37,400 - INFO - Train Loss: 2.3964, Train Acc: 0.1184
+2025-04-14 21:01:37,401 - INFO - Confidence Threshold: 0.9168
+2025-04-14 21:01:37,402 - INFO - Val Loss: 2.3538, Val Acc: 0.1163
+2025-04-14 21:01:54,995 - INFO - Epoch 2/100:
+2025-04-14 21:01:54,996 - INFO - Train Loss: 2.3980, Train Acc: 0.1163
+2025-04-14 21:01:54,997 - INFO - Confidence Threshold: 0.8856
+2025-04-14 21:01:55,001 - INFO - Val Loss: 2.3443, Val Acc: 0.1187
+2025-04-14 21:02:12,014 - INFO - Epoch 3/100:
+2025-04-14 21:02:12,015 - INFO - Train Loss: 2.3935, Train Acc: 0.1253
+2025-04-14 21:02:12,017 - INFO - Confidence Threshold: 0.8557
+2025-04-14 21:02:12,018 - INFO - Val Loss: 2.3538, Val Acc: 0.1212
+2025-04-14 21:02:12,018 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:02:28,640 - INFO - Epoch 4/100:
+2025-04-14 21:02:28,641 - INFO - Train Loss: 2.3795, Train Acc: 0.1356
+2025-04-14 21:02:28,642 - INFO - Confidence Threshold: 0.8270
+2025-04-14 21:02:28,643 - INFO - Val Loss: 2.3538, Val Acc: 0.1062
+2025-04-14 21:02:28,644 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:02:45,369 - INFO - Epoch 5/100:
+2025-04-14 21:02:45,370 - INFO - Train Loss: 2.3921, Train Acc: 0.1166
+2025-04-14 21:02:45,371 - INFO - Confidence Threshold: 0.7995
+2025-04-14 21:02:45,372 - INFO - Val Loss: 2.3536, Val Acc: 0.1250
+2025-04-14 21:02:45,373 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:03:01,922 - INFO - Epoch 6/100:
+2025-04-14 21:03:01,922 - INFO - Train Loss: 2.4012, Train Acc: 0.1181
+2025-04-14 21:03:01,923 - INFO - Confidence Threshold: 0.7741
+2025-04-14 21:03:01,925 - INFO - Val Loss: 2.3524, Val Acc: 0.1200
+2025-04-14 21:03:01,925 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:03:19,649 - INFO - Epoch 7/100:
+2025-04-14 21:03:19,650 - INFO - Train Loss: 2.3858, Train Acc: 0.1225
+2025-04-14 21:03:19,651 - INFO - Confidence Threshold: 0.7495
+2025-04-14 21:03:19,651 - INFO - Val Loss: 2.3562, Val Acc: 0.1200
+2025-04-14 21:03:19,654 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 21:03:36,339 - INFO - Epoch 8/100:
+2025-04-14 21:03:36,340 - INFO - Train Loss: 2.3844, Train Acc: 0.1184
+2025-04-14 21:03:36,341 - INFO - Confidence Threshold: 0.7261
+2025-04-14 21:03:36,341 - INFO - Val Loss: 2.3543, Val Acc: 0.1163
+2025-04-14 21:03:36,342 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 21:03:53,054 - INFO - Epoch 9/100:
+2025-04-14 21:03:53,055 - INFO - Train Loss: 2.3885, Train Acc: 0.1259
+2025-04-14 21:03:53,057 - INFO - Confidence Threshold: 0.7042
+2025-04-14 21:03:53,059 - INFO - Val Loss: 2.3559, Val Acc: 0.1225
+2025-04-14 21:03:53,061 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 21:04:09,645 - INFO - Epoch 10/100:
+2025-04-14 21:04:09,646 - INFO - Train Loss: 2.3942, Train Acc: 0.1250
+2025-04-14 21:04:09,648 - INFO - Confidence Threshold: 0.6830
+2025-04-14 21:04:09,648 - INFO - Val Loss: 2.3604, Val Acc: 0.1150
+2025-04-14 21:04:09,649 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 21:04:26,407 - INFO - Epoch 11/100:
+2025-04-14 21:04:26,408 - INFO - Train Loss: 2.3926, Train Acc: 0.1234
+2025-04-14 21:04:26,408 - INFO - Confidence Threshold: 0.6629
+2025-04-14 21:04:26,409 - INFO - Val Loss: 2.3589, Val Acc: 0.1163
+2025-04-14 21:04:26,410 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 21:04:44,497 - INFO - Epoch 12/100:
+2025-04-14 21:04:44,497 - INFO - Train Loss: 2.3953, Train Acc: 0.1291
+2025-04-14 21:04:44,498 - INFO - Confidence Threshold: 0.6437
+2025-04-14 21:04:44,499 - INFO - Val Loss: 2.3499, Val Acc: 0.1100
+2025-04-14 21:04:44,500 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 21:04:44,500 - INFO - Early stopping triggered!
+2025-04-14 21:04:44,507 - INFO - 
+Starting Fold 3/5
+2025-04-14 21:04:44,754 - INFO - Starting learning rate finder...
+2025-04-14 21:04:48,165 - INFO - Optimal learning rate found: 0.000010
+2025-04-14 21:05:04,808 - INFO - Epoch 1/100:
+2025-04-14 21:05:04,809 - INFO - Train Loss: 2.4004, Train Acc: 0.1087
+2025-04-14 21:05:04,810 - INFO - Confidence Threshold: 0.9183
+2025-04-14 21:05:04,811 - INFO - Val Loss: 2.3514, Val Acc: 0.1000
+2025-04-14 21:05:21,700 - INFO - Epoch 2/100:
+2025-04-14 21:05:21,701 - INFO - Train Loss: 2.3981, Train Acc: 0.1056
+2025-04-14 21:05:21,702 - INFO - Confidence Threshold: 0.8878
+2025-04-14 21:05:21,703 - INFO - Val Loss: 2.3542, Val Acc: 0.1000
+2025-04-14 21:05:21,704 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:05:39,621 - INFO - Epoch 3/100:
+2025-04-14 21:05:39,621 - INFO - Train Loss: 2.3892, Train Acc: 0.1037
+2025-04-14 21:05:39,622 - INFO - Confidence Threshold: 0.8590
+2025-04-14 21:05:39,623 - INFO - Val Loss: 2.3499, Val Acc: 0.0975
+2025-04-14 21:05:56,383 - INFO - Epoch 4/100:
+2025-04-14 21:05:56,384 - INFO - Train Loss: 2.3968, Train Acc: 0.1059
+2025-04-14 21:05:56,385 - INFO - Confidence Threshold: 0.8313
+2025-04-14 21:05:56,386 - INFO - Val Loss: 2.3472, Val Acc: 0.0988
+2025-04-14 21:06:12,924 - INFO - Epoch 5/100:
+2025-04-14 21:06:12,925 - INFO - Train Loss: 2.3976, Train Acc: 0.1019
+2025-04-14 21:06:12,926 - INFO - Confidence Threshold: 0.8047
+2025-04-14 21:06:12,927 - INFO - Val Loss: 2.3465, Val Acc: 0.0912
+2025-04-14 21:06:29,462 - INFO - Epoch 6/100:
+2025-04-14 21:06:29,462 - INFO - Train Loss: 2.4062, Train Acc: 0.0956
+2025-04-14 21:06:29,463 - INFO - Confidence Threshold: 0.7799
+2025-04-14 21:06:29,464 - INFO - Val Loss: 2.3442, Val Acc: 0.0975
+2025-04-14 21:06:46,329 - INFO - Epoch 7/100:
+2025-04-14 21:06:46,331 - INFO - Train Loss: 2.3938, Train Acc: 0.1034
+2025-04-14 21:06:46,331 - INFO - Confidence Threshold: 0.7568
+2025-04-14 21:06:46,334 - INFO - Val Loss: 2.3413, Val Acc: 0.1000
+2025-04-14 21:07:03,841 - INFO - Epoch 8/100:
+2025-04-14 21:07:03,842 - INFO - Train Loss: 2.4018, Train Acc: 0.0975
+2025-04-14 21:07:03,843 - INFO - Confidence Threshold: 0.7341
+2025-04-14 21:07:03,844 - INFO - Val Loss: 2.3570, Val Acc: 0.0862
+2025-04-14 21:07:03,844 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:07:20,511 - INFO - Epoch 9/100:
+2025-04-14 21:07:20,511 - INFO - Train Loss: 2.3929, Train Acc: 0.0922
+2025-04-14 21:07:20,513 - INFO - Confidence Threshold: 0.7128
+2025-04-14 21:07:20,513 - INFO - Val Loss: 2.3469, Val Acc: 0.1075
+2025-04-14 21:07:20,514 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:07:37,086 - INFO - Epoch 10/100:
+2025-04-14 21:07:37,087 - INFO - Train Loss: 2.3995, Train Acc: 0.1003
+2025-04-14 21:07:37,088 - INFO - Confidence Threshold: 0.6924
+2025-04-14 21:07:37,089 - INFO - Val Loss: 2.3404, Val Acc: 0.1087
+2025-04-14 21:07:53,637 - INFO - Epoch 11/100:
+2025-04-14 21:07:53,638 - INFO - Train Loss: 2.3906, Train Acc: 0.1022
+2025-04-14 21:07:53,639 - INFO - Confidence Threshold: 0.6730
+2025-04-14 21:07:53,640 - INFO - Val Loss: 2.3442, Val Acc: 0.0963
+2025-04-14 21:07:53,641 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:08:10,674 - INFO - Epoch 12/100:
+2025-04-14 21:08:10,675 - INFO - Train Loss: 2.3961, Train Acc: 0.1106
+2025-04-14 21:08:10,675 - INFO - Confidence Threshold: 0.6544
+2025-04-14 21:08:10,676 - INFO - Val Loss: 2.3508, Val Acc: 0.0988
+2025-04-14 21:08:10,677 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:08:28,167 - INFO - Epoch 13/100:
+2025-04-14 21:08:28,167 - INFO - Train Loss: 2.3939, Train Acc: 0.0931
+2025-04-14 21:08:28,169 - INFO - Confidence Threshold: 0.6367
+2025-04-14 21:08:28,169 - INFO - Val Loss: 2.3472, Val Acc: 0.0875
+2025-04-14 21:08:28,170 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:08:44,693 - INFO - Epoch 14/100:
+2025-04-14 21:08:44,693 - INFO - Train Loss: 2.3947, Train Acc: 0.0963
+2025-04-14 21:08:44,695 - INFO - Confidence Threshold: 0.6197
+2025-04-14 21:08:44,695 - INFO - Val Loss: 2.3443, Val Acc: 0.0963
+2025-04-14 21:08:44,696 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:09:01,268 - INFO - Epoch 15/100:
+2025-04-14 21:09:01,269 - INFO - Train Loss: 2.3935, Train Acc: 0.0966
+2025-04-14 21:09:01,271 - INFO - Confidence Threshold: 0.6040
+2025-04-14 21:09:01,272 - INFO - Val Loss: 2.3447, Val Acc: 0.0938
+2025-04-14 21:09:01,273 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 21:09:17,872 - INFO - Epoch 16/100:
+2025-04-14 21:09:17,873 - INFO - Train Loss: 2.4068, Train Acc: 0.0978
+2025-04-14 21:09:17,874 - INFO - Confidence Threshold: 0.5888
+2025-04-14 21:09:17,875 - INFO - Val Loss: 2.3441, Val Acc: 0.1062
+2025-04-14 21:09:17,876 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 21:09:35,289 - INFO - Epoch 17/100:
+2025-04-14 21:09:35,290 - INFO - Train Loss: 2.3917, Train Acc: 0.1091
+2025-04-14 21:09:35,291 - INFO - Confidence Threshold: 0.5744
+2025-04-14 21:09:35,291 - INFO - Val Loss: 2.3416, Val Acc: 0.1025
+2025-04-14 21:09:35,292 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 21:09:52,291 - INFO - Epoch 18/100:
+2025-04-14 21:09:52,292 - INFO - Train Loss: 2.3958, Train Acc: 0.0981
+2025-04-14 21:09:52,294 - INFO - Confidence Threshold: 0.5612
+2025-04-14 21:09:52,294 - INFO - Val Loss: 2.3466, Val Acc: 0.0875
+2025-04-14 21:09:52,295 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 21:10:08,716 - INFO - Epoch 19/100:
+2025-04-14 21:10:08,717 - INFO - Train Loss: 2.3975, Train Acc: 0.1019
+2025-04-14 21:10:08,719 - INFO - Confidence Threshold: 0.5482
+2025-04-14 21:10:08,720 - INFO - Val Loss: 2.3457, Val Acc: 0.1062
+2025-04-14 21:10:08,720 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 21:10:25,306 - INFO - Epoch 20/100:
+2025-04-14 21:10:25,306 - INFO - Train Loss: 2.4005, Train Acc: 0.1041
+2025-04-14 21:10:25,308 - INFO - Confidence Threshold: 0.5356
+2025-04-14 21:10:25,309 - INFO - Val Loss: 2.3441, Val Acc: 0.0912
+2025-04-14 21:10:25,310 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 21:10:25,311 - INFO - Early stopping triggered!
+2025-04-14 21:10:25,315 - INFO - 
+Starting Fold 4/5
+2025-04-14 21:10:25,556 - INFO - Starting learning rate finder...
+2025-04-14 21:10:29,039 - INFO - Optimal learning rate found: 0.000000
+2025-04-14 21:10:46,646 - INFO - Epoch 1/100:
+2025-04-14 21:10:46,647 - INFO - Train Loss: 2.4420, Train Acc: 0.1053
+2025-04-14 21:10:46,648 - INFO - Confidence Threshold: 0.9203
+2025-04-14 21:10:46,649 - INFO - Val Loss: 2.4054, Val Acc: 0.0975
+2025-04-14 21:11:03,251 - INFO - Epoch 2/100:
+2025-04-14 21:11:03,252 - INFO - Train Loss: 2.4462, Train Acc: 0.0991
+2025-04-14 21:11:03,252 - INFO - Confidence Threshold: 0.8919
+2025-04-14 21:11:03,253 - INFO - Val Loss: 2.3987, Val Acc: 0.1000
+2025-04-14 21:11:20,461 - INFO - Epoch 3/100:
+2025-04-14 21:11:20,462 - INFO - Train Loss: 2.4413, Train Acc: 0.1066
+2025-04-14 21:11:20,464 - INFO - Confidence Threshold: 0.8651
+2025-04-14 21:11:20,466 - INFO - Val Loss: 2.3964, Val Acc: 0.1000
+2025-04-14 21:11:37,224 - INFO - Epoch 4/100:
+2025-04-14 21:11:37,225 - INFO - Train Loss: 2.4612, Train Acc: 0.1081
+2025-04-14 21:11:37,226 - INFO - Confidence Threshold: 0.8395
+2025-04-14 21:11:37,227 - INFO - Val Loss: 2.4004, Val Acc: 0.1000
+2025-04-14 21:11:37,228 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:11:55,260 - INFO - Epoch 5/100:
+2025-04-14 21:11:55,262 - INFO - Train Loss: 2.4463, Train Acc: 0.0994
+2025-04-14 21:11:55,263 - INFO - Confidence Threshold: 0.8153
+2025-04-14 21:11:55,264 - INFO - Val Loss: 2.3958, Val Acc: 0.0963
+2025-04-14 21:12:11,687 - INFO - Epoch 6/100:
+2025-04-14 21:12:11,688 - INFO - Train Loss: 2.4561, Train Acc: 0.1013
+2025-04-14 21:12:11,689 - INFO - Confidence Threshold: 0.7923
+2025-04-14 21:12:11,690 - INFO - Val Loss: 2.4036, Val Acc: 0.0988
+2025-04-14 21:12:11,690 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:12:28,272 - INFO - Epoch 7/100:
+2025-04-14 21:12:28,274 - INFO - Train Loss: 2.4503, Train Acc: 0.1056
+2025-04-14 21:12:28,275 - INFO - Confidence Threshold: 0.7702
+2025-04-14 21:12:28,275 - INFO - Val Loss: 2.4021, Val Acc: 0.0963
+2025-04-14 21:12:28,276 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:12:44,888 - INFO - Epoch 8/100:
+2025-04-14 21:12:44,890 - INFO - Train Loss: 2.4396, Train Acc: 0.1141
+2025-04-14 21:12:44,891 - INFO - Confidence Threshold: 0.7491
+2025-04-14 21:12:44,893 - INFO - Val Loss: 2.3996, Val Acc: 0.0975
+2025-04-14 21:12:44,895 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:13:01,594 - INFO - Epoch 9/100:
+2025-04-14 21:13:01,595 - INFO - Train Loss: 2.4525, Train Acc: 0.1097
+2025-04-14 21:13:01,596 - INFO - Confidence Threshold: 0.7291
+2025-04-14 21:13:01,596 - INFO - Val Loss: 2.3964, Val Acc: 0.1025
+2025-04-14 21:13:01,597 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:13:19,379 - INFO - Epoch 10/100:
+2025-04-14 21:13:19,380 - INFO - Train Loss: 2.4465, Train Acc: 0.1050
+2025-04-14 21:13:19,381 - INFO - Confidence Threshold: 0.7106
+2025-04-14 21:13:19,383 - INFO - Val Loss: 2.3963, Val Acc: 0.0963
+2025-04-14 21:13:19,384 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 21:13:35,956 - INFO - Epoch 11/100:
+2025-04-14 21:13:35,957 - INFO - Train Loss: 2.4470, Train Acc: 0.1053
+2025-04-14 21:13:35,958 - INFO - Confidence Threshold: 0.6928
+2025-04-14 21:13:35,959 - INFO - Val Loss: 2.4039, Val Acc: 0.0975
+2025-04-14 21:13:35,960 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 21:13:52,611 - INFO - Epoch 12/100:
+2025-04-14 21:13:52,612 - INFO - Train Loss: 2.4469, Train Acc: 0.1081
+2025-04-14 21:13:52,613 - INFO - Confidence Threshold: 0.6759
+2025-04-14 21:13:52,615 - INFO - Val Loss: 2.4073, Val Acc: 0.0988
+2025-04-14 21:13:52,615 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 21:14:09,019 - INFO - Epoch 13/100:
+2025-04-14 21:14:09,020 - INFO - Train Loss: 2.4481, Train Acc: 0.1066
+2025-04-14 21:14:09,021 - INFO - Confidence Threshold: 0.6594
+2025-04-14 21:14:09,022 - INFO - Val Loss: 2.3935, Val Acc: 0.1013
+2025-04-14 21:14:26,685 - INFO - Epoch 14/100:
+2025-04-14 21:14:26,686 - INFO - Train Loss: 2.4520, Train Acc: 0.1041
+2025-04-14 21:14:26,686 - INFO - Confidence Threshold: 0.6438
+2025-04-14 21:14:26,687 - INFO - Val Loss: 2.3975, Val Acc: 0.0988
+2025-04-14 21:14:26,688 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:14:43,770 - INFO - Epoch 15/100:
+2025-04-14 21:14:43,770 - INFO - Train Loss: 2.4438, Train Acc: 0.0991
+2025-04-14 21:14:43,772 - INFO - Confidence Threshold: 0.6292
+2025-04-14 21:14:43,773 - INFO - Val Loss: 2.4097, Val Acc: 0.1000
+2025-04-14 21:14:43,773 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:15:00,527 - INFO - Epoch 16/100:
+2025-04-14 21:15:00,528 - INFO - Train Loss: 2.4554, Train Acc: 0.1044
+2025-04-14 21:15:00,529 - INFO - Confidence Threshold: 0.6151
+2025-04-14 21:15:00,530 - INFO - Val Loss: 2.3873, Val Acc: 0.1013
+2025-04-14 21:15:17,226 - INFO - Epoch 17/100:
+2025-04-14 21:15:17,227 - INFO - Train Loss: 2.4482, Train Acc: 0.0994
+2025-04-14 21:15:17,229 - INFO - Confidence Threshold: 0.6021
+2025-04-14 21:15:17,230 - INFO - Val Loss: 2.3972, Val Acc: 0.0975
+2025-04-14 21:15:17,232 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:15:34,234 - INFO - Epoch 18/100:
+2025-04-14 21:15:34,235 - INFO - Train Loss: 2.4461, Train Acc: 0.1094
+2025-04-14 21:15:34,236 - INFO - Confidence Threshold: 0.5889
+2025-04-14 21:15:34,237 - INFO - Val Loss: 2.4016, Val Acc: 0.0963
+2025-04-14 21:15:34,238 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:15:51,965 - INFO - Epoch 19/100:
+2025-04-14 21:15:51,966 - INFO - Train Loss: 2.4530, Train Acc: 0.1037
+2025-04-14 21:15:51,967 - INFO - Confidence Threshold: 0.5767
+2025-04-14 21:15:51,969 - INFO - Val Loss: 2.4019, Val Acc: 0.1013
+2025-04-14 21:15:51,969 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:16:08,595 - INFO - Epoch 20/100:
+2025-04-14 21:16:08,595 - INFO - Train Loss: 2.4382, Train Acc: 0.1091
+2025-04-14 21:16:08,597 - INFO - Confidence Threshold: 0.5651
+2025-04-14 21:16:08,598 - INFO - Val Loss: 2.4023, Val Acc: 0.0963
+2025-04-14 21:16:08,599 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:16:25,155 - INFO - Epoch 21/100:
+2025-04-14 21:16:25,156 - INFO - Train Loss: 2.4386, Train Acc: 0.1094
+2025-04-14 21:16:25,157 - INFO - Confidence Threshold: 0.5546
+2025-04-14 21:16:25,158 - INFO - Val Loss: 2.3953, Val Acc: 0.0950
+2025-04-14 21:16:25,159 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 21:16:41,667 - INFO - Epoch 22/100:
+2025-04-14 21:16:41,667 - INFO - Train Loss: 2.4589, Train Acc: 0.1062
+2025-04-14 21:16:41,669 - INFO - Confidence Threshold: 0.5441
+2025-04-14 21:16:41,670 - INFO - Val Loss: 2.4081, Val Acc: 0.0938
+2025-04-14 21:16:41,671 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 21:16:59,432 - INFO - Epoch 23/100:
+2025-04-14 21:16:59,433 - INFO - Train Loss: 2.4543, Train Acc: 0.1016
+2025-04-14 21:16:59,434 - INFO - Confidence Threshold: 0.5343
+2025-04-14 21:16:59,436 - INFO - Val Loss: 2.4053, Val Acc: 0.0988
+2025-04-14 21:16:59,437 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 21:17:16,186 - INFO - Epoch 24/100:
+2025-04-14 21:17:16,187 - INFO - Train Loss: 2.4540, Train Acc: 0.0988
+2025-04-14 21:17:16,188 - INFO - Confidence Threshold: 0.5252
+2025-04-14 21:17:16,189 - INFO - Val Loss: 2.4033, Val Acc: 0.1013
+2025-04-14 21:17:16,189 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 21:17:32,936 - INFO - Epoch 25/100:
+2025-04-14 21:17:32,937 - INFO - Train Loss: 2.4432, Train Acc: 0.1053
+2025-04-14 21:17:32,939 - INFO - Confidence Threshold: 0.5166
+2025-04-14 21:17:32,940 - INFO - Val Loss: 2.4042, Val Acc: 0.1000
+2025-04-14 21:17:32,940 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 21:17:49,552 - INFO - Epoch 26/100:
+2025-04-14 21:17:49,553 - INFO - Train Loss: 2.4521, Train Acc: 0.1050
+2025-04-14 21:17:49,554 - INFO - Confidence Threshold: 0.5076
+2025-04-14 21:17:49,555 - INFO - Val Loss: 2.4033, Val Acc: 0.0975
+2025-04-14 21:17:49,556 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 21:17:49,557 - INFO - Early stopping triggered!
+2025-04-14 21:17:49,564 - INFO - 
+Starting Fold 5/5
+2025-04-14 21:17:49,805 - INFO - Starting learning rate finder...
+2025-04-14 21:17:53,520 - INFO - Optimal learning rate found: 0.000229
+2025-04-14 21:18:10,940 - INFO - Epoch 1/100:
+2025-04-14 21:18:10,941 - INFO - Train Loss: 2.3507, Train Acc: 0.1263
+2025-04-14 21:18:10,943 - INFO - Confidence Threshold: 0.9173
+2025-04-14 21:18:10,943 - INFO - Val Loss: 2.3047, Val Acc: 0.1275
+2025-04-14 21:18:27,599 - INFO - Epoch 2/100:
+2025-04-14 21:18:27,600 - INFO - Train Loss: 2.3509, Train Acc: 0.1250
+2025-04-14 21:18:27,601 - INFO - Confidence Threshold: 0.8864
+2025-04-14 21:18:27,602 - INFO - Val Loss: 2.3001, Val Acc: 0.1300
+2025-04-14 21:18:27,720 - INFO - Saved new best model with val_acc: 0.1300
+2025-04-14 21:18:44,345 - INFO - Epoch 3/100:
+2025-04-14 21:18:44,346 - INFO - Train Loss: 2.3451, Train Acc: 0.1250
+2025-04-14 21:18:44,347 - INFO - Confidence Threshold: 0.8569
+2025-04-14 21:18:44,348 - INFO - Val Loss: 2.2971, Val Acc: 0.1263
+2025-04-14 21:19:01,403 - INFO - Epoch 4/100:
+2025-04-14 21:19:01,404 - INFO - Train Loss: 2.3434, Train Acc: 0.1266
+2025-04-14 21:19:01,405 - INFO - Confidence Threshold: 0.8283
+2025-04-14 21:19:01,406 - INFO - Val Loss: 2.2927, Val Acc: 0.1212
+2025-04-14 21:19:19,612 - INFO - Epoch 5/100:
+2025-04-14 21:19:19,613 - INFO - Train Loss: 2.3371, Train Acc: 0.1200
+2025-04-14 21:19:19,614 - INFO - Confidence Threshold: 0.8012
+2025-04-14 21:19:19,615 - INFO - Val Loss: 2.2879, Val Acc: 0.1288
+2025-04-14 21:19:36,556 - INFO - Epoch 6/100:
+2025-04-14 21:19:36,557 - INFO - Train Loss: 2.3383, Train Acc: 0.1313
+2025-04-14 21:19:36,558 - INFO - Confidence Threshold: 0.7758
+2025-04-14 21:19:36,559 - INFO - Val Loss: 2.2838, Val Acc: 0.1288
+2025-04-14 21:19:53,358 - INFO - Epoch 7/100:
+2025-04-14 21:19:53,359 - INFO - Train Loss: 2.3268, Train Acc: 0.1203
+2025-04-14 21:19:53,362 - INFO - Confidence Threshold: 0.7516
+2025-04-14 21:19:53,363 - INFO - Val Loss: 2.2752, Val Acc: 0.1412
+2025-04-14 21:19:53,479 - INFO - Saved new best model with val_acc: 0.1412
+2025-04-14 21:20:10,355 - INFO - Epoch 8/100:
+2025-04-14 21:20:10,356 - INFO - Train Loss: 2.3205, Train Acc: 0.1441
+2025-04-14 21:20:10,357 - INFO - Confidence Threshold: 0.7284
+2025-04-14 21:20:10,358 - INFO - Val Loss: 2.2788, Val Acc: 0.1425
+2025-04-14 21:20:10,484 - INFO - Saved new best model with val_acc: 0.1425
+2025-04-14 21:20:10,486 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:20:28,172 - INFO - Epoch 9/100:
+2025-04-14 21:20:28,173 - INFO - Train Loss: 2.3234, Train Acc: 0.1247
+2025-04-14 21:20:28,177 - INFO - Confidence Threshold: 0.7065
+2025-04-14 21:20:28,177 - INFO - Val Loss: 2.2736, Val Acc: 0.1462
+2025-04-14 21:20:28,355 - INFO - Saved new best model with val_acc: 0.1462
+2025-04-14 21:20:45,628 - INFO - Epoch 10/100:
+2025-04-14 21:20:45,629 - INFO - Train Loss: 2.3346, Train Acc: 0.1266
+2025-04-14 21:20:45,630 - INFO - Confidence Threshold: 0.6853
+2025-04-14 21:20:45,631 - INFO - Val Loss: 2.2700, Val Acc: 0.1400
+2025-04-14 21:21:02,595 - INFO - Epoch 11/100:
+2025-04-14 21:21:02,596 - INFO - Train Loss: 2.3193, Train Acc: 0.1331
+2025-04-14 21:21:02,597 - INFO - Confidence Threshold: 0.6653
+2025-04-14 21:21:02,598 - INFO - Val Loss: 2.2729, Val Acc: 0.1412
+2025-04-14 21:21:02,599 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:21:19,583 - INFO - Epoch 12/100:
+2025-04-14 21:21:19,583 - INFO - Train Loss: 2.3114, Train Acc: 0.1453
+2025-04-14 21:21:19,585 - INFO - Confidence Threshold: 0.6462
+2025-04-14 21:21:19,585 - INFO - Val Loss: 2.2654, Val Acc: 0.1512
+2025-04-14 21:21:19,707 - INFO - Saved new best model with val_acc: 0.1512
+2025-04-14 21:21:36,788 - INFO - Epoch 13/100:
+2025-04-14 21:21:36,789 - INFO - Train Loss: 2.3068, Train Acc: 0.1388
+2025-04-14 21:21:36,790 - INFO - Confidence Threshold: 0.6282
+2025-04-14 21:21:36,794 - INFO - Val Loss: 2.2536, Val Acc: 0.1575
+2025-04-14 21:21:36,963 - INFO - Saved new best model with val_acc: 0.1575
+2025-04-14 21:21:54,062 - INFO - Epoch 14/100:
+2025-04-14 21:21:54,063 - INFO - Train Loss: 2.3134, Train Acc: 0.1334
+2025-04-14 21:21:54,064 - INFO - Confidence Threshold: 0.6109
+2025-04-14 21:21:54,064 - INFO - Val Loss: 2.2573, Val Acc: 0.1462
+2025-04-14 21:21:54,065 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:22:10,584 - INFO - Epoch 15/100:
+2025-04-14 21:22:10,584 - INFO - Train Loss: 2.3000, Train Acc: 0.1447
+2025-04-14 21:22:10,585 - INFO - Confidence Threshold: 0.5944
+2025-04-14 21:22:10,586 - INFO - Val Loss: 2.2571, Val Acc: 0.1450
+2025-04-14 21:22:10,587 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:22:27,046 - INFO - Epoch 16/100:
+2025-04-14 21:22:27,047 - INFO - Train Loss: 2.2989, Train Acc: 0.1506
+2025-04-14 21:22:27,048 - INFO - Confidence Threshold: 0.5788
+2025-04-14 21:22:27,048 - INFO - Val Loss: 2.2498, Val Acc: 0.1613
+2025-04-14 21:22:27,164 - INFO - Saved new best model with val_acc: 0.1613
+2025-04-14 21:22:43,859 - INFO - Epoch 17/100:
+2025-04-14 21:22:43,860 - INFO - Train Loss: 2.3036, Train Acc: 0.1453
+2025-04-14 21:22:43,863 - INFO - Confidence Threshold: 0.5643
+2025-04-14 21:22:43,864 - INFO - Val Loss: 2.2502, Val Acc: 0.1512
+2025-04-14 21:22:43,865 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:23:01,917 - INFO - Epoch 18/100:
+2025-04-14 21:23:01,918 - INFO - Train Loss: 2.2832, Train Acc: 0.1378
+2025-04-14 21:23:01,919 - INFO - Confidence Threshold: 0.5501
+2025-04-14 21:23:01,920 - INFO - Val Loss: 2.2439, Val Acc: 0.1625
+2025-04-14 21:23:02,061 - INFO - Saved new best model with val_acc: 0.1625
+2025-04-14 21:23:18,468 - INFO - Epoch 19/100:
+2025-04-14 21:23:18,469 - INFO - Train Loss: 2.2866, Train Acc: 0.1497
+2025-04-14 21:23:18,470 - INFO - Confidence Threshold: 0.5367
+2025-04-14 21:23:18,472 - INFO - Val Loss: 2.2437, Val Acc: 0.1625
+2025-04-14 21:23:35,571 - INFO - Epoch 20/100:
+2025-04-14 21:23:35,572 - INFO - Train Loss: 2.2855, Train Acc: 0.1434
+2025-04-14 21:23:35,573 - INFO - Confidence Threshold: 0.5240
+2025-04-14 21:23:35,574 - INFO - Val Loss: 2.2410, Val Acc: 0.1575
+2025-04-14 21:23:52,283 - INFO - Epoch 21/100:
+2025-04-14 21:23:52,286 - INFO - Train Loss: 2.2847, Train Acc: 0.1469
+2025-04-14 21:23:52,287 - INFO - Confidence Threshold: 0.5117
+2025-04-14 21:23:52,287 - INFO - Val Loss: 2.2388, Val Acc: 0.1613
+2025-04-14 21:24:09,511 - INFO - Epoch 22/100:
+2025-04-14 21:24:09,512 - INFO - Train Loss: 2.2784, Train Acc: 0.1594
+2025-04-14 21:24:09,513 - INFO - Confidence Threshold: 0.5004
+2025-04-14 21:24:09,514 - INFO - Val Loss: 2.2334, Val Acc: 0.1700
+2025-04-14 21:24:09,674 - INFO - Saved new best model with val_acc: 0.1700
+2025-04-14 21:24:27,058 - INFO - Epoch 23/100:
+2025-04-14 21:24:27,058 - INFO - Train Loss: 2.2804, Train Acc: 0.1453
+2025-04-14 21:24:27,060 - INFO - Confidence Threshold: 0.4896
+2025-04-14 21:24:27,060 - INFO - Val Loss: 2.2274, Val Acc: 0.1638
+2025-04-14 21:24:43,573 - INFO - Epoch 24/100:
+2025-04-14 21:24:43,574 - INFO - Train Loss: 2.2819, Train Acc: 0.1431
+2025-04-14 21:24:43,575 - INFO - Confidence Threshold: 0.4792
+2025-04-14 21:24:43,576 - INFO - Val Loss: 2.2283, Val Acc: 0.1650
+2025-04-14 21:24:43,576 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:25:00,021 - INFO - Epoch 25/100:
+2025-04-14 21:25:00,022 - INFO - Train Loss: 2.2754, Train Acc: 0.1544
+2025-04-14 21:25:00,023 - INFO - Confidence Threshold: 0.4692
+2025-04-14 21:25:00,024 - INFO - Val Loss: 2.2329, Val Acc: 0.1638
+2025-04-14 21:25:00,025 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:25:16,765 - INFO - Epoch 26/100:
+2025-04-14 21:25:16,766 - INFO - Train Loss: 2.2665, Train Acc: 0.1487
+2025-04-14 21:25:16,767 - INFO - Confidence Threshold: 0.4597
+2025-04-14 21:25:16,767 - INFO - Val Loss: 2.2232, Val Acc: 0.1800
+2025-04-14 21:25:16,887 - INFO - Saved new best model with val_acc: 0.1800
+2025-04-14 21:25:34,655 - INFO - Epoch 27/100:
+2025-04-14 21:25:34,656 - INFO - Train Loss: 2.2692, Train Acc: 0.1594
+2025-04-14 21:25:34,657 - INFO - Confidence Threshold: 0.4509
+2025-04-14 21:25:34,658 - INFO - Val Loss: 2.2175, Val Acc: 0.1737
+2025-04-14 21:25:51,355 - INFO - Epoch 28/100:
+2025-04-14 21:25:51,356 - INFO - Train Loss: 2.2702, Train Acc: 0.1581
+2025-04-14 21:25:51,357 - INFO - Confidence Threshold: 0.4421
+2025-04-14 21:25:51,358 - INFO - Val Loss: 2.2159, Val Acc: 0.1800
+2025-04-14 21:26:07,916 - INFO - Epoch 29/100:
+2025-04-14 21:26:07,917 - INFO - Train Loss: 2.2541, Train Acc: 0.1559
+2025-04-14 21:26:07,918 - INFO - Confidence Threshold: 0.4337
+2025-04-14 21:26:07,918 - INFO - Val Loss: 2.2157, Val Acc: 0.1737
+2025-04-14 21:26:24,320 - INFO - Epoch 30/100:
+2025-04-14 21:26:24,321 - INFO - Train Loss: 2.2618, Train Acc: 0.1537
+2025-04-14 21:26:24,322 - INFO - Confidence Threshold: 0.4260
+2025-04-14 21:26:24,323 - INFO - Val Loss: 2.2091, Val Acc: 0.1762
+2025-04-14 21:26:40,949 - INFO - Epoch 31/100:
+2025-04-14 21:26:40,950 - INFO - Train Loss: 2.2607, Train Acc: 0.1691
+2025-04-14 21:26:40,951 - INFO - Confidence Threshold: 0.4188
+2025-04-14 21:26:40,951 - INFO - Val Loss: 2.2106, Val Acc: 0.1737
+2025-04-14 21:26:40,952 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:26:58,677 - INFO - Epoch 32/100:
+2025-04-14 21:26:58,678 - INFO - Train Loss: 2.2528, Train Acc: 0.1541
+2025-04-14 21:26:58,678 - INFO - Confidence Threshold: 0.4116
+2025-04-14 21:26:58,679 - INFO - Val Loss: 2.2087, Val Acc: 0.1837
+2025-04-14 21:26:58,799 - INFO - Saved new best model with val_acc: 0.1837
+2025-04-14 21:27:15,571 - INFO - Epoch 33/100:
+2025-04-14 21:27:15,572 - INFO - Train Loss: 2.2488, Train Acc: 0.1631
+2025-04-14 21:27:15,573 - INFO - Confidence Threshold: 0.4048
+2025-04-14 21:27:15,575 - INFO - Val Loss: 2.2000, Val Acc: 0.1750
+2025-04-14 21:27:32,397 - INFO - Epoch 34/100:
+2025-04-14 21:27:32,398 - INFO - Train Loss: 2.2517, Train Acc: 0.1616
+2025-04-14 21:27:32,399 - INFO - Confidence Threshold: 0.3987
+2025-04-14 21:27:32,400 - INFO - Val Loss: 2.2009, Val Acc: 0.1875
+2025-04-14 21:27:32,518 - INFO - Saved new best model with val_acc: 0.1875
+2025-04-14 21:27:32,520 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:27:49,372 - INFO - Epoch 35/100:
+2025-04-14 21:27:49,373 - INFO - Train Loss: 2.2421, Train Acc: 0.1663
+2025-04-14 21:27:49,375 - INFO - Confidence Threshold: 0.3922
+2025-04-14 21:27:49,377 - INFO - Val Loss: 2.1957, Val Acc: 0.1950
+2025-04-14 21:27:49,496 - INFO - Saved new best model with val_acc: 0.1950
+2025-04-14 21:28:07,425 - INFO - Epoch 36/100:
+2025-04-14 21:28:07,426 - INFO - Train Loss: 2.2437, Train Acc: 0.1700
+2025-04-14 21:28:07,427 - INFO - Confidence Threshold: 0.3864
+2025-04-14 21:28:07,428 - INFO - Val Loss: 2.1921, Val Acc: 0.1988
+2025-04-14 21:28:07,545 - INFO - Saved new best model with val_acc: 0.1988
+2025-04-14 21:28:24,106 - INFO - Epoch 37/100:
+2025-04-14 21:28:24,107 - INFO - Train Loss: 2.2347, Train Acc: 0.1631
+2025-04-14 21:28:24,108 - INFO - Confidence Threshold: 0.3811
+2025-04-14 21:28:24,109 - INFO - Val Loss: 2.1860, Val Acc: 0.1925
+2025-04-14 21:28:40,880 - INFO - Epoch 38/100:
+2025-04-14 21:28:40,880 - INFO - Train Loss: 2.2374, Train Acc: 0.1744
+2025-04-14 21:28:40,882 - INFO - Confidence Threshold: 0.3762
+2025-04-14 21:28:40,883 - INFO - Val Loss: 2.1831, Val Acc: 0.1975
+2025-04-14 21:28:57,478 - INFO - Epoch 39/100:
+2025-04-14 21:28:57,480 - INFO - Train Loss: 2.2333, Train Acc: 0.1800
+2025-04-14 21:28:57,481 - INFO - Confidence Threshold: 0.3709
+2025-04-14 21:28:57,482 - INFO - Val Loss: 2.1841, Val Acc: 0.2075
+2025-04-14 21:28:57,597 - INFO - Saved new best model with val_acc: 0.2075
+2025-04-14 21:28:57,598 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:29:14,636 - INFO - Epoch 40/100:
+2025-04-14 21:29:14,637 - INFO - Train Loss: 2.2320, Train Acc: 0.1647
+2025-04-14 21:29:14,638 - INFO - Confidence Threshold: 0.3664
+2025-04-14 21:29:14,638 - INFO - Val Loss: 2.1787, Val Acc: 0.2037
+2025-04-14 21:29:31,930 - INFO - Epoch 41/100:
+2025-04-14 21:29:31,931 - INFO - Train Loss: 2.2319, Train Acc: 0.1725
+2025-04-14 21:29:31,932 - INFO - Confidence Threshold: 0.3616
+2025-04-14 21:29:31,933 - INFO - Val Loss: 2.1763, Val Acc: 0.2162
+2025-04-14 21:29:32,048 - INFO - Saved new best model with val_acc: 0.2162
+2025-04-14 21:29:48,719 - INFO - Epoch 42/100:
+2025-04-14 21:29:48,720 - INFO - Train Loss: 2.2289, Train Acc: 0.1866
+2025-04-14 21:29:48,722 - INFO - Confidence Threshold: 0.3575
+2025-04-14 21:29:48,723 - INFO - Val Loss: 2.1726, Val Acc: 0.2013
+2025-04-14 21:30:05,093 - INFO - Epoch 43/100:
+2025-04-14 21:30:05,093 - INFO - Train Loss: 2.2219, Train Acc: 0.1850
+2025-04-14 21:30:05,094 - INFO - Confidence Threshold: 0.3535
+2025-04-14 21:30:05,096 - INFO - Val Loss: 2.1732, Val Acc: 0.2100
+2025-04-14 21:30:05,097 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:30:21,609 - INFO - Epoch 44/100:
+2025-04-14 21:30:21,609 - INFO - Train Loss: 2.2208, Train Acc: 0.1775
+2025-04-14 21:30:21,611 - INFO - Confidence Threshold: 0.3499
+2025-04-14 21:30:21,612 - INFO - Val Loss: 2.1686, Val Acc: 0.2162
+2025-04-14 21:30:39,344 - INFO - Epoch 45/100:
+2025-04-14 21:30:39,345 - INFO - Train Loss: 2.2093, Train Acc: 0.1825
+2025-04-14 21:30:39,346 - INFO - Confidence Threshold: 0.3462
+2025-04-14 21:30:39,347 - INFO - Val Loss: 2.1607, Val Acc: 0.2288
+2025-04-14 21:30:39,516 - INFO - Saved new best model with val_acc: 0.2288
+2025-04-14 21:30:56,029 - INFO - Epoch 46/100:
+2025-04-14 21:30:56,030 - INFO - Train Loss: 2.2131, Train Acc: 0.1853
+2025-04-14 21:30:56,031 - INFO - Confidence Threshold: 0.3429
+2025-04-14 21:30:56,031 - INFO - Val Loss: 2.1696, Val Acc: 0.2137
+2025-04-14 21:30:56,032 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:31:12,659 - INFO - Epoch 47/100:
+2025-04-14 21:31:12,660 - INFO - Train Loss: 2.2031, Train Acc: 0.1859
+2025-04-14 21:31:12,661 - INFO - Confidence Threshold: 0.3396
+2025-04-14 21:31:12,662 - INFO - Val Loss: 2.1578, Val Acc: 0.2213
+2025-04-14 21:31:29,114 - INFO - Epoch 48/100:
+2025-04-14 21:31:29,115 - INFO - Train Loss: 2.2078, Train Acc: 0.1941
+2025-04-14 21:31:29,117 - INFO - Confidence Threshold: 0.3366
+2025-04-14 21:31:29,118 - INFO - Val Loss: 2.1536, Val Acc: 0.2213
+2025-04-14 21:31:45,596 - INFO - Epoch 49/100:
+2025-04-14 21:31:45,597 - INFO - Train Loss: 2.2119, Train Acc: 0.1878
+2025-04-14 21:31:45,598 - INFO - Confidence Threshold: 0.3337
+2025-04-14 21:31:45,599 - INFO - Val Loss: 2.1507, Val Acc: 0.2288
+2025-04-14 21:32:03,502 - INFO - Epoch 50/100:
+2025-04-14 21:32:03,503 - INFO - Train Loss: 2.1920, Train Acc: 0.1922
+2025-04-14 21:32:03,504 - INFO - Confidence Threshold: 0.3310
+2025-04-14 21:32:03,505 - INFO - Val Loss: 2.1460, Val Acc: 0.2275
+2025-04-14 21:32:20,219 - INFO - Epoch 51/100:
+2025-04-14 21:32:20,220 - INFO - Train Loss: 2.1969, Train Acc: 0.2000
+2025-04-14 21:32:20,221 - INFO - Confidence Threshold: 0.3281
+2025-04-14 21:32:20,221 - INFO - Val Loss: 2.1531, Val Acc: 0.2213
+2025-04-14 21:32:20,222 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:32:36,669 - INFO - Epoch 52/100:
+2025-04-14 21:32:36,670 - INFO - Train Loss: 2.2039, Train Acc: 0.1966
+2025-04-14 21:32:36,671 - INFO - Confidence Threshold: 0.3257
+2025-04-14 21:32:36,672 - INFO - Val Loss: 2.1443, Val Acc: 0.2288
+2025-04-14 21:32:53,159 - INFO - Epoch 53/100:
+2025-04-14 21:32:53,160 - INFO - Train Loss: 2.2009, Train Acc: 0.1841
+2025-04-14 21:32:53,161 - INFO - Confidence Threshold: 0.3232
+2025-04-14 21:32:53,162 - INFO - Val Loss: 2.1446, Val Acc: 0.2275
+2025-04-14 21:32:53,163 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:33:10,054 - INFO - Epoch 54/100:
+2025-04-14 21:33:10,058 - INFO - Train Loss: 2.2038, Train Acc: 0.1972
+2025-04-14 21:33:10,059 - INFO - Confidence Threshold: 0.3211
+2025-04-14 21:33:10,060 - INFO - Val Loss: 2.1358, Val Acc: 0.2313
+2025-04-14 21:33:10,224 - INFO - Saved new best model with val_acc: 0.2313
+2025-04-14 21:33:27,662 - INFO - Epoch 55/100:
+2025-04-14 21:33:27,663 - INFO - Train Loss: 2.1982, Train Acc: 0.1916
+2025-04-14 21:33:27,664 - INFO - Confidence Threshold: 0.3189
+2025-04-14 21:33:27,665 - INFO - Val Loss: 2.1424, Val Acc: 0.2338
+2025-04-14 21:33:27,780 - INFO - Saved new best model with val_acc: 0.2338
+2025-04-14 21:33:27,785 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:33:44,432 - INFO - Epoch 56/100:
+2025-04-14 21:33:44,432 - INFO - Train Loss: 2.1955, Train Acc: 0.1909
+2025-04-14 21:33:44,433 - INFO - Confidence Threshold: 0.3169
+2025-04-14 21:33:44,435 - INFO - Val Loss: 2.1336, Val Acc: 0.2475
+2025-04-14 21:33:44,552 - INFO - Saved new best model with val_acc: 0.2475
+2025-04-14 21:34:01,770 - INFO - Epoch 57/100:
+2025-04-14 21:34:01,770 - INFO - Train Loss: 2.1812, Train Acc: 0.2050
+2025-04-14 21:34:01,771 - INFO - Confidence Threshold: 0.3149
+2025-04-14 21:34:01,772 - INFO - Val Loss: 2.1298, Val Acc: 0.2450
+2025-04-14 21:34:18,464 - INFO - Epoch 58/100:
+2025-04-14 21:34:18,465 - INFO - Train Loss: 2.1869, Train Acc: 0.2066
+2025-04-14 21:34:18,466 - INFO - Confidence Threshold: 0.3131
+2025-04-14 21:34:18,467 - INFO - Val Loss: 2.1160, Val Acc: 0.2537
+2025-04-14 21:34:18,582 - INFO - Saved new best model with val_acc: 0.2537
+2025-04-14 21:34:36,625 - INFO - Epoch 59/100:
+2025-04-14 21:34:36,626 - INFO - Train Loss: 2.1786, Train Acc: 0.1922
+2025-04-14 21:34:36,627 - INFO - Confidence Threshold: 0.3114
+2025-04-14 21:34:36,628 - INFO - Val Loss: 2.1229, Val Acc: 0.2525
+2025-04-14 21:34:36,629 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:34:53,220 - INFO - Epoch 60/100:
+2025-04-14 21:34:53,222 - INFO - Train Loss: 2.1778, Train Acc: 0.2081
+2025-04-14 21:34:53,223 - INFO - Confidence Threshold: 0.3096
+2025-04-14 21:34:53,223 - INFO - Val Loss: 2.1277, Val Acc: 0.2450
+2025-04-14 21:34:53,224 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:35:09,856 - INFO - Epoch 61/100:
+2025-04-14 21:35:09,857 - INFO - Train Loss: 2.1753, Train Acc: 0.2125
+2025-04-14 21:35:09,858 - INFO - Confidence Threshold: 0.3083
+2025-04-14 21:35:09,859 - INFO - Val Loss: 2.1183, Val Acc: 0.2587
+2025-04-14 21:35:09,974 - INFO - Saved new best model with val_acc: 0.2587
+2025-04-14 21:35:09,976 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:35:26,541 - INFO - Epoch 62/100:
+2025-04-14 21:35:26,542 - INFO - Train Loss: 2.1723, Train Acc: 0.2122
+2025-04-14 21:35:26,544 - INFO - Confidence Threshold: 0.3069
+2025-04-14 21:35:26,545 - INFO - Val Loss: 2.1108, Val Acc: 0.2575
+2025-04-14 21:35:44,347 - INFO - Epoch 63/100:
+2025-04-14 21:35:44,351 - INFO - Train Loss: 2.1755, Train Acc: 0.2178
+2025-04-14 21:35:44,352 - INFO - Confidence Threshold: 0.3055
+2025-04-14 21:35:44,354 - INFO - Val Loss: 2.1149, Val Acc: 0.2500
+2025-04-14 21:35:44,355 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:36:01,365 - INFO - Epoch 64/100:
+2025-04-14 21:36:01,367 - INFO - Train Loss: 2.1670, Train Acc: 0.2078
+2025-04-14 21:36:01,369 - INFO - Confidence Threshold: 0.3041
+2025-04-14 21:36:01,369 - INFO - Val Loss: 2.1056, Val Acc: 0.2575
+2025-04-14 21:36:18,412 - INFO - Epoch 65/100:
+2025-04-14 21:36:18,412 - INFO - Train Loss: 2.1529, Train Acc: 0.2259
+2025-04-14 21:36:18,414 - INFO - Confidence Threshold: 0.3028
+2025-04-14 21:36:18,416 - INFO - Val Loss: 2.1093, Val Acc: 0.2662
+2025-04-14 21:36:18,535 - INFO - Saved new best model with val_acc: 0.2662
+2025-04-14 21:36:18,537 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:36:35,081 - INFO - Epoch 66/100:
+2025-04-14 21:36:35,082 - INFO - Train Loss: 2.1634, Train Acc: 0.2166
+2025-04-14 21:36:35,083 - INFO - Confidence Threshold: 0.3019
+2025-04-14 21:36:35,085 - INFO - Val Loss: 2.1036, Val Acc: 0.2712
+2025-04-14 21:36:35,200 - INFO - Saved new best model with val_acc: 0.2712
+2025-04-14 21:36:52,442 - INFO - Epoch 67/100:
+2025-04-14 21:36:52,445 - INFO - Train Loss: 2.1558, Train Acc: 0.2209
+2025-04-14 21:36:52,446 - INFO - Confidence Threshold: 0.3008
+2025-04-14 21:36:52,446 - INFO - Val Loss: 2.0986, Val Acc: 0.2650
+2025-04-14 21:37:10,092 - INFO - Epoch 68/100:
+2025-04-14 21:37:10,093 - INFO - Train Loss: 2.1650, Train Acc: 0.2134
+2025-04-14 21:37:10,095 - INFO - Confidence Threshold: 0.3000
+2025-04-14 21:37:10,096 - INFO - Val Loss: 2.0931, Val Acc: 0.2637
+2025-04-14 21:37:26,714 - INFO - Epoch 69/100:
+2025-04-14 21:37:26,715 - INFO - Train Loss: 2.1457, Train Acc: 0.2387
+2025-04-14 21:37:26,716 - INFO - Confidence Threshold: 0.2990
+2025-04-14 21:37:26,717 - INFO - Val Loss: 2.0893, Val Acc: 0.2762
+2025-04-14 21:37:26,833 - INFO - Saved new best model with val_acc: 0.2762
+2025-04-14 21:37:43,527 - INFO - Epoch 70/100:
+2025-04-14 21:37:43,529 - INFO - Train Loss: 2.1436, Train Acc: 0.2359
+2025-04-14 21:37:43,529 - INFO - Confidence Threshold: 0.2981
+2025-04-14 21:37:43,531 - INFO - Val Loss: 2.0917, Val Acc: 0.2737
+2025-04-14 21:37:43,532 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:38:00,153 - INFO - Epoch 71/100:
+2025-04-14 21:38:00,154 - INFO - Train Loss: 2.1436, Train Acc: 0.2275
+2025-04-14 21:38:00,155 - INFO - Confidence Threshold: 0.2972
+2025-04-14 21:38:00,157 - INFO - Val Loss: 2.0916, Val Acc: 0.2825
+2025-04-14 21:38:00,272 - INFO - Saved new best model with val_acc: 0.2825
+2025-04-14 21:38:00,277 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:38:18,348 - INFO - Epoch 72/100:
+2025-04-14 21:38:18,349 - INFO - Train Loss: 2.1393, Train Acc: 0.2334
+2025-04-14 21:38:18,350 - INFO - Confidence Threshold: 0.2964
+2025-04-14 21:38:18,351 - INFO - Val Loss: 2.0859, Val Acc: 0.2712
+2025-04-14 21:38:34,927 - INFO - Epoch 73/100:
+2025-04-14 21:38:34,928 - INFO - Train Loss: 2.1409, Train Acc: 0.2338
+2025-04-14 21:38:34,928 - INFO - Confidence Threshold: 0.2958
+2025-04-14 21:38:34,929 - INFO - Val Loss: 2.0863, Val Acc: 0.2838
+2025-04-14 21:38:35,044 - INFO - Saved new best model with val_acc: 0.2838
+2025-04-14 21:38:35,046 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:38:52,887 - INFO - Epoch 74/100:
+2025-04-14 21:38:52,887 - INFO - Train Loss: 2.1434, Train Acc: 0.2263
+2025-04-14 21:38:52,889 - INFO - Confidence Threshold: 0.2950
+2025-04-14 21:38:52,891 - INFO - Val Loss: 2.0668, Val Acc: 0.2925
+2025-04-14 21:38:53,005 - INFO - Saved new best model with val_acc: 0.2925
+2025-04-14 21:39:09,553 - INFO - Epoch 75/100:
+2025-04-14 21:39:09,553 - INFO - Train Loss: 2.1326, Train Acc: 0.2359
+2025-04-14 21:39:09,554 - INFO - Confidence Threshold: 0.2943
+2025-04-14 21:39:09,555 - INFO - Val Loss: 2.0729, Val Acc: 0.2913
+2025-04-14 21:39:09,557 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:39:27,704 - INFO - Epoch 76/100:
+2025-04-14 21:39:27,705 - INFO - Train Loss: 2.1378, Train Acc: 0.2375
+2025-04-14 21:39:27,706 - INFO - Confidence Threshold: 0.2938
+2025-04-14 21:39:27,707 - INFO - Val Loss: 2.0760, Val Acc: 0.2888
+2025-04-14 21:39:27,708 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:39:45,012 - INFO - Epoch 77/100:
+2025-04-14 21:39:45,013 - INFO - Train Loss: 2.1314, Train Acc: 0.2434
+2025-04-14 21:39:45,014 - INFO - Confidence Threshold: 0.2934
+2025-04-14 21:39:45,015 - INFO - Val Loss: 2.0646, Val Acc: 0.2900
+2025-04-14 21:40:01,961 - INFO - Epoch 78/100:
+2025-04-14 21:40:01,962 - INFO - Train Loss: 2.1212, Train Acc: 0.2453
+2025-04-14 21:40:01,964 - INFO - Confidence Threshold: 0.2931
+2025-04-14 21:40:01,965 - INFO - Val Loss: 2.0654, Val Acc: 0.2875
+2025-04-14 21:40:01,966 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:40:19,155 - INFO - Epoch 79/100:
+2025-04-14 21:40:19,156 - INFO - Train Loss: 2.1319, Train Acc: 0.2394
+2025-04-14 21:40:19,157 - INFO - Confidence Threshold: 0.2925
+2025-04-14 21:40:19,158 - INFO - Val Loss: 2.0730, Val Acc: 0.2812
+2025-04-14 21:40:19,159 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:40:37,421 - INFO - Epoch 80/100:
+2025-04-14 21:40:37,422 - INFO - Train Loss: 2.1180, Train Acc: 0.2409
+2025-04-14 21:40:37,423 - INFO - Confidence Threshold: 0.2921
+2025-04-14 21:40:37,425 - INFO - Val Loss: 2.0638, Val Acc: 0.2812
+2025-04-14 21:40:54,262 - INFO - Epoch 81/100:
+2025-04-14 21:40:54,263 - INFO - Train Loss: 2.1337, Train Acc: 0.2344
+2025-04-14 21:40:54,265 - INFO - Confidence Threshold: 0.2918
+2025-04-14 21:40:54,266 - INFO - Val Loss: 2.0633, Val Acc: 0.3038
+2025-04-14 21:40:54,388 - INFO - Saved new best model with val_acc: 0.3038
+2025-04-14 21:41:11,230 - INFO - Epoch 82/100:
+2025-04-14 21:41:11,231 - INFO - Train Loss: 2.1142, Train Acc: 0.2478
+2025-04-14 21:41:11,232 - INFO - Confidence Threshold: 0.2913
+2025-04-14 21:41:11,233 - INFO - Val Loss: 2.0528, Val Acc: 0.3113
+2025-04-14 21:41:11,354 - INFO - Saved new best model with val_acc: 0.3113
+2025-04-14 21:41:28,463 - INFO - Epoch 83/100:
+2025-04-14 21:41:28,464 - INFO - Train Loss: 2.1212, Train Acc: 0.2503
+2025-04-14 21:41:28,466 - INFO - Confidence Threshold: 0.2910
+2025-04-14 21:41:28,467 - INFO - Val Loss: 2.0478, Val Acc: 0.2913
+2025-04-14 21:41:46,841 - INFO - Epoch 84/100:
+2025-04-14 21:41:46,842 - INFO - Train Loss: 2.1151, Train Acc: 0.2422
+2025-04-14 21:41:46,843 - INFO - Confidence Threshold: 0.2908
+2025-04-14 21:41:46,844 - INFO - Val Loss: 2.0468, Val Acc: 0.3088
+2025-04-14 21:42:03,822 - INFO - Epoch 85/100:
+2025-04-14 21:42:03,823 - INFO - Train Loss: 2.1075, Train Acc: 0.2541
+2025-04-14 21:42:03,825 - INFO - Confidence Threshold: 0.2906
+2025-04-14 21:42:03,825 - INFO - Val Loss: 2.0474, Val Acc: 0.3063
+2025-04-14 21:42:03,826 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:42:20,828 - INFO - Epoch 86/100:
+2025-04-14 21:42:20,829 - INFO - Train Loss: 2.1020, Train Acc: 0.2544
+2025-04-14 21:42:20,830 - INFO - Confidence Threshold: 0.2908
+2025-04-14 21:42:20,831 - INFO - Val Loss: 2.0520, Val Acc: 0.3050
+2025-04-14 21:42:20,831 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:42:37,505 - INFO - Epoch 87/100:
+2025-04-14 21:42:37,507 - INFO - Train Loss: 2.1032, Train Acc: 0.2572
+2025-04-14 21:42:37,509 - INFO - Confidence Threshold: 0.2904
+2025-04-14 21:42:37,510 - INFO - Val Loss: 2.0334, Val Acc: 0.3038
+2025-04-14 21:42:55,053 - INFO - Epoch 88/100:
+2025-04-14 21:42:55,055 - INFO - Train Loss: 2.1071, Train Acc: 0.2581
+2025-04-14 21:42:55,057 - INFO - Confidence Threshold: 0.2902
+2025-04-14 21:42:55,061 - INFO - Val Loss: 2.0295, Val Acc: 0.3162
+2025-04-14 21:42:55,216 - INFO - Saved new best model with val_acc: 0.3162
+2025-04-14 21:43:12,478 - INFO - Epoch 89/100:
+2025-04-14 21:43:12,479 - INFO - Train Loss: 2.0975, Train Acc: 0.2506
+2025-04-14 21:43:12,480 - INFO - Confidence Threshold: 0.2899
+2025-04-14 21:43:12,481 - INFO - Val Loss: 2.0336, Val Acc: 0.3113
+2025-04-14 21:43:12,482 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:43:29,445 - INFO - Epoch 90/100:
+2025-04-14 21:43:29,446 - INFO - Train Loss: 2.0836, Train Acc: 0.2722
+2025-04-14 21:43:29,447 - INFO - Confidence Threshold: 0.2898
+2025-04-14 21:43:29,448 - INFO - Val Loss: 2.0270, Val Acc: 0.3075
+2025-04-14 21:43:46,328 - INFO - Epoch 91/100:
+2025-04-14 21:43:46,329 - INFO - Train Loss: 2.0908, Train Acc: 0.2619
+2025-04-14 21:43:46,330 - INFO - Confidence Threshold: 0.2897
+2025-04-14 21:43:46,332 - INFO - Val Loss: 2.0256, Val Acc: 0.3150
+2025-04-14 21:44:03,637 - INFO - Epoch 92/100:
+2025-04-14 21:44:03,639 - INFO - Train Loss: 2.0851, Train Acc: 0.2612
+2025-04-14 21:44:03,641 - INFO - Confidence Threshold: 0.2897
+2025-04-14 21:44:03,641 - INFO - Val Loss: 2.0247, Val Acc: 0.3175
+2025-04-14 21:44:03,814 - INFO - Saved new best model with val_acc: 0.3175
+2025-04-14 21:44:21,520 - INFO - Epoch 93/100:
+2025-04-14 21:44:21,521 - INFO - Train Loss: 2.0819, Train Acc: 0.2603
+2025-04-14 21:44:21,522 - INFO - Confidence Threshold: 0.2898
+2025-04-14 21:44:21,522 - INFO - Val Loss: 2.0005, Val Acc: 0.3350
+2025-04-14 21:44:21,647 - INFO - Saved new best model with val_acc: 0.3350
+2025-04-14 21:44:38,223 - INFO - Epoch 94/100:
+2025-04-14 21:44:38,224 - INFO - Train Loss: 2.0760, Train Acc: 0.2722
+2025-04-14 21:44:38,225 - INFO - Confidence Threshold: 0.2903
+2025-04-14 21:44:38,226 - INFO - Val Loss: 2.0227, Val Acc: 0.3212
+2025-04-14 21:44:38,227 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 21:44:55,098 - INFO - Epoch 95/100:
+2025-04-14 21:44:55,098 - INFO - Train Loss: 2.0663, Train Acc: 0.2869
+2025-04-14 21:44:55,099 - INFO - Confidence Threshold: 0.2902
+2025-04-14 21:44:55,100 - INFO - Val Loss: 2.0200, Val Acc: 0.3262
+2025-04-14 21:44:55,101 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 21:45:11,718 - INFO - Epoch 96/100:
+2025-04-14 21:45:11,719 - INFO - Train Loss: 2.0728, Train Acc: 0.2787
+2025-04-14 21:45:11,721 - INFO - Confidence Threshold: 0.2906
+2025-04-14 21:45:11,721 - INFO - Val Loss: 2.0099, Val Acc: 0.3325
+2025-04-14 21:45:11,722 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 21:45:29,752 - INFO - Epoch 97/100:
+2025-04-14 21:45:29,753 - INFO - Train Loss: 2.0699, Train Acc: 0.2775
+2025-04-14 21:45:29,754 - INFO - Confidence Threshold: 0.2905
+2025-04-14 21:45:29,755 - INFO - Val Loss: 2.0059, Val Acc: 0.3262
+2025-04-14 21:45:29,755 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 21:45:46,464 - INFO - Epoch 98/100:
+2025-04-14 21:45:46,464 - INFO - Train Loss: 2.0642, Train Acc: 0.2928
+2025-04-14 21:45:46,465 - INFO - Confidence Threshold: 0.2909
+2025-04-14 21:45:46,466 - INFO - Val Loss: 2.0138, Val Acc: 0.3337
+2025-04-14 21:45:46,467 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 21:46:03,052 - INFO - Epoch 99/100:
+2025-04-14 21:46:03,053 - INFO - Train Loss: 2.0618, Train Acc: 0.2800
+2025-04-14 21:46:03,055 - INFO - Confidence Threshold: 0.2912
+2025-04-14 21:46:03,056 - INFO - Val Loss: 2.0029, Val Acc: 0.3438
+2025-04-14 21:46:03,172 - INFO - Saved new best model with val_acc: 0.3438
+2025-04-14 21:46:03,174 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 21:46:19,938 - INFO - Epoch 100/100:
+2025-04-14 21:46:19,940 - INFO - Train Loss: 2.0623, Train Acc: 0.2872
+2025-04-14 21:46:19,942 - INFO - Confidence Threshold: 0.2920
+2025-04-14 21:46:19,943 - INFO - Val Loss: 1.9862, Val Acc: 0.3400
+2025-04-14 21:46:32,580 - INFO - 
+Final Test Metrics:
+2025-04-14 21:46:32,582 - INFO - Accuracy: 0.3386
+2025-04-14 21:46:32,584 - INFO - Precision: 0.4120
+2025-04-14 21:46:32,584 - INFO - Recall: 0.3386
+2025-04-14 21:46:32,585 - INFO - F1 Score: 0.3047
+2025-04-14 22:09:57,441 - INFO - Data loaded successfully
+2025-04-14 22:09:57,442 - INFO - Training started at 2025-04-14 22:09:57
+2025-04-14 22:09:57,453 - INFO - 
+Starting Fold 1/5
+2025-04-14 22:09:57,688 - INFO - Starting learning rate finder...
+2025-04-14 22:10:01,186 - INFO - Optimal learning rate found: 0.000331
+2025-04-14 22:10:18,517 - INFO - Epoch 1/120:
+2025-04-14 22:10:18,518 - INFO - Train Loss: 2.3730, Train Acc: 0.1153
+2025-04-14 22:10:18,519 - INFO - Confidence Threshold: 0.9185
+2025-04-14 22:10:18,520 - INFO - Val Loss: 2.3354, Val Acc: 0.1037
+2025-04-14 22:10:18,637 - INFO - Saved new best model with val_acc: 0.1037
+2025-04-14 22:10:37,779 - INFO - Epoch 2/120:
+2025-04-14 22:10:37,780 - INFO - Train Loss: 2.3630, Train Acc: 0.1212
+2025-04-14 22:10:37,781 - INFO - Confidence Threshold: 0.8886
+2025-04-14 22:10:37,782 - INFO - Val Loss: 2.3287, Val Acc: 0.1075
+2025-04-14 22:10:37,904 - INFO - Saved new best model with val_acc: 0.1075
+2025-04-14 22:10:55,365 - INFO - Epoch 3/120:
+2025-04-14 22:10:55,365 - INFO - Train Loss: 2.3660, Train Acc: 0.1116
+2025-04-14 22:10:55,366 - INFO - Confidence Threshold: 0.8601
+2025-04-14 22:10:55,368 - INFO - Val Loss: 2.3197, Val Acc: 0.1062
+2025-04-14 22:11:11,976 - INFO - Epoch 4/120:
+2025-04-14 22:11:11,977 - INFO - Train Loss: 2.3625, Train Acc: 0.1187
+2025-04-14 22:11:11,978 - INFO - Confidence Threshold: 0.8325
+2025-04-14 22:11:11,979 - INFO - Val Loss: 2.3176, Val Acc: 0.1150
+2025-04-14 22:11:12,101 - INFO - Saved new best model with val_acc: 0.1150
+2025-04-14 22:11:28,774 - INFO - Epoch 5/120:
+2025-04-14 22:11:28,775 - INFO - Train Loss: 2.3478, Train Acc: 0.1113
+2025-04-14 22:11:28,776 - INFO - Confidence Threshold: 0.8059
+2025-04-14 22:11:28,777 - INFO - Val Loss: 2.3133, Val Acc: 0.1125
+2025-04-14 22:11:46,754 - INFO - Epoch 6/120:
+2025-04-14 22:11:46,755 - INFO - Train Loss: 2.3493, Train Acc: 0.1200
+2025-04-14 22:11:46,756 - INFO - Confidence Threshold: 0.7812
+2025-04-14 22:11:46,758 - INFO - Val Loss: 2.3089, Val Acc: 0.1075
+2025-04-14 22:12:03,390 - INFO - Epoch 7/120:
+2025-04-14 22:12:03,391 - INFO - Train Loss: 2.3473, Train Acc: 0.1237
+2025-04-14 22:12:03,392 - INFO - Confidence Threshold: 0.7575
+2025-04-14 22:12:03,393 - INFO - Val Loss: 2.3061, Val Acc: 0.1175
+2025-04-14 22:12:03,514 - INFO - Saved new best model with val_acc: 0.1175
+2025-04-14 22:12:20,017 - INFO - Epoch 8/120:
+2025-04-14 22:12:20,017 - INFO - Train Loss: 2.3461, Train Acc: 0.1266
+2025-04-14 22:12:20,018 - INFO - Confidence Threshold: 0.7347
+2025-04-14 22:12:20,019 - INFO - Val Loss: 2.2937, Val Acc: 0.1175
+2025-04-14 22:12:36,927 - INFO - Epoch 9/120:
+2025-04-14 22:12:36,928 - INFO - Train Loss: 2.3205, Train Acc: 0.1353
+2025-04-14 22:12:36,929 - INFO - Confidence Threshold: 0.7131
+2025-04-14 22:12:36,930 - INFO - Val Loss: 2.2911, Val Acc: 0.1225
+2025-04-14 22:12:37,042 - INFO - Saved new best model with val_acc: 0.1225
+2025-04-14 22:12:54,524 - INFO - Epoch 10/120:
+2025-04-14 22:12:54,526 - INFO - Train Loss: 2.3207, Train Acc: 0.1356
+2025-04-14 22:12:54,527 - INFO - Confidence Threshold: 0.6925
+2025-04-14 22:12:54,529 - INFO - Val Loss: 2.2855, Val Acc: 0.1250
+2025-04-14 22:12:54,689 - INFO - Saved new best model with val_acc: 0.1250
+2025-04-14 22:13:11,642 - INFO - Epoch 11/120:
+2025-04-14 22:13:11,643 - INFO - Train Loss: 2.3261, Train Acc: 0.1278
+2025-04-14 22:13:11,644 - INFO - Confidence Threshold: 0.6728
+2025-04-14 22:13:11,645 - INFO - Val Loss: 2.2859, Val Acc: 0.1250
+2025-04-14 22:13:11,646 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:13:28,294 - INFO - Epoch 12/120:
+2025-04-14 22:13:28,295 - INFO - Train Loss: 2.3056, Train Acc: 0.1384
+2025-04-14 22:13:28,296 - INFO - Confidence Threshold: 0.6536
+2025-04-14 22:13:28,297 - INFO - Val Loss: 2.2723, Val Acc: 0.1275
+2025-04-14 22:13:28,403 - INFO - Saved new best model with val_acc: 0.1275
+2025-04-14 22:13:45,079 - INFO - Epoch 13/120:
+2025-04-14 22:13:45,080 - INFO - Train Loss: 2.3075, Train Acc: 0.1394
+2025-04-14 22:13:45,081 - INFO - Confidence Threshold: 0.6354
+2025-04-14 22:13:45,082 - INFO - Val Loss: 2.2654, Val Acc: 0.1300
+2025-04-14 22:13:45,196 - INFO - Saved new best model with val_acc: 0.1300
+2025-04-14 22:14:02,012 - INFO - Epoch 14/120:
+2025-04-14 22:14:02,014 - INFO - Train Loss: 2.3116, Train Acc: 0.1350
+2025-04-14 22:14:02,016 - INFO - Confidence Threshold: 0.6183
+2025-04-14 22:14:02,017 - INFO - Val Loss: 2.2618, Val Acc: 0.1350
+2025-04-14 22:14:02,183 - INFO - Saved new best model with val_acc: 0.1350
+2025-04-14 22:14:20,040 - INFO - Epoch 15/120:
+2025-04-14 22:14:20,041 - INFO - Train Loss: 2.3089, Train Acc: 0.1406
+2025-04-14 22:14:20,042 - INFO - Confidence Threshold: 0.6020
+2025-04-14 22:14:20,043 - INFO - Val Loss: 2.2615, Val Acc: 0.1450
+2025-04-14 22:14:20,154 - INFO - Saved new best model with val_acc: 0.1450
+2025-04-14 22:14:36,854 - INFO - Epoch 16/120:
+2025-04-14 22:14:36,855 - INFO - Train Loss: 2.2940, Train Acc: 0.1456
+2025-04-14 22:14:36,856 - INFO - Confidence Threshold: 0.5863
+2025-04-14 22:14:36,857 - INFO - Val Loss: 2.2536, Val Acc: 0.1338
+2025-04-14 22:14:53,459 - INFO - Epoch 17/120:
+2025-04-14 22:14:53,460 - INFO - Train Loss: 2.2938, Train Acc: 0.1406
+2025-04-14 22:14:53,461 - INFO - Confidence Threshold: 0.5710
+2025-04-14 22:14:53,462 - INFO - Val Loss: 2.2493, Val Acc: 0.1512
+2025-04-14 22:14:53,572 - INFO - Saved new best model with val_acc: 0.1512
+2025-04-14 22:15:10,330 - INFO - Epoch 18/120:
+2025-04-14 22:15:10,331 - INFO - Train Loss: 2.2856, Train Acc: 0.1444
+2025-04-14 22:15:10,332 - INFO - Confidence Threshold: 0.5569
+2025-04-14 22:15:10,332 - INFO - Val Loss: 2.2494, Val Acc: 0.1487
+2025-04-14 22:15:10,333 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:15:28,188 - INFO - Epoch 19/120:
+2025-04-14 22:15:28,191 - INFO - Train Loss: 2.2920, Train Acc: 0.1347
+2025-04-14 22:15:28,192 - INFO - Confidence Threshold: 0.5432
+2025-04-14 22:15:28,194 - INFO - Val Loss: 2.2450, Val Acc: 0.1487
+2025-04-14 22:15:44,933 - INFO - Epoch 20/120:
+2025-04-14 22:15:44,933 - INFO - Train Loss: 2.2827, Train Acc: 0.1550
+2025-04-14 22:15:44,935 - INFO - Confidence Threshold: 0.5300
+2025-04-14 22:15:44,936 - INFO - Val Loss: 2.2370, Val Acc: 0.1500
+2025-04-14 22:16:01,591 - INFO - Epoch 21/120:
+2025-04-14 22:16:01,592 - INFO - Train Loss: 2.2735, Train Acc: 0.1506
+2025-04-14 22:16:01,593 - INFO - Confidence Threshold: 0.5176
+2025-04-14 22:16:01,594 - INFO - Val Loss: 2.2369, Val Acc: 0.1537
+2025-04-14 22:16:01,703 - INFO - Saved new best model with val_acc: 0.1537
+2025-04-14 22:16:18,427 - INFO - Epoch 22/120:
+2025-04-14 22:16:18,427 - INFO - Train Loss: 2.2732, Train Acc: 0.1569
+2025-04-14 22:16:18,428 - INFO - Confidence Threshold: 0.5058
+2025-04-14 22:16:18,429 - INFO - Val Loss: 2.2269, Val Acc: 0.1750
+2025-04-14 22:16:18,540 - INFO - Saved new best model with val_acc: 0.1750
+2025-04-14 22:16:36,105 - INFO - Epoch 23/120:
+2025-04-14 22:16:36,106 - INFO - Train Loss: 2.2596, Train Acc: 0.1556
+2025-04-14 22:16:36,109 - INFO - Confidence Threshold: 0.4945
+2025-04-14 22:16:36,110 - INFO - Val Loss: 2.2267, Val Acc: 0.1663
+2025-04-14 22:16:53,153 - INFO - Epoch 24/120:
+2025-04-14 22:16:53,154 - INFO - Train Loss: 2.2650, Train Acc: 0.1566
+2025-04-14 22:16:53,155 - INFO - Confidence Threshold: 0.4839
+2025-04-14 22:16:53,156 - INFO - Val Loss: 2.2160, Val Acc: 0.1775
+2025-04-14 22:16:53,280 - INFO - Saved new best model with val_acc: 0.1775
+2025-04-14 22:17:09,951 - INFO - Epoch 25/120:
+2025-04-14 22:17:09,952 - INFO - Train Loss: 2.2507, Train Acc: 0.1550
+2025-04-14 22:17:09,953 - INFO - Confidence Threshold: 0.4735
+2025-04-14 22:17:09,954 - INFO - Val Loss: 2.2221, Val Acc: 0.1650
+2025-04-14 22:17:09,954 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:17:26,454 - INFO - Epoch 26/120:
+2025-04-14 22:17:26,455 - INFO - Train Loss: 2.2461, Train Acc: 0.1831
+2025-04-14 22:17:26,456 - INFO - Confidence Threshold: 0.4643
+2025-04-14 22:17:26,456 - INFO - Val Loss: 2.2107, Val Acc: 0.1750
+2025-04-14 22:17:43,383 - INFO - Epoch 27/120:
+2025-04-14 22:17:43,386 - INFO - Train Loss: 2.2591, Train Acc: 0.1616
+2025-04-14 22:17:43,387 - INFO - Confidence Threshold: 0.4549
+2025-04-14 22:17:43,388 - INFO - Val Loss: 2.2011, Val Acc: 0.1812
+2025-04-14 22:17:43,554 - INFO - Saved new best model with val_acc: 0.1812
+2025-04-14 22:18:01,247 - INFO - Epoch 28/120:
+2025-04-14 22:18:01,248 - INFO - Train Loss: 2.2503, Train Acc: 0.1700
+2025-04-14 22:18:01,249 - INFO - Confidence Threshold: 0.4462
+2025-04-14 22:18:01,250 - INFO - Val Loss: 2.2028, Val Acc: 0.1950
+2025-04-14 22:18:01,366 - INFO - Saved new best model with val_acc: 0.1950
+2025-04-14 22:18:01,367 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:18:17,975 - INFO - Epoch 29/120:
+2025-04-14 22:18:17,975 - INFO - Train Loss: 2.2434, Train Acc: 0.1728
+2025-04-14 22:18:17,976 - INFO - Confidence Threshold: 0.4376
+2025-04-14 22:18:17,977 - INFO - Val Loss: 2.1990, Val Acc: 0.1862
+2025-04-14 22:18:34,624 - INFO - Epoch 30/120:
+2025-04-14 22:18:34,625 - INFO - Train Loss: 2.2265, Train Acc: 0.1806
+2025-04-14 22:18:34,626 - INFO - Confidence Threshold: 0.4293
+2025-04-14 22:18:34,627 - INFO - Val Loss: 2.1957, Val Acc: 0.1988
+2025-04-14 22:18:34,737 - INFO - Saved new best model with val_acc: 0.1988
+2025-04-14 22:18:51,352 - INFO - Epoch 31/120:
+2025-04-14 22:18:51,352 - INFO - Train Loss: 2.2384, Train Acc: 0.1719
+2025-04-14 22:18:51,353 - INFO - Confidence Threshold: 0.4216
+2025-04-14 22:18:51,354 - INFO - Val Loss: 2.1888, Val Acc: 0.2125
+2025-04-14 22:18:51,466 - INFO - Saved new best model with val_acc: 0.2125
+2025-04-14 22:19:09,337 - INFO - Epoch 32/120:
+2025-04-14 22:19:09,338 - INFO - Train Loss: 2.2301, Train Acc: 0.1747
+2025-04-14 22:19:09,339 - INFO - Confidence Threshold: 0.4143
+2025-04-14 22:19:09,340 - INFO - Val Loss: 2.1820, Val Acc: 0.2100
+2025-04-14 22:19:25,987 - INFO - Epoch 33/120:
+2025-04-14 22:19:25,987 - INFO - Train Loss: 2.2139, Train Acc: 0.1784
+2025-04-14 22:19:25,989 - INFO - Confidence Threshold: 0.4076
+2025-04-14 22:19:25,990 - INFO - Val Loss: 2.1854, Val Acc: 0.2037
+2025-04-14 22:19:25,990 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:19:42,533 - INFO - Epoch 34/120:
+2025-04-14 22:19:42,534 - INFO - Train Loss: 2.2180, Train Acc: 0.1903
+2025-04-14 22:19:42,535 - INFO - Confidence Threshold: 0.4011
+2025-04-14 22:19:42,536 - INFO - Val Loss: 2.1736, Val Acc: 0.2225
+2025-04-14 22:19:42,649 - INFO - Saved new best model with val_acc: 0.2225
+2025-04-14 22:19:59,186 - INFO - Epoch 35/120:
+2025-04-14 22:19:59,186 - INFO - Train Loss: 2.2070, Train Acc: 0.1903
+2025-04-14 22:19:59,187 - INFO - Confidence Threshold: 0.3948
+2025-04-14 22:19:59,188 - INFO - Val Loss: 2.1705, Val Acc: 0.2137
+2025-04-14 22:20:16,482 - INFO - Epoch 36/120:
+2025-04-14 22:20:16,482 - INFO - Train Loss: 2.2108, Train Acc: 0.1891
+2025-04-14 22:20:16,489 - INFO - Confidence Threshold: 0.3887
+2025-04-14 22:20:16,490 - INFO - Val Loss: 2.1659, Val Acc: 0.2288
+2025-04-14 22:20:16,657 - INFO - Saved new best model with val_acc: 0.2288
+2025-04-14 22:20:33,752 - INFO - Epoch 37/120:
+2025-04-14 22:20:33,753 - INFO - Train Loss: 2.2067, Train Acc: 0.2000
+2025-04-14 22:20:33,754 - INFO - Confidence Threshold: 0.3830
+2025-04-14 22:20:33,755 - INFO - Val Loss: 2.1645, Val Acc: 0.2362
+2025-04-14 22:20:33,868 - INFO - Saved new best model with val_acc: 0.2362
+2025-04-14 22:20:50,510 - INFO - Epoch 38/120:
+2025-04-14 22:20:50,511 - INFO - Train Loss: 2.2048, Train Acc: 0.1928
+2025-04-14 22:20:50,512 - INFO - Confidence Threshold: 0.3776
+2025-04-14 22:20:50,513 - INFO - Val Loss: 2.1647, Val Acc: 0.2250
+2025-04-14 22:20:50,513 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:21:07,047 - INFO - Epoch 39/120:
+2025-04-14 22:21:07,048 - INFO - Train Loss: 2.2021, Train Acc: 0.1934
+2025-04-14 22:21:07,049 - INFO - Confidence Threshold: 0.3725
+2025-04-14 22:21:07,050 - INFO - Val Loss: 2.1625, Val Acc: 0.2162
+2025-04-14 22:21:23,624 - INFO - Epoch 40/120:
+2025-04-14 22:21:23,625 - INFO - Train Loss: 2.2023, Train Acc: 0.1881
+2025-04-14 22:21:23,627 - INFO - Confidence Threshold: 0.3679
+2025-04-14 22:21:23,629 - INFO - Val Loss: 2.1506, Val Acc: 0.2300
+2025-04-14 22:21:41,807 - INFO - Epoch 41/120:
+2025-04-14 22:21:41,808 - INFO - Train Loss: 2.1948, Train Acc: 0.2022
+2025-04-14 22:21:41,809 - INFO - Confidence Threshold: 0.3633
+2025-04-14 22:21:41,810 - INFO - Val Loss: 2.1512, Val Acc: 0.2462
+2025-04-14 22:21:41,935 - INFO - Saved new best model with val_acc: 0.2462
+2025-04-14 22:21:41,937 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:21:58,590 - INFO - Epoch 42/120:
+2025-04-14 22:21:58,591 - INFO - Train Loss: 2.1900, Train Acc: 0.1959
+2025-04-14 22:21:58,592 - INFO - Confidence Threshold: 0.3587
+2025-04-14 22:21:58,593 - INFO - Val Loss: 2.1480, Val Acc: 0.2400
+2025-04-14 22:22:15,320 - INFO - Epoch 43/120:
+2025-04-14 22:22:15,320 - INFO - Train Loss: 2.1906, Train Acc: 0.1959
+2025-04-14 22:22:15,321 - INFO - Confidence Threshold: 0.3545
+2025-04-14 22:22:15,322 - INFO - Val Loss: 2.1390, Val Acc: 0.2487
+2025-04-14 22:22:15,443 - INFO - Saved new best model with val_acc: 0.2487
+2025-04-14 22:22:32,081 - INFO - Epoch 44/120:
+2025-04-14 22:22:32,082 - INFO - Train Loss: 2.1890, Train Acc: 0.1997
+2025-04-14 22:22:32,083 - INFO - Confidence Threshold: 0.3507
+2025-04-14 22:22:32,084 - INFO - Val Loss: 2.1337, Val Acc: 0.2625
+2025-04-14 22:22:32,207 - INFO - Saved new best model with val_acc: 0.2625
+2025-04-14 22:22:49,671 - INFO - Epoch 45/120:
+2025-04-14 22:22:49,672 - INFO - Train Loss: 2.1740, Train Acc: 0.2100
+2025-04-14 22:22:49,674 - INFO - Confidence Threshold: 0.3469
+2025-04-14 22:22:49,675 - INFO - Val Loss: 2.1373, Val Acc: 0.2525
+2025-04-14 22:22:49,676 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:23:07,166 - INFO - Epoch 46/120:
+2025-04-14 22:23:07,167 - INFO - Train Loss: 2.1851, Train Acc: 0.2203
+2025-04-14 22:23:07,168 - INFO - Confidence Threshold: 0.3431
+2025-04-14 22:23:07,169 - INFO - Val Loss: 2.1290, Val Acc: 0.2675
+2025-04-14 22:23:07,283 - INFO - Saved new best model with val_acc: 0.2675
+2025-04-14 22:23:24,057 - INFO - Epoch 47/120:
+2025-04-14 22:23:24,058 - INFO - Train Loss: 2.1601, Train Acc: 0.2209
+2025-04-14 22:23:24,059 - INFO - Confidence Threshold: 0.3395
+2025-04-14 22:23:24,059 - INFO - Val Loss: 2.1219, Val Acc: 0.2700
+2025-04-14 22:23:24,175 - INFO - Saved new best model with val_acc: 0.2700
+2025-04-14 22:23:40,929 - INFO - Epoch 48/120:
+2025-04-14 22:23:40,929 - INFO - Train Loss: 2.1635, Train Acc: 0.2284
+2025-04-14 22:23:40,931 - INFO - Confidence Threshold: 0.3362
+2025-04-14 22:23:40,932 - INFO - Val Loss: 2.1218, Val Acc: 0.2900
+2025-04-14 22:23:41,044 - INFO - Saved new best model with val_acc: 0.2900
+2025-04-14 22:23:57,872 - INFO - Epoch 49/120:
+2025-04-14 22:23:57,875 - INFO - Train Loss: 2.1677, Train Acc: 0.2244
+2025-04-14 22:23:57,875 - INFO - Confidence Threshold: 0.3333
+2025-04-14 22:23:57,876 - INFO - Val Loss: 2.1237, Val Acc: 0.2775
+2025-04-14 22:23:57,877 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:24:15,624 - INFO - Epoch 50/120:
+2025-04-14 22:24:15,625 - INFO - Train Loss: 2.1498, Train Acc: 0.2359
+2025-04-14 22:24:15,626 - INFO - Confidence Threshold: 0.3305
+2025-04-14 22:24:15,627 - INFO - Val Loss: 2.1152, Val Acc: 0.2625
+2025-04-14 22:24:32,339 - INFO - Epoch 51/120:
+2025-04-14 22:24:32,340 - INFO - Train Loss: 2.1573, Train Acc: 0.2253
+2025-04-14 22:24:32,341 - INFO - Confidence Threshold: 0.3280
+2025-04-14 22:24:32,342 - INFO - Val Loss: 2.1122, Val Acc: 0.2787
+2025-04-14 22:24:49,104 - INFO - Epoch 52/120:
+2025-04-14 22:24:49,104 - INFO - Train Loss: 2.1557, Train Acc: 0.2241
+2025-04-14 22:24:49,106 - INFO - Confidence Threshold: 0.3255
+2025-04-14 22:24:49,107 - INFO - Val Loss: 2.0979, Val Acc: 0.2938
+2025-04-14 22:24:49,226 - INFO - Saved new best model with val_acc: 0.2938
+2025-04-14 22:25:05,902 - INFO - Epoch 53/120:
+2025-04-14 22:25:05,903 - INFO - Train Loss: 2.1431, Train Acc: 0.2313
+2025-04-14 22:25:05,904 - INFO - Confidence Threshold: 0.3231
+2025-04-14 22:25:05,905 - INFO - Val Loss: 2.1018, Val Acc: 0.2863
+2025-04-14 22:25:05,905 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:25:23,577 - INFO - Epoch 54/120:
+2025-04-14 22:25:23,580 - INFO - Train Loss: 2.1424, Train Acc: 0.2397
+2025-04-14 22:25:23,580 - INFO - Confidence Threshold: 0.3206
+2025-04-14 22:25:23,581 - INFO - Val Loss: 2.0969, Val Acc: 0.3000
+2025-04-14 22:25:23,748 - INFO - Saved new best model with val_acc: 0.3000
+2025-04-14 22:25:40,735 - INFO - Epoch 55/120:
+2025-04-14 22:25:40,736 - INFO - Train Loss: 2.1428, Train Acc: 0.2412
+2025-04-14 22:25:40,737 - INFO - Confidence Threshold: 0.3185
+2025-04-14 22:25:40,737 - INFO - Val Loss: 2.0974, Val Acc: 0.3013
+2025-04-14 22:25:40,851 - INFO - Saved new best model with val_acc: 0.3013
+2025-04-14 22:25:40,854 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:25:57,532 - INFO - Epoch 56/120:
+2025-04-14 22:25:57,533 - INFO - Train Loss: 2.1267, Train Acc: 0.2450
+2025-04-14 22:25:57,534 - INFO - Confidence Threshold: 0.3163
+2025-04-14 22:25:57,535 - INFO - Val Loss: 2.0892, Val Acc: 0.3063
+2025-04-14 22:25:57,650 - INFO - Saved new best model with val_acc: 0.3063
+2025-04-14 22:26:14,508 - INFO - Epoch 57/120:
+2025-04-14 22:26:14,509 - INFO - Train Loss: 2.1331, Train Acc: 0.2381
+2025-04-14 22:26:14,510 - INFO - Confidence Threshold: 0.3144
+2025-04-14 22:26:14,511 - INFO - Val Loss: 2.0883, Val Acc: 0.3013
+2025-04-14 22:26:31,790 - INFO - Epoch 58/120:
+2025-04-14 22:26:31,792 - INFO - Train Loss: 2.1285, Train Acc: 0.2469
+2025-04-14 22:26:31,794 - INFO - Confidence Threshold: 0.3127
+2025-04-14 22:26:31,795 - INFO - Val Loss: 2.0780, Val Acc: 0.3162
+2025-04-14 22:26:31,962 - INFO - Saved new best model with val_acc: 0.3162
+2025-04-14 22:26:49,422 - INFO - Epoch 59/120:
+2025-04-14 22:26:49,423 - INFO - Train Loss: 2.1242, Train Acc: 0.2481
+2025-04-14 22:26:49,427 - INFO - Confidence Threshold: 0.3113
+2025-04-14 22:26:49,429 - INFO - Val Loss: 2.0750, Val Acc: 0.3225
+2025-04-14 22:26:49,564 - INFO - Saved new best model with val_acc: 0.3225
+2025-04-14 22:27:06,178 - INFO - Epoch 60/120:
+2025-04-14 22:27:06,178 - INFO - Train Loss: 2.1106, Train Acc: 0.2591
+2025-04-14 22:27:06,179 - INFO - Confidence Threshold: 0.3097
+2025-04-14 22:27:06,180 - INFO - Val Loss: 2.0765, Val Acc: 0.3175
+2025-04-14 22:27:06,181 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:27:22,996 - INFO - Epoch 61/120:
+2025-04-14 22:27:22,997 - INFO - Train Loss: 2.1200, Train Acc: 0.2437
+2025-04-14 22:27:22,998 - INFO - Confidence Threshold: 0.3081
+2025-04-14 22:27:22,999 - INFO - Val Loss: 2.0629, Val Acc: 0.3312
+2025-04-14 22:27:23,111 - INFO - Saved new best model with val_acc: 0.3312
+2025-04-14 22:27:39,832 - INFO - Epoch 62/120:
+2025-04-14 22:27:39,833 - INFO - Train Loss: 2.1132, Train Acc: 0.2631
+2025-04-14 22:27:39,835 - INFO - Confidence Threshold: 0.3068
+2025-04-14 22:27:39,836 - INFO - Val Loss: 2.0659, Val Acc: 0.3237
+2025-04-14 22:27:39,837 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:27:58,012 - INFO - Epoch 63/120:
+2025-04-14 22:27:58,013 - INFO - Train Loss: 2.1007, Train Acc: 0.2684
+2025-04-14 22:27:58,014 - INFO - Confidence Threshold: 0.3053
+2025-04-14 22:27:58,015 - INFO - Val Loss: 2.0585, Val Acc: 0.3175
+2025-04-14 22:28:14,891 - INFO - Epoch 64/120:
+2025-04-14 22:28:14,892 - INFO - Train Loss: 2.1009, Train Acc: 0.2641
+2025-04-14 22:28:14,893 - INFO - Confidence Threshold: 0.3040
+2025-04-14 22:28:14,894 - INFO - Val Loss: 2.0488, Val Acc: 0.3362
+2025-04-14 22:28:15,003 - INFO - Saved new best model with val_acc: 0.3362
+2025-04-14 22:28:31,601 - INFO - Epoch 65/120:
+2025-04-14 22:28:31,602 - INFO - Train Loss: 2.1034, Train Acc: 0.2709
+2025-04-14 22:28:31,604 - INFO - Confidence Threshold: 0.3032
+2025-04-14 22:28:31,604 - INFO - Val Loss: 2.0382, Val Acc: 0.3362
+2025-04-14 22:28:48,384 - INFO - Epoch 66/120:
+2025-04-14 22:28:48,384 - INFO - Train Loss: 2.0889, Train Acc: 0.2781
+2025-04-14 22:28:48,386 - INFO - Confidence Threshold: 0.3019
+2025-04-14 22:28:48,386 - INFO - Val Loss: 2.0480, Val Acc: 0.3525
+2025-04-14 22:28:48,503 - INFO - Saved new best model with val_acc: 0.3525
+2025-04-14 22:28:48,504 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:29:06,593 - INFO - Epoch 67/120:
+2025-04-14 22:29:06,594 - INFO - Train Loss: 2.0857, Train Acc: 0.2787
+2025-04-14 22:29:06,595 - INFO - Confidence Threshold: 0.3009
+2025-04-14 22:29:06,596 - INFO - Val Loss: 2.0542, Val Acc: 0.3463
+2025-04-14 22:29:06,596 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:29:23,331 - INFO - Epoch 68/120:
+2025-04-14 22:29:23,332 - INFO - Train Loss: 2.0867, Train Acc: 0.2828
+2025-04-14 22:29:23,334 - INFO - Confidence Threshold: 0.3001
+2025-04-14 22:29:23,336 - INFO - Val Loss: 2.0355, Val Acc: 0.3500
+2025-04-14 22:29:40,085 - INFO - Epoch 69/120:
+2025-04-14 22:29:40,086 - INFO - Train Loss: 2.0841, Train Acc: 0.2784
+2025-04-14 22:29:40,087 - INFO - Confidence Threshold: 0.2992
+2025-04-14 22:29:40,088 - INFO - Val Loss: 2.0243, Val Acc: 0.3725
+2025-04-14 22:29:40,211 - INFO - Saved new best model with val_acc: 0.3725
+2025-04-14 22:29:56,956 - INFO - Epoch 70/120:
+2025-04-14 22:29:56,957 - INFO - Train Loss: 2.0865, Train Acc: 0.2919
+2025-04-14 22:29:56,958 - INFO - Confidence Threshold: 0.2987
+2025-04-14 22:29:56,959 - INFO - Val Loss: 2.0309, Val Acc: 0.3538
+2025-04-14 22:29:56,960 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:30:14,623 - INFO - Epoch 71/120:
+2025-04-14 22:30:14,624 - INFO - Train Loss: 2.0783, Train Acc: 0.2778
+2025-04-14 22:30:14,626 - INFO - Confidence Threshold: 0.2977
+2025-04-14 22:30:14,628 - INFO - Val Loss: 2.0192, Val Acc: 0.3713
+2025-04-14 22:30:31,312 - INFO - Epoch 72/120:
+2025-04-14 22:30:31,313 - INFO - Train Loss: 2.0736, Train Acc: 0.2834
+2025-04-14 22:30:31,314 - INFO - Confidence Threshold: 0.2970
+2025-04-14 22:30:31,315 - INFO - Val Loss: 2.0130, Val Acc: 0.3725
+2025-04-14 22:30:47,918 - INFO - Epoch 73/120:
+2025-04-14 22:30:47,918 - INFO - Train Loss: 2.0649, Train Acc: 0.3072
+2025-04-14 22:30:47,920 - INFO - Confidence Threshold: 0.2968
+2025-04-14 22:30:47,922 - INFO - Val Loss: 2.0117, Val Acc: 0.3738
+2025-04-14 22:30:48,038 - INFO - Saved new best model with val_acc: 0.3738
+2025-04-14 22:31:04,606 - INFO - Epoch 74/120:
+2025-04-14 22:31:04,606 - INFO - Train Loss: 2.0619, Train Acc: 0.3063
+2025-04-14 22:31:04,608 - INFO - Confidence Threshold: 0.2965
+2025-04-14 22:31:04,608 - INFO - Val Loss: 2.0100, Val Acc: 0.3862
+2025-04-14 22:31:04,715 - INFO - Saved new best model with val_acc: 0.3862
+2025-04-14 22:31:21,598 - INFO - Epoch 75/120:
+2025-04-14 22:31:21,601 - INFO - Train Loss: 2.0581, Train Acc: 0.3028
+2025-04-14 22:31:21,602 - INFO - Confidence Threshold: 0.2961
+2025-04-14 22:31:21,605 - INFO - Val Loss: 1.9975, Val Acc: 0.4062
+2025-04-14 22:31:21,768 - INFO - Saved new best model with val_acc: 0.4062
+2025-04-14 22:31:39,626 - INFO - Epoch 76/120:
+2025-04-14 22:31:39,627 - INFO - Train Loss: 2.0493, Train Acc: 0.3044
+2025-04-14 22:31:39,628 - INFO - Confidence Threshold: 0.2960
+2025-04-14 22:31:39,629 - INFO - Val Loss: 1.9992, Val Acc: 0.4113
+2025-04-14 22:31:39,743 - INFO - Saved new best model with val_acc: 0.4113
+2025-04-14 22:31:39,744 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:31:56,309 - INFO - Epoch 77/120:
+2025-04-14 22:31:56,310 - INFO - Train Loss: 2.0472, Train Acc: 0.3116
+2025-04-14 22:31:56,311 - INFO - Confidence Threshold: 0.2956
+2025-04-14 22:31:56,312 - INFO - Val Loss: 2.0055, Val Acc: 0.4012
+2025-04-14 22:31:56,313 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:32:12,843 - INFO - Epoch 78/120:
+2025-04-14 22:32:12,843 - INFO - Train Loss: 2.0546, Train Acc: 0.2969
+2025-04-14 22:32:12,844 - INFO - Confidence Threshold: 0.2954
+2025-04-14 22:32:12,845 - INFO - Val Loss: 1.9831, Val Acc: 0.4075
+2025-04-14 22:32:29,504 - INFO - Epoch 79/120:
+2025-04-14 22:32:29,504 - INFO - Train Loss: 2.0449, Train Acc: 0.3137
+2025-04-14 22:32:29,505 - INFO - Confidence Threshold: 0.2951
+2025-04-14 22:32:29,506 - INFO - Val Loss: 1.9851, Val Acc: 0.4050
+2025-04-14 22:32:29,507 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:32:47,386 - INFO - Epoch 80/120:
+2025-04-14 22:32:47,387 - INFO - Train Loss: 2.0311, Train Acc: 0.3331
+2025-04-14 22:32:47,388 - INFO - Confidence Threshold: 0.2949
+2025-04-14 22:32:47,389 - INFO - Val Loss: 1.9844, Val Acc: 0.4050
+2025-04-14 22:32:47,390 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:33:04,062 - INFO - Epoch 81/120:
+2025-04-14 22:33:04,062 - INFO - Train Loss: 2.0422, Train Acc: 0.3150
+2025-04-14 22:33:04,063 - INFO - Confidence Threshold: 0.2952
+2025-04-14 22:33:04,064 - INFO - Val Loss: 1.9746, Val Acc: 0.4125
+2025-04-14 22:33:04,178 - INFO - Saved new best model with val_acc: 0.4125
+2025-04-14 22:33:20,864 - INFO - Epoch 82/120:
+2025-04-14 22:33:20,865 - INFO - Train Loss: 2.0337, Train Acc: 0.3275
+2025-04-14 22:33:20,866 - INFO - Confidence Threshold: 0.2950
+2025-04-14 22:33:20,867 - INFO - Val Loss: 1.9704, Val Acc: 0.4350
+2025-04-14 22:33:20,981 - INFO - Saved new best model with val_acc: 0.4350
+2025-04-14 22:33:37,497 - INFO - Epoch 83/120:
+2025-04-14 22:33:37,498 - INFO - Train Loss: 2.0083, Train Acc: 0.3397
+2025-04-14 22:33:37,499 - INFO - Confidence Threshold: 0.2946
+2025-04-14 22:33:37,500 - INFO - Val Loss: 1.9715, Val Acc: 0.4200
+2025-04-14 22:33:37,500 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:33:54,909 - INFO - Epoch 84/120:
+2025-04-14 22:33:54,913 - INFO - Train Loss: 2.0232, Train Acc: 0.3328
+2025-04-14 22:33:54,914 - INFO - Confidence Threshold: 0.2946
+2025-04-14 22:33:54,915 - INFO - Val Loss: 1.9656, Val Acc: 0.4313
+2025-04-14 22:34:12,229 - INFO - Epoch 85/120:
+2025-04-14 22:34:12,229 - INFO - Train Loss: 2.0262, Train Acc: 0.3303
+2025-04-14 22:34:12,230 - INFO - Confidence Threshold: 0.2946
+2025-04-14 22:34:12,231 - INFO - Val Loss: 1.9571, Val Acc: 0.4400
+2025-04-14 22:34:12,347 - INFO - Saved new best model with val_acc: 0.4400
+2025-04-14 22:34:29,130 - INFO - Epoch 86/120:
+2025-04-14 22:34:29,131 - INFO - Train Loss: 2.0086, Train Acc: 0.3494
+2025-04-14 22:34:29,133 - INFO - Confidence Threshold: 0.2945
+2025-04-14 22:34:29,134 - INFO - Val Loss: 1.9453, Val Acc: 0.4300
+2025-04-14 22:34:45,909 - INFO - Epoch 87/120:
+2025-04-14 22:34:45,909 - INFO - Train Loss: 2.0119, Train Acc: 0.3441
+2025-04-14 22:34:45,911 - INFO - Confidence Threshold: 0.2947
+2025-04-14 22:34:45,913 - INFO - Val Loss: 1.9471, Val Acc: 0.4325
+2025-04-14 22:34:45,914 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:35:03,020 - INFO - Epoch 88/120:
+2025-04-14 22:35:03,021 - INFO - Train Loss: 2.0034, Train Acc: 0.3381
+2025-04-14 22:35:03,022 - INFO - Confidence Threshold: 0.2951
+2025-04-14 22:35:03,023 - INFO - Val Loss: 1.9481, Val Acc: 0.4537
+2025-04-14 22:35:03,192 - INFO - Saved new best model with val_acc: 0.4537
+2025-04-14 22:35:03,194 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:35:21,071 - INFO - Epoch 89/120:
+2025-04-14 22:35:21,072 - INFO - Train Loss: 2.0069, Train Acc: 0.3447
+2025-04-14 22:35:21,073 - INFO - Confidence Threshold: 0.2959
+2025-04-14 22:35:21,074 - INFO - Val Loss: 1.9314, Val Acc: 0.4487
+2025-04-14 22:35:37,570 - INFO - Epoch 90/120:
+2025-04-14 22:35:37,570 - INFO - Train Loss: 1.9953, Train Acc: 0.3575
+2025-04-14 22:35:37,571 - INFO - Confidence Threshold: 0.2966
+2025-04-14 22:35:37,572 - INFO - Val Loss: 1.9286, Val Acc: 0.4575
+2025-04-14 22:35:37,683 - INFO - Saved new best model with val_acc: 0.4575
+2025-04-14 22:35:54,432 - INFO - Epoch 91/120:
+2025-04-14 22:35:54,433 - INFO - Train Loss: 1.9926, Train Acc: 0.3500
+2025-04-14 22:35:54,434 - INFO - Confidence Threshold: 0.2970
+2025-04-14 22:35:54,434 - INFO - Val Loss: 1.9339, Val Acc: 0.4500
+2025-04-14 22:35:54,435 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:36:11,030 - INFO - Epoch 92/120:
+2025-04-14 22:36:11,031 - INFO - Train Loss: 1.9886, Train Acc: 0.3556
+2025-04-14 22:36:11,032 - INFO - Confidence Threshold: 0.2974
+2025-04-14 22:36:11,033 - INFO - Val Loss: 1.9297, Val Acc: 0.4525
+2025-04-14 22:36:11,034 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:36:28,622 - INFO - Epoch 93/120:
+2025-04-14 22:36:28,623 - INFO - Train Loss: 1.9831, Train Acc: 0.3653
+2025-04-14 22:36:28,624 - INFO - Confidence Threshold: 0.2975
+2025-04-14 22:36:28,625 - INFO - Val Loss: 1.9211, Val Acc: 0.4537
+2025-04-14 22:36:45,480 - INFO - Epoch 94/120:
+2025-04-14 22:36:45,481 - INFO - Train Loss: 1.9723, Train Acc: 0.3613
+2025-04-14 22:36:45,482 - INFO - Confidence Threshold: 0.2983
+2025-04-14 22:36:45,486 - INFO - Val Loss: 1.9056, Val Acc: 0.4612
+2025-04-14 22:36:45,600 - INFO - Saved new best model with val_acc: 0.4612
+2025-04-14 22:37:02,345 - INFO - Epoch 95/120:
+2025-04-14 22:37:02,346 - INFO - Train Loss: 1.9723, Train Acc: 0.3744
+2025-04-14 22:37:02,347 - INFO - Confidence Threshold: 0.2989
+2025-04-14 22:37:02,347 - INFO - Val Loss: 1.9022, Val Acc: 0.4637
+2025-04-14 22:37:02,460 - INFO - Saved new best model with val_acc: 0.4637
+2025-04-14 22:37:19,065 - INFO - Epoch 96/120:
+2025-04-14 22:37:19,066 - INFO - Train Loss: 1.9634, Train Acc: 0.3816
+2025-04-14 22:37:19,068 - INFO - Confidence Threshold: 0.2995
+2025-04-14 22:37:19,070 - INFO - Val Loss: 1.9005, Val Acc: 0.4662
+2025-04-14 22:37:19,182 - INFO - Saved new best model with val_acc: 0.4662
+2025-04-14 22:37:36,083 - INFO - Epoch 97/120:
+2025-04-14 22:37:36,085 - INFO - Train Loss: 1.9487, Train Acc: 0.3753
+2025-04-14 22:37:36,086 - INFO - Confidence Threshold: 0.2997
+2025-04-14 22:37:36,087 - INFO - Val Loss: 1.8989, Val Acc: 0.4650
+2025-04-14 22:37:53,833 - INFO - Epoch 98/120:
+2025-04-14 22:37:53,834 - INFO - Train Loss: 1.9713, Train Acc: 0.3678
+2025-04-14 22:37:53,835 - INFO - Confidence Threshold: 0.3005
+2025-04-14 22:37:53,836 - INFO - Val Loss: 1.9031, Val Acc: 0.4700
+2025-04-14 22:37:53,952 - INFO - Saved new best model with val_acc: 0.4700
+2025-04-14 22:37:53,954 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:38:10,410 - INFO - Epoch 99/120:
+2025-04-14 22:38:10,411 - INFO - Train Loss: 1.9514, Train Acc: 0.3800
+2025-04-14 22:38:10,412 - INFO - Confidence Threshold: 0.3013
+2025-04-14 22:38:10,413 - INFO - Val Loss: 1.8875, Val Acc: 0.4700
+2025-04-14 22:38:27,163 - INFO - Epoch 100/120:
+2025-04-14 22:38:27,164 - INFO - Train Loss: 1.9476, Train Acc: 0.3844
+2025-04-14 22:38:27,165 - INFO - Confidence Threshold: 0.3018
+2025-04-14 22:38:27,166 - INFO - Val Loss: 1.8920, Val Acc: 0.4875
+2025-04-14 22:38:27,282 - INFO - Saved new best model with val_acc: 0.4875
+2025-04-14 22:38:27,284 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:38:43,823 - INFO - Epoch 101/120:
+2025-04-14 22:38:43,824 - INFO - Train Loss: 1.9328, Train Acc: 0.3997
+2025-04-14 22:38:43,825 - INFO - Confidence Threshold: 0.3024
+2025-04-14 22:38:43,826 - INFO - Val Loss: 1.8871, Val Acc: 0.4750
+2025-04-14 22:39:01,778 - INFO - Epoch 102/120:
+2025-04-14 22:39:01,780 - INFO - Train Loss: 1.9344, Train Acc: 0.3997
+2025-04-14 22:39:01,782 - INFO - Confidence Threshold: 0.3031
+2025-04-14 22:39:01,783 - INFO - Val Loss: 1.8744, Val Acc: 0.4863
+2025-04-14 22:39:18,374 - INFO - Epoch 103/120:
+2025-04-14 22:39:18,374 - INFO - Train Loss: 1.9316, Train Acc: 0.3916
+2025-04-14 22:39:18,376 - INFO - Confidence Threshold: 0.3034
+2025-04-14 22:39:18,376 - INFO - Val Loss: 1.8669, Val Acc: 0.4900
+2025-04-14 22:39:18,491 - INFO - Saved new best model with val_acc: 0.4900
+2025-04-14 22:39:35,152 - INFO - Epoch 104/120:
+2025-04-14 22:39:35,153 - INFO - Train Loss: 1.9261, Train Acc: 0.4031
+2025-04-14 22:39:35,154 - INFO - Confidence Threshold: 0.3040
+2025-04-14 22:39:35,155 - INFO - Val Loss: 1.8639, Val Acc: 0.4963
+2025-04-14 22:39:35,272 - INFO - Saved new best model with val_acc: 0.4963
+2025-04-14 22:39:51,928 - INFO - Epoch 105/120:
+2025-04-14 22:39:51,929 - INFO - Train Loss: 1.9237, Train Acc: 0.3975
+2025-04-14 22:39:51,930 - INFO - Confidence Threshold: 0.3045
+2025-04-14 22:39:51,931 - INFO - Val Loss: 1.8615, Val Acc: 0.5012
+2025-04-14 22:39:52,049 - INFO - Saved new best model with val_acc: 0.5012
+2025-04-14 22:40:09,391 - INFO - Epoch 106/120:
+2025-04-14 22:40:09,393 - INFO - Train Loss: 1.9241, Train Acc: 0.4028
+2025-04-14 22:40:09,393 - INFO - Confidence Threshold: 0.3055
+2025-04-14 22:40:09,394 - INFO - Val Loss: 1.8516, Val Acc: 0.5125
+2025-04-14 22:40:09,551 - INFO - Saved new best model with val_acc: 0.5125
+2025-04-14 22:40:26,672 - INFO - Epoch 107/120:
+2025-04-14 22:40:26,673 - INFO - Train Loss: 1.9194, Train Acc: 0.3891
+2025-04-14 22:40:26,674 - INFO - Confidence Threshold: 0.3061
+2025-04-14 22:40:26,675 - INFO - Val Loss: 1.8300, Val Acc: 0.5062
+2025-04-14 22:40:43,246 - INFO - Epoch 108/120:
+2025-04-14 22:40:43,247 - INFO - Train Loss: 1.9226, Train Acc: 0.3947
+2025-04-14 22:40:43,248 - INFO - Confidence Threshold: 0.3075
+2025-04-14 22:40:43,248 - INFO - Val Loss: 1.8404, Val Acc: 0.5100
+2025-04-14 22:40:43,250 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:40:59,914 - INFO - Epoch 109/120:
+2025-04-14 22:40:59,914 - INFO - Train Loss: 1.9079, Train Acc: 0.4081
+2025-04-14 22:40:59,915 - INFO - Confidence Threshold: 0.3087
+2025-04-14 22:40:59,917 - INFO - Val Loss: 1.8417, Val Acc: 0.5225
+2025-04-14 22:41:00,034 - INFO - Saved new best model with val_acc: 0.5225
+2025-04-14 22:41:00,035 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:41:16,635 - INFO - Epoch 110/120:
+2025-04-14 22:41:16,636 - INFO - Train Loss: 1.9052, Train Acc: 0.4194
+2025-04-14 22:41:16,637 - INFO - Confidence Threshold: 0.3099
+2025-04-14 22:41:16,638 - INFO - Val Loss: 1.8411, Val Acc: 0.5162
+2025-04-14 22:41:16,639 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 22:41:35,396 - INFO - Epoch 111/120:
+2025-04-14 22:41:35,397 - INFO - Train Loss: 1.8963, Train Acc: 0.4153
+2025-04-14 22:41:35,398 - INFO - Confidence Threshold: 0.3107
+2025-04-14 22:41:35,399 - INFO - Val Loss: 1.8311, Val Acc: 0.5175
+2025-04-14 22:41:35,400 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 22:41:52,093 - INFO - Epoch 112/120:
+2025-04-14 22:41:52,094 - INFO - Train Loss: 1.8915, Train Acc: 0.4206
+2025-04-14 22:41:52,096 - INFO - Confidence Threshold: 0.3118
+2025-04-14 22:41:52,096 - INFO - Val Loss: 1.8251, Val Acc: 0.5275
+2025-04-14 22:41:52,212 - INFO - Saved new best model with val_acc: 0.5275
+2025-04-14 22:42:09,221 - INFO - Epoch 113/120:
+2025-04-14 22:42:09,222 - INFO - Train Loss: 1.8799, Train Acc: 0.4275
+2025-04-14 22:42:09,223 - INFO - Confidence Threshold: 0.3131
+2025-04-14 22:42:09,224 - INFO - Val Loss: 1.8137, Val Acc: 0.5350
+2025-04-14 22:42:09,344 - INFO - Saved new best model with val_acc: 0.5350
+2025-04-14 22:42:26,249 - INFO - Epoch 114/120:
+2025-04-14 22:42:26,250 - INFO - Train Loss: 1.8743, Train Acc: 0.4384
+2025-04-14 22:42:26,251 - INFO - Confidence Threshold: 0.3142
+2025-04-14 22:42:26,252 - INFO - Val Loss: 1.7993, Val Acc: 0.5288
+2025-04-14 22:42:44,259 - INFO - Epoch 115/120:
+2025-04-14 22:42:44,259 - INFO - Train Loss: 1.8763, Train Acc: 0.4316
+2025-04-14 22:42:44,261 - INFO - Confidence Threshold: 0.3150
+2025-04-14 22:42:44,261 - INFO - Val Loss: 1.7978, Val Acc: 0.5312
+2025-04-14 22:43:00,906 - INFO - Epoch 116/120:
+2025-04-14 22:43:00,906 - INFO - Train Loss: 1.8725, Train Acc: 0.4300
+2025-04-14 22:43:00,908 - INFO - Confidence Threshold: 0.3161
+2025-04-14 22:43:00,908 - INFO - Val Loss: 1.7992, Val Acc: 0.5262
+2025-04-14 22:43:00,909 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:43:17,752 - INFO - Epoch 117/120:
+2025-04-14 22:43:17,753 - INFO - Train Loss: 1.8583, Train Acc: 0.4381
+2025-04-14 22:43:17,754 - INFO - Confidence Threshold: 0.3172
+2025-04-14 22:43:17,755 - INFO - Val Loss: 1.7866, Val Acc: 0.5475
+2025-04-14 22:43:17,873 - INFO - Saved new best model with val_acc: 0.5475
+2025-04-14 22:43:34,833 - INFO - Epoch 118/120:
+2025-04-14 22:43:34,834 - INFO - Train Loss: 1.8612, Train Acc: 0.4497
+2025-04-14 22:43:34,835 - INFO - Confidence Threshold: 0.3184
+2025-04-14 22:43:34,836 - INFO - Val Loss: 1.7800, Val Acc: 0.5513
+2025-04-14 22:43:34,949 - INFO - Saved new best model with val_acc: 0.5513
+2025-04-14 22:43:52,824 - INFO - Epoch 119/120:
+2025-04-14 22:43:52,827 - INFO - Train Loss: 1.8551, Train Acc: 0.4350
+2025-04-14 22:43:52,828 - INFO - Confidence Threshold: 0.3191
+2025-04-14 22:43:52,828 - INFO - Val Loss: 1.7860, Val Acc: 0.5425
+2025-04-14 22:43:52,829 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:44:09,821 - INFO - Epoch 120/120:
+2025-04-14 22:44:09,822 - INFO - Train Loss: 1.8561, Train Acc: 0.4416
+2025-04-14 22:44:09,823 - INFO - Confidence Threshold: 0.3202
+2025-04-14 22:44:09,824 - INFO - Val Loss: 1.7750, Val Acc: 0.5437
+2025-04-14 22:44:09,847 - INFO - 
+Starting Fold 2/5
+2025-04-14 22:44:10,081 - INFO - Starting learning rate finder...
+2025-04-14 22:44:13,645 - INFO - Optimal learning rate found: 0.000003
+2025-04-14 22:44:30,394 - INFO - Epoch 1/120:
+2025-04-14 22:44:30,395 - INFO - Train Loss: 2.4524, Train Acc: 0.0862
+2025-04-14 22:44:30,396 - INFO - Confidence Threshold: 0.9200
+2025-04-14 22:44:30,397 - INFO - Val Loss: 2.4614, Val Acc: 0.0750
+2025-04-14 22:44:48,337 - INFO - Epoch 2/120:
+2025-04-14 22:44:48,341 - INFO - Train Loss: 2.4494, Train Acc: 0.0856
+2025-04-14 22:44:48,342 - INFO - Confidence Threshold: 0.8914
+2025-04-14 22:44:48,343 - INFO - Val Loss: 2.4597, Val Acc: 0.0750
+2025-04-14 22:45:04,971 - INFO - Epoch 3/120:
+2025-04-14 22:45:04,972 - INFO - Train Loss: 2.4490, Train Acc: 0.0841
+2025-04-14 22:45:04,973 - INFO - Confidence Threshold: 0.8640
+2025-04-14 22:45:04,974 - INFO - Val Loss: 2.4552, Val Acc: 0.0700
+2025-04-14 22:45:21,432 - INFO - Epoch 4/120:
+2025-04-14 22:45:21,433 - INFO - Train Loss: 2.4566, Train Acc: 0.0850
+2025-04-14 22:45:21,434 - INFO - Confidence Threshold: 0.8379
+2025-04-14 22:45:21,435 - INFO - Val Loss: 2.4470, Val Acc: 0.0762
+2025-04-14 22:45:38,068 - INFO - Epoch 5/120:
+2025-04-14 22:45:38,069 - INFO - Train Loss: 2.4612, Train Acc: 0.0813
+2025-04-14 22:45:38,070 - INFO - Confidence Threshold: 0.8133
+2025-04-14 22:45:38,072 - INFO - Val Loss: 2.4488, Val Acc: 0.0775
+2025-04-14 22:45:38,073 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:45:54,656 - INFO - Epoch 6/120:
+2025-04-14 22:45:54,657 - INFO - Train Loss: 2.4553, Train Acc: 0.0809
+2025-04-14 22:45:54,658 - INFO - Confidence Threshold: 0.7906
+2025-04-14 22:45:54,658 - INFO - Val Loss: 2.4484, Val Acc: 0.0775
+2025-04-14 22:45:54,660 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:46:12,616 - INFO - Epoch 7/120:
+2025-04-14 22:46:12,617 - INFO - Train Loss: 2.4500, Train Acc: 0.0891
+2025-04-14 22:46:12,618 - INFO - Confidence Threshold: 0.7680
+2025-04-14 22:46:12,619 - INFO - Val Loss: 2.4572, Val Acc: 0.0712
+2025-04-14 22:46:12,620 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 22:46:29,321 - INFO - Epoch 8/120:
+2025-04-14 22:46:29,322 - INFO - Train Loss: 2.4451, Train Acc: 0.0941
+2025-04-14 22:46:29,323 - INFO - Confidence Threshold: 0.7471
+2025-04-14 22:46:29,324 - INFO - Val Loss: 2.4535, Val Acc: 0.0813
+2025-04-14 22:46:29,325 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 22:46:45,884 - INFO - Epoch 9/120:
+2025-04-14 22:46:45,885 - INFO - Train Loss: 2.4495, Train Acc: 0.0912
+2025-04-14 22:46:45,886 - INFO - Confidence Threshold: 0.7269
+2025-04-14 22:46:45,887 - INFO - Val Loss: 2.4603, Val Acc: 0.0725
+2025-04-14 22:46:45,888 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 22:47:02,456 - INFO - Epoch 10/120:
+2025-04-14 22:47:02,456 - INFO - Train Loss: 2.4495, Train Acc: 0.0903
+2025-04-14 22:47:02,458 - INFO - Confidence Threshold: 0.7078
+2025-04-14 22:47:02,459 - INFO - Val Loss: 2.4519, Val Acc: 0.0750
+2025-04-14 22:47:02,460 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 22:47:20,145 - INFO - Epoch 11/120:
+2025-04-14 22:47:20,152 - INFO - Train Loss: 2.4528, Train Acc: 0.0828
+2025-04-14 22:47:20,153 - INFO - Confidence Threshold: 0.6897
+2025-04-14 22:47:20,154 - INFO - Val Loss: 2.4568, Val Acc: 0.0762
+2025-04-14 22:47:20,154 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 22:47:36,963 - INFO - Epoch 12/120:
+2025-04-14 22:47:36,963 - INFO - Train Loss: 2.4532, Train Acc: 0.0941
+2025-04-14 22:47:36,965 - INFO - Confidence Threshold: 0.6725
+2025-04-14 22:47:36,965 - INFO - Val Loss: 2.4508, Val Acc: 0.0725
+2025-04-14 22:47:36,966 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 22:47:53,544 - INFO - Epoch 13/120:
+2025-04-14 22:47:53,545 - INFO - Train Loss: 2.4596, Train Acc: 0.0731
+2025-04-14 22:47:53,547 - INFO - Confidence Threshold: 0.6563
+2025-04-14 22:47:53,547 - INFO - Val Loss: 2.4643, Val Acc: 0.0725
+2025-04-14 22:47:53,549 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 22:48:10,185 - INFO - Epoch 14/120:
+2025-04-14 22:48:10,185 - INFO - Train Loss: 2.4434, Train Acc: 0.0922
+2025-04-14 22:48:10,187 - INFO - Confidence Threshold: 0.6408
+2025-04-14 22:48:10,187 - INFO - Val Loss: 2.4541, Val Acc: 0.0775
+2025-04-14 22:48:10,188 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 22:48:10,190 - INFO - Early stopping triggered!
+2025-04-14 22:48:10,194 - INFO - 
+Starting Fold 3/5
+2025-04-14 22:48:10,427 - INFO - Starting learning rate finder...
+2025-04-14 22:48:14,219 - INFO - Optimal learning rate found: 0.000000
+2025-04-14 22:48:31,560 - INFO - Epoch 1/120:
+2025-04-14 22:48:31,560 - INFO - Train Loss: 2.3849, Train Acc: 0.1141
+2025-04-14 22:48:31,562 - INFO - Confidence Threshold: 0.9184
+2025-04-14 22:48:31,563 - INFO - Val Loss: 2.3141, Val Acc: 0.1338
+2025-04-14 22:48:48,405 - INFO - Epoch 2/120:
+2025-04-14 22:48:48,406 - INFO - Train Loss: 2.3742, Train Acc: 0.1169
+2025-04-14 22:48:48,408 - INFO - Confidence Threshold: 0.8883
+2025-04-14 22:48:48,410 - INFO - Val Loss: 2.3201, Val Acc: 0.1363
+2025-04-14 22:48:48,412 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:49:05,109 - INFO - Epoch 3/120:
+2025-04-14 22:49:05,109 - INFO - Train Loss: 2.3715, Train Acc: 0.1244
+2025-04-14 22:49:05,111 - INFO - Confidence Threshold: 0.8602
+2025-04-14 22:49:05,112 - INFO - Val Loss: 2.3180, Val Acc: 0.1388
+2025-04-14 22:49:05,113 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:49:21,680 - INFO - Epoch 4/120:
+2025-04-14 22:49:21,680 - INFO - Train Loss: 2.3881, Train Acc: 0.1116
+2025-04-14 22:49:21,681 - INFO - Confidence Threshold: 0.8331
+2025-04-14 22:49:21,683 - INFO - Val Loss: 2.3241, Val Acc: 0.1375
+2025-04-14 22:49:21,684 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 22:49:39,643 - INFO - Epoch 5/120:
+2025-04-14 22:49:39,644 - INFO - Train Loss: 2.3828, Train Acc: 0.1141
+2025-04-14 22:49:39,645 - INFO - Confidence Threshold: 0.8071
+2025-04-14 22:49:39,646 - INFO - Val Loss: 2.3312, Val Acc: 0.1375
+2025-04-14 22:49:39,647 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 22:49:56,361 - INFO - Epoch 6/120:
+2025-04-14 22:49:56,362 - INFO - Train Loss: 2.3729, Train Acc: 0.1206
+2025-04-14 22:49:56,363 - INFO - Confidence Threshold: 0.7829
+2025-04-14 22:49:56,363 - INFO - Val Loss: 2.3248, Val Acc: 0.1375
+2025-04-14 22:49:56,364 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 22:50:13,091 - INFO - Epoch 7/120:
+2025-04-14 22:50:13,092 - INFO - Train Loss: 2.3881, Train Acc: 0.1153
+2025-04-14 22:50:13,094 - INFO - Confidence Threshold: 0.7597
+2025-04-14 22:50:13,096 - INFO - Val Loss: 2.3283, Val Acc: 0.1388
+2025-04-14 22:50:13,098 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 22:50:29,729 - INFO - Epoch 8/120:
+2025-04-14 22:50:29,730 - INFO - Train Loss: 2.3719, Train Acc: 0.1184
+2025-04-14 22:50:29,731 - INFO - Confidence Threshold: 0.7375
+2025-04-14 22:50:29,732 - INFO - Val Loss: 2.3213, Val Acc: 0.1462
+2025-04-14 22:50:29,733 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 22:50:47,529 - INFO - Epoch 9/120:
+2025-04-14 22:50:47,530 - INFO - Train Loss: 2.3830, Train Acc: 0.1178
+2025-04-14 22:50:47,531 - INFO - Confidence Threshold: 0.7162
+2025-04-14 22:50:47,532 - INFO - Val Loss: 2.3198, Val Acc: 0.1437
+2025-04-14 22:50:47,532 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 22:51:04,218 - INFO - Epoch 10/120:
+2025-04-14 22:51:04,218 - INFO - Train Loss: 2.3815, Train Acc: 0.1184
+2025-04-14 22:51:04,220 - INFO - Confidence Threshold: 0.6964
+2025-04-14 22:51:04,221 - INFO - Val Loss: 2.3233, Val Acc: 0.1437
+2025-04-14 22:51:04,222 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 22:51:20,751 - INFO - Epoch 11/120:
+2025-04-14 22:51:20,751 - INFO - Train Loss: 2.3786, Train Acc: 0.1147
+2025-04-14 22:51:20,754 - INFO - Confidence Threshold: 0.6773
+2025-04-14 22:51:20,757 - INFO - Val Loss: 2.3277, Val Acc: 0.1437
+2025-04-14 22:51:20,758 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 22:51:20,759 - INFO - Early stopping triggered!
+2025-04-14 22:51:20,766 - INFO - 
+Starting Fold 4/5
+2025-04-14 22:51:20,989 - INFO - Starting learning rate finder...
+2025-04-14 22:51:24,417 - INFO - Optimal learning rate found: 0.000229
+2025-04-14 22:51:42,025 - INFO - Epoch 1/120:
+2025-04-14 22:51:42,029 - INFO - Train Loss: 2.3743, Train Acc: 0.1116
+2025-04-14 22:51:42,031 - INFO - Confidence Threshold: 0.9171
+2025-04-14 22:51:42,031 - INFO - Val Loss: 2.3013, Val Acc: 0.1437
+2025-04-14 22:51:59,152 - INFO - Epoch 2/120:
+2025-04-14 22:51:59,153 - INFO - Train Loss: 2.3472, Train Acc: 0.1272
+2025-04-14 22:51:59,154 - INFO - Confidence Threshold: 0.8857
+2025-04-14 22:51:59,155 - INFO - Val Loss: 2.2955, Val Acc: 0.1537
+2025-04-14 22:52:16,041 - INFO - Epoch 3/120:
+2025-04-14 22:52:16,041 - INFO - Train Loss: 2.3375, Train Acc: 0.1306
+2025-04-14 22:52:16,043 - INFO - Confidence Threshold: 0.8558
+2025-04-14 22:52:16,044 - INFO - Val Loss: 2.2887, Val Acc: 0.1425
+2025-04-14 22:52:32,673 - INFO - Epoch 4/120:
+2025-04-14 22:52:32,674 - INFO - Train Loss: 2.3365, Train Acc: 0.1275
+2025-04-14 22:52:32,676 - INFO - Confidence Threshold: 0.8274
+2025-04-14 22:52:32,676 - INFO - Val Loss: 2.2865, Val Acc: 0.1462
+2025-04-14 22:52:49,519 - INFO - Epoch 5/120:
+2025-04-14 22:52:49,521 - INFO - Train Loss: 2.3387, Train Acc: 0.1325
+2025-04-14 22:52:49,521 - INFO - Confidence Threshold: 0.8006
+2025-04-14 22:52:49,523 - INFO - Val Loss: 2.2845, Val Acc: 0.1600
+2025-04-14 22:53:07,313 - INFO - Epoch 6/120:
+2025-04-14 22:53:07,314 - INFO - Train Loss: 2.3460, Train Acc: 0.1203
+2025-04-14 22:53:07,315 - INFO - Confidence Threshold: 0.7747
+2025-04-14 22:53:07,316 - INFO - Val Loss: 2.2797, Val Acc: 0.1588
+2025-04-14 22:53:23,898 - INFO - Epoch 7/120:
+2025-04-14 22:53:23,899 - INFO - Train Loss: 2.3284, Train Acc: 0.1338
+2025-04-14 22:53:23,900 - INFO - Confidence Threshold: 0.7502
+2025-04-14 22:53:23,903 - INFO - Val Loss: 2.2689, Val Acc: 0.1537
+2025-04-14 22:53:40,676 - INFO - Epoch 8/120:
+2025-04-14 22:53:40,677 - INFO - Train Loss: 2.3267, Train Acc: 0.1306
+2025-04-14 22:53:40,679 - INFO - Confidence Threshold: 0.7267
+2025-04-14 22:53:40,680 - INFO - Val Loss: 2.2751, Val Acc: 0.1600
+2025-04-14 22:53:40,680 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:53:57,334 - INFO - Epoch 9/120:
+2025-04-14 22:53:57,335 - INFO - Train Loss: 2.3309, Train Acc: 0.1300
+2025-04-14 22:53:57,336 - INFO - Confidence Threshold: 0.7045
+2025-04-14 22:53:57,337 - INFO - Val Loss: 2.2630, Val Acc: 0.1575
+2025-04-14 22:54:14,983 - INFO - Epoch 10/120:
+2025-04-14 22:54:14,984 - INFO - Train Loss: 2.3112, Train Acc: 0.1353
+2025-04-14 22:54:14,985 - INFO - Confidence Threshold: 0.6836
+2025-04-14 22:54:14,985 - INFO - Val Loss: 2.2643, Val Acc: 0.1588
+2025-04-14 22:54:14,986 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:54:31,584 - INFO - Epoch 11/120:
+2025-04-14 22:54:31,585 - INFO - Train Loss: 2.3190, Train Acc: 0.1347
+2025-04-14 22:54:31,586 - INFO - Confidence Threshold: 0.6641
+2025-04-14 22:54:31,587 - INFO - Val Loss: 2.2579, Val Acc: 0.1575
+2025-04-14 22:54:48,262 - INFO - Epoch 12/120:
+2025-04-14 22:54:48,263 - INFO - Train Loss: 2.3153, Train Acc: 0.1409
+2025-04-14 22:54:48,264 - INFO - Confidence Threshold: 0.6449
+2025-04-14 22:54:48,265 - INFO - Val Loss: 2.2568, Val Acc: 0.1737
+2025-04-14 22:55:04,866 - INFO - Epoch 13/120:
+2025-04-14 22:55:04,867 - INFO - Train Loss: 2.3074, Train Acc: 0.1369
+2025-04-14 22:55:04,869 - INFO - Confidence Threshold: 0.6267
+2025-04-14 22:55:04,870 - INFO - Val Loss: 2.2525, Val Acc: 0.1650
+2025-04-14 22:55:21,822 - INFO - Epoch 14/120:
+2025-04-14 22:55:21,824 - INFO - Train Loss: 2.3091, Train Acc: 0.1375
+2025-04-14 22:55:21,825 - INFO - Confidence Threshold: 0.6093
+2025-04-14 22:55:21,826 - INFO - Val Loss: 2.2493, Val Acc: 0.1688
+2025-04-14 22:55:39,480 - INFO - Epoch 15/120:
+2025-04-14 22:55:39,480 - INFO - Train Loss: 2.3097, Train Acc: 0.1381
+2025-04-14 22:55:39,481 - INFO - Confidence Threshold: 0.5931
+2025-04-14 22:55:39,482 - INFO - Val Loss: 2.2376, Val Acc: 0.1737
+2025-04-14 22:55:56,247 - INFO - Epoch 16/120:
+2025-04-14 22:55:56,248 - INFO - Train Loss: 2.3166, Train Acc: 0.1400
+2025-04-14 22:55:56,249 - INFO - Confidence Threshold: 0.5774
+2025-04-14 22:55:56,251 - INFO - Val Loss: 2.2388, Val Acc: 0.1713
+2025-04-14 22:55:56,252 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:56:13,509 - INFO - Epoch 17/120:
+2025-04-14 22:56:13,510 - INFO - Train Loss: 2.2976, Train Acc: 0.1444
+2025-04-14 22:56:13,511 - INFO - Confidence Threshold: 0.5627
+2025-04-14 22:56:13,513 - INFO - Val Loss: 2.2448, Val Acc: 0.1663
+2025-04-14 22:56:13,513 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:56:30,374 - INFO - Epoch 18/120:
+2025-04-14 22:56:30,375 - INFO - Train Loss: 2.2987, Train Acc: 0.1416
+2025-04-14 22:56:30,376 - INFO - Confidence Threshold: 0.5485
+2025-04-14 22:56:30,377 - INFO - Val Loss: 2.2278, Val Acc: 0.1812
+2025-04-14 22:56:48,979 - INFO - Epoch 19/120:
+2025-04-14 22:56:48,980 - INFO - Train Loss: 2.2785, Train Acc: 0.1462
+2025-04-14 22:56:48,981 - INFO - Confidence Threshold: 0.5352
+2025-04-14 22:56:48,982 - INFO - Val Loss: 2.2321, Val Acc: 0.1700
+2025-04-14 22:56:48,983 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:57:06,532 - INFO - Epoch 20/120:
+2025-04-14 22:57:06,533 - INFO - Train Loss: 2.2841, Train Acc: 0.1441
+2025-04-14 22:57:06,534 - INFO - Confidence Threshold: 0.5220
+2025-04-14 22:57:06,535 - INFO - Val Loss: 2.2249, Val Acc: 0.1725
+2025-04-14 22:57:23,385 - INFO - Epoch 21/120:
+2025-04-14 22:57:23,386 - INFO - Train Loss: 2.2913, Train Acc: 0.1478
+2025-04-14 22:57:23,387 - INFO - Confidence Threshold: 0.5095
+2025-04-14 22:57:23,388 - INFO - Val Loss: 2.2241, Val Acc: 0.1762
+2025-04-14 22:57:40,557 - INFO - Epoch 22/120:
+2025-04-14 22:57:40,558 - INFO - Train Loss: 2.2882, Train Acc: 0.1334
+2025-04-14 22:57:40,559 - INFO - Confidence Threshold: 0.4979
+2025-04-14 22:57:40,561 - INFO - Val Loss: 2.2189, Val Acc: 0.1900
+2025-04-14 22:57:58,591 - INFO - Epoch 23/120:
+2025-04-14 22:57:58,592 - INFO - Train Loss: 2.2786, Train Acc: 0.1525
+2025-04-14 22:57:58,593 - INFO - Confidence Threshold: 0.4869
+2025-04-14 22:57:58,594 - INFO - Val Loss: 2.2128, Val Acc: 0.1925
+2025-04-14 22:58:16,055 - INFO - Epoch 24/120:
+2025-04-14 22:58:16,055 - INFO - Train Loss: 2.2791, Train Acc: 0.1491
+2025-04-14 22:58:16,057 - INFO - Confidence Threshold: 0.4767
+2025-04-14 22:58:16,058 - INFO - Val Loss: 2.2083, Val Acc: 0.1850
+2025-04-14 22:58:32,851 - INFO - Epoch 25/120:
+2025-04-14 22:58:32,852 - INFO - Train Loss: 2.2729, Train Acc: 0.1544
+2025-04-14 22:58:32,853 - INFO - Confidence Threshold: 0.4669
+2025-04-14 22:58:32,854 - INFO - Val Loss: 2.2096, Val Acc: 0.1975
+2025-04-14 22:58:32,855 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:58:49,862 - INFO - Epoch 26/120:
+2025-04-14 22:58:49,862 - INFO - Train Loss: 2.2736, Train Acc: 0.1466
+2025-04-14 22:58:49,865 - INFO - Confidence Threshold: 0.4575
+2025-04-14 22:58:49,866 - INFO - Val Loss: 2.2145, Val Acc: 0.1938
+2025-04-14 22:58:49,867 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 22:59:07,551 - INFO - Epoch 27/120:
+2025-04-14 22:59:07,552 - INFO - Train Loss: 2.2659, Train Acc: 0.1588
+2025-04-14 22:59:07,555 - INFO - Confidence Threshold: 0.4483
+2025-04-14 22:59:07,555 - INFO - Val Loss: 2.2036, Val Acc: 0.2025
+2025-04-14 22:59:24,607 - INFO - Epoch 28/120:
+2025-04-14 22:59:24,607 - INFO - Train Loss: 2.2647, Train Acc: 0.1606
+2025-04-14 22:59:24,609 - INFO - Confidence Threshold: 0.4397
+2025-04-14 22:59:24,609 - INFO - Val Loss: 2.2035, Val Acc: 0.1925
+2025-04-14 22:59:41,300 - INFO - Epoch 29/120:
+2025-04-14 22:59:41,301 - INFO - Train Loss: 2.2521, Train Acc: 0.1684
+2025-04-14 22:59:41,303 - INFO - Confidence Threshold: 0.4316
+2025-04-14 22:59:41,304 - INFO - Val Loss: 2.2069, Val Acc: 0.1900
+2025-04-14 22:59:41,304 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 22:59:57,880 - INFO - Epoch 30/120:
+2025-04-14 22:59:57,881 - INFO - Train Loss: 2.2495, Train Acc: 0.1703
+2025-04-14 22:59:57,883 - INFO - Confidence Threshold: 0.4239
+2025-04-14 22:59:57,884 - INFO - Val Loss: 2.1944, Val Acc: 0.2000
+2025-04-14 23:00:14,803 - INFO - Epoch 31/120:
+2025-04-14 23:00:14,804 - INFO - Train Loss: 2.2454, Train Acc: 0.1616
+2025-04-14 23:00:14,804 - INFO - Confidence Threshold: 0.4165
+2025-04-14 23:00:14,806 - INFO - Val Loss: 2.1918, Val Acc: 0.2037
+2025-04-14 23:00:32,406 - INFO - Epoch 32/120:
+2025-04-14 23:00:32,407 - INFO - Train Loss: 2.2377, Train Acc: 0.1853
+2025-04-14 23:00:32,408 - INFO - Confidence Threshold: 0.4094
+2025-04-14 23:00:32,409 - INFO - Val Loss: 2.1855, Val Acc: 0.2062
+2025-04-14 23:00:49,079 - INFO - Epoch 33/120:
+2025-04-14 23:00:49,080 - INFO - Train Loss: 2.2568, Train Acc: 0.1694
+2025-04-14 23:00:49,082 - INFO - Confidence Threshold: 0.4027
+2025-04-14 23:00:49,084 - INFO - Val Loss: 2.1796, Val Acc: 0.1975
+2025-04-14 23:01:05,764 - INFO - Epoch 34/120:
+2025-04-14 23:01:05,764 - INFO - Train Loss: 2.2436, Train Acc: 0.1641
+2025-04-14 23:01:05,766 - INFO - Confidence Threshold: 0.3963
+2025-04-14 23:01:05,767 - INFO - Val Loss: 2.1831, Val Acc: 0.2125
+2025-04-14 23:01:05,768 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:01:22,707 - INFO - Epoch 35/120:
+2025-04-14 23:01:22,708 - INFO - Train Loss: 2.2435, Train Acc: 0.1713
+2025-04-14 23:01:22,709 - INFO - Confidence Threshold: 0.3904
+2025-04-14 23:01:22,710 - INFO - Val Loss: 2.1702, Val Acc: 0.2188
+2025-04-14 23:01:40,662 - INFO - Epoch 36/120:
+2025-04-14 23:01:40,665 - INFO - Train Loss: 2.2313, Train Acc: 0.1772
+2025-04-14 23:01:40,667 - INFO - Confidence Threshold: 0.3847
+2025-04-14 23:01:40,669 - INFO - Val Loss: 2.1799, Val Acc: 0.2062
+2025-04-14 23:01:40,670 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:01:57,444 - INFO - Epoch 37/120:
+2025-04-14 23:01:57,445 - INFO - Train Loss: 2.2342, Train Acc: 0.1719
+2025-04-14 23:01:57,446 - INFO - Confidence Threshold: 0.3793
+2025-04-14 23:01:57,447 - INFO - Val Loss: 2.1727, Val Acc: 0.2200
+2025-04-14 23:01:57,448 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:02:14,197 - INFO - Epoch 38/120:
+2025-04-14 23:02:14,198 - INFO - Train Loss: 2.2363, Train Acc: 0.1791
+2025-04-14 23:02:14,202 - INFO - Confidence Threshold: 0.3738
+2025-04-14 23:02:14,202 - INFO - Val Loss: 2.1678, Val Acc: 0.2150
+2025-04-14 23:02:30,781 - INFO - Epoch 39/120:
+2025-04-14 23:02:30,782 - INFO - Train Loss: 2.2335, Train Acc: 0.1747
+2025-04-14 23:02:30,783 - INFO - Confidence Threshold: 0.3694
+2025-04-14 23:02:30,784 - INFO - Val Loss: 2.1606, Val Acc: 0.2162
+2025-04-14 23:02:47,506 - INFO - Epoch 40/120:
+2025-04-14 23:02:47,510 - INFO - Train Loss: 2.2371, Train Acc: 0.1684
+2025-04-14 23:02:47,511 - INFO - Confidence Threshold: 0.3652
+2025-04-14 23:02:47,512 - INFO - Val Loss: 2.1634, Val Acc: 0.2313
+2025-04-14 23:02:47,515 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:03:05,412 - INFO - Epoch 41/120:
+2025-04-14 23:03:05,413 - INFO - Train Loss: 2.2238, Train Acc: 0.1719
+2025-04-14 23:03:05,415 - INFO - Confidence Threshold: 0.3611
+2025-04-14 23:03:05,415 - INFO - Val Loss: 2.1627, Val Acc: 0.2300
+2025-04-14 23:03:05,416 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:03:22,131 - INFO - Epoch 42/120:
+2025-04-14 23:03:22,132 - INFO - Train Loss: 2.2199, Train Acc: 0.1816
+2025-04-14 23:03:22,133 - INFO - Confidence Threshold: 0.3568
+2025-04-14 23:03:22,134 - INFO - Val Loss: 2.1513, Val Acc: 0.2300
+2025-04-14 23:03:38,784 - INFO - Epoch 43/120:
+2025-04-14 23:03:38,784 - INFO - Train Loss: 2.2184, Train Acc: 0.1794
+2025-04-14 23:03:38,786 - INFO - Confidence Threshold: 0.3529
+2025-04-14 23:03:38,787 - INFO - Val Loss: 2.1556, Val Acc: 0.2300
+2025-04-14 23:03:38,788 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:03:55,714 - INFO - Epoch 44/120:
+2025-04-14 23:03:55,715 - INFO - Train Loss: 2.2185, Train Acc: 0.1875
+2025-04-14 23:03:55,716 - INFO - Confidence Threshold: 0.3492
+2025-04-14 23:03:55,717 - INFO - Val Loss: 2.1504, Val Acc: 0.2450
+2025-04-14 23:04:13,909 - INFO - Epoch 45/120:
+2025-04-14 23:04:13,910 - INFO - Train Loss: 2.2232, Train Acc: 0.1753
+2025-04-14 23:04:13,911 - INFO - Confidence Threshold: 0.3454
+2025-04-14 23:04:13,911 - INFO - Val Loss: 2.1424, Val Acc: 0.2400
+2025-04-14 23:04:30,791 - INFO - Epoch 46/120:
+2025-04-14 23:04:30,792 - INFO - Train Loss: 2.2090, Train Acc: 0.1828
+2025-04-14 23:04:30,793 - INFO - Confidence Threshold: 0.3422
+2025-04-14 23:04:30,794 - INFO - Val Loss: 2.1457, Val Acc: 0.2387
+2025-04-14 23:04:30,795 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:04:47,551 - INFO - Epoch 47/120:
+2025-04-14 23:04:47,552 - INFO - Train Loss: 2.2139, Train Acc: 0.1809
+2025-04-14 23:04:47,553 - INFO - Confidence Threshold: 0.3390
+2025-04-14 23:04:47,554 - INFO - Val Loss: 2.1416, Val Acc: 0.2475
+2025-04-14 23:05:04,086 - INFO - Epoch 48/120:
+2025-04-14 23:05:04,086 - INFO - Train Loss: 2.2083, Train Acc: 0.1944
+2025-04-14 23:05:04,087 - INFO - Confidence Threshold: 0.3363
+2025-04-14 23:05:04,088 - INFO - Val Loss: 2.1322, Val Acc: 0.2400
+2025-04-14 23:05:20,973 - INFO - Epoch 49/120:
+2025-04-14 23:05:20,974 - INFO - Train Loss: 2.2020, Train Acc: 0.1938
+2025-04-14 23:05:20,975 - INFO - Confidence Threshold: 0.3332
+2025-04-14 23:05:20,979 - INFO - Val Loss: 2.1330, Val Acc: 0.2600
+2025-04-14 23:05:20,980 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:05:39,045 - INFO - Epoch 50/120:
+2025-04-14 23:05:39,046 - INFO - Train Loss: 2.2103, Train Acc: 0.1766
+2025-04-14 23:05:39,047 - INFO - Confidence Threshold: 0.3307
+2025-04-14 23:05:39,048 - INFO - Val Loss: 2.1299, Val Acc: 0.2625
+2025-04-14 23:05:55,885 - INFO - Epoch 51/120:
+2025-04-14 23:05:55,886 - INFO - Train Loss: 2.2003, Train Acc: 0.1906
+2025-04-14 23:05:55,887 - INFO - Confidence Threshold: 0.3282
+2025-04-14 23:05:55,888 - INFO - Val Loss: 2.1267, Val Acc: 0.2500
+2025-04-14 23:06:12,639 - INFO - Epoch 52/120:
+2025-04-14 23:06:12,640 - INFO - Train Loss: 2.1948, Train Acc: 0.1934
+2025-04-14 23:06:12,641 - INFO - Confidence Threshold: 0.3260
+2025-04-14 23:06:12,641 - INFO - Val Loss: 2.1211, Val Acc: 0.2675
+2025-04-14 23:06:29,496 - INFO - Epoch 53/120:
+2025-04-14 23:06:29,497 - INFO - Train Loss: 2.1978, Train Acc: 0.2044
+2025-04-14 23:06:29,498 - INFO - Confidence Threshold: 0.3234
+2025-04-14 23:06:29,499 - INFO - Val Loss: 2.1262, Val Acc: 0.2562
+2025-04-14 23:06:29,500 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:06:47,579 - INFO - Epoch 54/120:
+2025-04-14 23:06:47,580 - INFO - Train Loss: 2.1862, Train Acc: 0.1938
+2025-04-14 23:06:47,581 - INFO - Confidence Threshold: 0.3216
+2025-04-14 23:06:47,582 - INFO - Val Loss: 2.1200, Val Acc: 0.2675
+2025-04-14 23:07:04,396 - INFO - Epoch 55/120:
+2025-04-14 23:07:04,397 - INFO - Train Loss: 2.1795, Train Acc: 0.2034
+2025-04-14 23:07:04,398 - INFO - Confidence Threshold: 0.3195
+2025-04-14 23:07:04,399 - INFO - Val Loss: 2.1160, Val Acc: 0.2712
+2025-04-14 23:07:21,295 - INFO - Epoch 56/120:
+2025-04-14 23:07:21,296 - INFO - Train Loss: 2.1925, Train Acc: 0.2053
+2025-04-14 23:07:21,297 - INFO - Confidence Threshold: 0.3180
+2025-04-14 23:07:21,297 - INFO - Val Loss: 2.1190, Val Acc: 0.2800
+2025-04-14 23:07:21,298 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:07:38,200 - INFO - Epoch 57/120:
+2025-04-14 23:07:38,201 - INFO - Train Loss: 2.1744, Train Acc: 0.2106
+2025-04-14 23:07:38,202 - INFO - Confidence Threshold: 0.3162
+2025-04-14 23:07:38,203 - INFO - Val Loss: 2.1057, Val Acc: 0.2800
+2025-04-14 23:07:56,230 - INFO - Epoch 58/120:
+2025-04-14 23:07:56,232 - INFO - Train Loss: 2.1791, Train Acc: 0.2028
+2025-04-14 23:07:56,233 - INFO - Confidence Threshold: 0.3147
+2025-04-14 23:07:56,235 - INFO - Val Loss: 2.1056, Val Acc: 0.2775
+2025-04-14 23:08:13,187 - INFO - Epoch 59/120:
+2025-04-14 23:08:13,188 - INFO - Train Loss: 2.1695, Train Acc: 0.2166
+2025-04-14 23:08:13,189 - INFO - Confidence Threshold: 0.3136
+2025-04-14 23:08:13,190 - INFO - Val Loss: 2.0996, Val Acc: 0.2725
+2025-04-14 23:08:30,085 - INFO - Epoch 60/120:
+2025-04-14 23:08:30,086 - INFO - Train Loss: 2.1706, Train Acc: 0.2081
+2025-04-14 23:08:30,086 - INFO - Confidence Threshold: 0.3119
+2025-04-14 23:08:30,087 - INFO - Val Loss: 2.0999, Val Acc: 0.2838
+2025-04-14 23:08:30,088 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:08:46,909 - INFO - Epoch 61/120:
+2025-04-14 23:08:46,910 - INFO - Train Loss: 2.1739, Train Acc: 0.2050
+2025-04-14 23:08:46,912 - INFO - Confidence Threshold: 0.3105
+2025-04-14 23:08:46,913 - INFO - Val Loss: 2.0909, Val Acc: 0.2963
+2025-04-14 23:09:04,115 - INFO - Epoch 62/120:
+2025-04-14 23:09:04,116 - INFO - Train Loss: 2.1732, Train Acc: 0.2081
+2025-04-14 23:09:04,117 - INFO - Confidence Threshold: 0.3093
+2025-04-14 23:09:04,117 - INFO - Val Loss: 2.0892, Val Acc: 0.2850
+2025-04-14 23:09:21,864 - INFO - Epoch 63/120:
+2025-04-14 23:09:21,864 - INFO - Train Loss: 2.1719, Train Acc: 0.2103
+2025-04-14 23:09:21,866 - INFO - Confidence Threshold: 0.3085
+2025-04-14 23:09:21,866 - INFO - Val Loss: 2.0855, Val Acc: 0.2787
+2025-04-14 23:09:38,759 - INFO - Epoch 64/120:
+2025-04-14 23:09:38,760 - INFO - Train Loss: 2.1614, Train Acc: 0.2091
+2025-04-14 23:09:38,761 - INFO - Confidence Threshold: 0.3073
+2025-04-14 23:09:38,762 - INFO - Val Loss: 2.0870, Val Acc: 0.3013
+2025-04-14 23:09:38,762 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:09:55,587 - INFO - Epoch 65/120:
+2025-04-14 23:09:55,588 - INFO - Train Loss: 2.1588, Train Acc: 0.2159
+2025-04-14 23:09:55,589 - INFO - Confidence Threshold: 0.3062
+2025-04-14 23:09:55,590 - INFO - Val Loss: 2.0807, Val Acc: 0.2988
+2025-04-14 23:10:12,378 - INFO - Epoch 66/120:
+2025-04-14 23:10:12,379 - INFO - Train Loss: 2.1493, Train Acc: 0.2203
+2025-04-14 23:10:12,380 - INFO - Confidence Threshold: 0.3052
+2025-04-14 23:10:12,381 - INFO - Val Loss: 2.0753, Val Acc: 0.2900
+2025-04-14 23:10:30,554 - INFO - Epoch 67/120:
+2025-04-14 23:10:30,555 - INFO - Train Loss: 2.1588, Train Acc: 0.2162
+2025-04-14 23:10:30,556 - INFO - Confidence Threshold: 0.3043
+2025-04-14 23:10:30,557 - INFO - Val Loss: 2.0851, Val Acc: 0.3063
+2025-04-14 23:10:30,558 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:10:47,125 - INFO - Epoch 68/120:
+2025-04-14 23:10:47,126 - INFO - Train Loss: 2.1544, Train Acc: 0.2275
+2025-04-14 23:10:47,126 - INFO - Confidence Threshold: 0.3033
+2025-04-14 23:10:47,127 - INFO - Val Loss: 2.0793, Val Acc: 0.2900
+2025-04-14 23:10:47,128 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:11:04,142 - INFO - Epoch 69/120:
+2025-04-14 23:11:04,143 - INFO - Train Loss: 2.1483, Train Acc: 0.2313
+2025-04-14 23:11:04,144 - INFO - Confidence Threshold: 0.3023
+2025-04-14 23:11:04,145 - INFO - Val Loss: 2.0654, Val Acc: 0.3025
+2025-04-14 23:11:21,459 - INFO - Epoch 70/120:
+2025-04-14 23:11:21,460 - INFO - Train Loss: 2.1470, Train Acc: 0.2284
+2025-04-14 23:11:21,462 - INFO - Confidence Threshold: 0.3019
+2025-04-14 23:11:21,463 - INFO - Val Loss: 2.0722, Val Acc: 0.3137
+2025-04-14 23:11:21,464 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:11:39,688 - INFO - Epoch 71/120:
+2025-04-14 23:11:39,688 - INFO - Train Loss: 2.1476, Train Acc: 0.2203
+2025-04-14 23:11:39,689 - INFO - Confidence Threshold: 0.3013
+2025-04-14 23:11:39,690 - INFO - Val Loss: 2.0499, Val Acc: 0.3075
+2025-04-14 23:11:56,720 - INFO - Epoch 72/120:
+2025-04-14 23:11:56,720 - INFO - Train Loss: 2.1459, Train Acc: 0.2303
+2025-04-14 23:11:56,722 - INFO - Confidence Threshold: 0.3005
+2025-04-14 23:11:56,723 - INFO - Val Loss: 2.0606, Val Acc: 0.3113
+2025-04-14 23:11:56,724 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:12:13,439 - INFO - Epoch 73/120:
+2025-04-14 23:12:13,440 - INFO - Train Loss: 2.1335, Train Acc: 0.2391
+2025-04-14 23:12:13,442 - INFO - Confidence Threshold: 0.2998
+2025-04-14 23:12:13,445 - INFO - Val Loss: 2.0616, Val Acc: 0.3113
+2025-04-14 23:12:13,445 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:12:30,167 - INFO - Epoch 74/120:
+2025-04-14 23:12:30,167 - INFO - Train Loss: 2.1422, Train Acc: 0.2391
+2025-04-14 23:12:30,168 - INFO - Confidence Threshold: 0.2995
+2025-04-14 23:12:30,170 - INFO - Val Loss: 2.0675, Val Acc: 0.3100
+2025-04-14 23:12:30,171 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 23:12:48,008 - INFO - Epoch 75/120:
+2025-04-14 23:12:48,009 - INFO - Train Loss: 2.1270, Train Acc: 0.2403
+2025-04-14 23:12:48,010 - INFO - Confidence Threshold: 0.2987
+2025-04-14 23:12:48,011 - INFO - Val Loss: 2.0505, Val Acc: 0.3212
+2025-04-14 23:12:48,012 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 23:13:04,847 - INFO - Epoch 76/120:
+2025-04-14 23:13:04,852 - INFO - Train Loss: 2.1285, Train Acc: 0.2394
+2025-04-14 23:13:04,853 - INFO - Confidence Threshold: 0.2981
+2025-04-14 23:13:04,854 - INFO - Val Loss: 2.0550, Val Acc: 0.3262
+2025-04-14 23:13:04,855 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 23:13:21,648 - INFO - Epoch 77/120:
+2025-04-14 23:13:21,649 - INFO - Train Loss: 2.1258, Train Acc: 0.2334
+2025-04-14 23:13:21,650 - INFO - Confidence Threshold: 0.2977
+2025-04-14 23:13:21,651 - INFO - Val Loss: 2.0318, Val Acc: 0.3275
+2025-04-14 23:13:38,311 - INFO - Epoch 78/120:
+2025-04-14 23:13:38,312 - INFO - Train Loss: 2.1245, Train Acc: 0.2472
+2025-04-14 23:13:38,313 - INFO - Confidence Threshold: 0.2973
+2025-04-14 23:13:38,314 - INFO - Val Loss: 2.0444, Val Acc: 0.3325
+2025-04-14 23:13:38,315 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:13:55,641 - INFO - Epoch 79/120:
+2025-04-14 23:13:55,642 - INFO - Train Loss: 2.1142, Train Acc: 0.2650
+2025-04-14 23:13:55,643 - INFO - Confidence Threshold: 0.2969
+2025-04-14 23:13:55,644 - INFO - Val Loss: 2.0348, Val Acc: 0.3438
+2025-04-14 23:13:55,645 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:14:13,103 - INFO - Epoch 80/120:
+2025-04-14 23:14:13,104 - INFO - Train Loss: 2.1205, Train Acc: 0.2634
+2025-04-14 23:14:13,105 - INFO - Confidence Threshold: 0.2967
+2025-04-14 23:14:13,106 - INFO - Val Loss: 2.0335, Val Acc: 0.3387
+2025-04-14 23:14:13,106 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 23:14:29,771 - INFO - Epoch 81/120:
+2025-04-14 23:14:29,771 - INFO - Train Loss: 2.1160, Train Acc: 0.2437
+2025-04-14 23:14:29,772 - INFO - Confidence Threshold: 0.2965
+2025-04-14 23:14:29,774 - INFO - Val Loss: 2.0274, Val Acc: 0.3475
+2025-04-14 23:14:46,535 - INFO - Epoch 82/120:
+2025-04-14 23:14:46,536 - INFO - Train Loss: 2.1043, Train Acc: 0.2594
+2025-04-14 23:14:46,537 - INFO - Confidence Threshold: 0.2959
+2025-04-14 23:14:46,538 - INFO - Val Loss: 2.0283, Val Acc: 0.3513
+2025-04-14 23:14:46,539 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:15:03,328 - INFO - Epoch 83/120:
+2025-04-14 23:15:03,329 - INFO - Train Loss: 2.1053, Train Acc: 0.2531
+2025-04-14 23:15:03,330 - INFO - Confidence Threshold: 0.2957
+2025-04-14 23:15:03,331 - INFO - Val Loss: 2.0181, Val Acc: 0.3387
+2025-04-14 23:15:21,523 - INFO - Epoch 84/120:
+2025-04-14 23:15:21,524 - INFO - Train Loss: 2.0983, Train Acc: 0.2584
+2025-04-14 23:15:21,525 - INFO - Confidence Threshold: 0.2957
+2025-04-14 23:15:21,526 - INFO - Val Loss: 2.0240, Val Acc: 0.3550
+2025-04-14 23:15:21,527 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:15:38,482 - INFO - Epoch 85/120:
+2025-04-14 23:15:38,483 - INFO - Train Loss: 2.1018, Train Acc: 0.2531
+2025-04-14 23:15:38,484 - INFO - Confidence Threshold: 0.2957
+2025-04-14 23:15:38,485 - INFO - Val Loss: 2.0090, Val Acc: 0.3463
+2025-04-14 23:15:55,412 - INFO - Epoch 86/120:
+2025-04-14 23:15:55,413 - INFO - Train Loss: 2.0992, Train Acc: 0.2634
+2025-04-14 23:15:55,414 - INFO - Confidence Threshold: 0.2956
+2025-04-14 23:15:55,415 - INFO - Val Loss: 2.0105, Val Acc: 0.3713
+2025-04-14 23:15:55,416 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:16:12,195 - INFO - Epoch 87/120:
+2025-04-14 23:16:12,196 - INFO - Train Loss: 2.0981, Train Acc: 0.2597
+2025-04-14 23:16:12,196 - INFO - Confidence Threshold: 0.2954
+2025-04-14 23:16:12,197 - INFO - Val Loss: 2.0099, Val Acc: 0.3588
+2025-04-14 23:16:12,198 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:16:30,197 - INFO - Epoch 88/120:
+2025-04-14 23:16:30,198 - INFO - Train Loss: 2.0986, Train Acc: 0.2606
+2025-04-14 23:16:30,199 - INFO - Confidence Threshold: 0.2952
+2025-04-14 23:16:30,199 - INFO - Val Loss: 2.0015, Val Acc: 0.3713
+2025-04-14 23:16:46,918 - INFO - Epoch 89/120:
+2025-04-14 23:16:46,919 - INFO - Train Loss: 2.0921, Train Acc: 0.2641
+2025-04-14 23:16:46,921 - INFO - Confidence Threshold: 0.2954
+2025-04-14 23:16:46,922 - INFO - Val Loss: 1.9957, Val Acc: 0.3625
+2025-04-14 23:17:03,611 - INFO - Epoch 90/120:
+2025-04-14 23:17:03,611 - INFO - Train Loss: 2.0832, Train Acc: 0.2841
+2025-04-14 23:17:03,613 - INFO - Confidence Threshold: 0.2952
+2025-04-14 23:17:03,613 - INFO - Val Loss: 1.9977, Val Acc: 0.3675
+2025-04-14 23:17:03,614 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:17:20,156 - INFO - Epoch 91/120:
+2025-04-14 23:17:20,157 - INFO - Train Loss: 2.0837, Train Acc: 0.2725
+2025-04-14 23:17:20,158 - INFO - Confidence Threshold: 0.2949
+2025-04-14 23:17:20,159 - INFO - Val Loss: 2.0045, Val Acc: 0.3762
+2025-04-14 23:17:20,159 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:17:37,043 - INFO - Epoch 92/120:
+2025-04-14 23:17:37,045 - INFO - Train Loss: 2.0890, Train Acc: 0.2731
+2025-04-14 23:17:37,046 - INFO - Confidence Threshold: 0.2953
+2025-04-14 23:17:37,048 - INFO - Val Loss: 1.9945, Val Acc: 0.3713
+2025-04-14 23:17:54,979 - INFO - Epoch 93/120:
+2025-04-14 23:17:54,980 - INFO - Train Loss: 2.0808, Train Acc: 0.2728
+2025-04-14 23:17:54,981 - INFO - Confidence Threshold: 0.2954
+2025-04-14 23:17:54,982 - INFO - Val Loss: 1.9875, Val Acc: 0.3850
+2025-04-14 23:18:11,874 - INFO - Epoch 94/120:
+2025-04-14 23:18:11,875 - INFO - Train Loss: 2.0678, Train Acc: 0.2913
+2025-04-14 23:18:11,876 - INFO - Confidence Threshold: 0.2956
+2025-04-14 23:18:11,876 - INFO - Val Loss: 1.9935, Val Acc: 0.3762
+2025-04-14 23:18:11,877 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:18:28,796 - INFO - Epoch 95/120:
+2025-04-14 23:18:28,797 - INFO - Train Loss: 2.0779, Train Acc: 0.2913
+2025-04-14 23:18:28,798 - INFO - Confidence Threshold: 0.2959
+2025-04-14 23:18:28,799 - INFO - Val Loss: 1.9780, Val Acc: 0.3762
+2025-04-14 23:18:45,421 - INFO - Epoch 96/120:
+2025-04-14 23:18:45,422 - INFO - Train Loss: 2.0745, Train Acc: 0.2850
+2025-04-14 23:18:45,423 - INFO - Confidence Threshold: 0.2962
+2025-04-14 23:18:45,424 - INFO - Val Loss: 1.9807, Val Acc: 0.3812
+2025-04-14 23:18:45,424 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:19:03,527 - INFO - Epoch 97/120:
+2025-04-14 23:19:03,528 - INFO - Train Loss: 2.0659, Train Acc: 0.2941
+2025-04-14 23:19:03,529 - INFO - Confidence Threshold: 0.2966
+2025-04-14 23:19:03,530 - INFO - Val Loss: 1.9852, Val Acc: 0.3675
+2025-04-14 23:19:03,531 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:19:20,212 - INFO - Epoch 98/120:
+2025-04-14 23:19:20,214 - INFO - Train Loss: 2.0621, Train Acc: 0.2894
+2025-04-14 23:19:20,216 - INFO - Confidence Threshold: 0.2972
+2025-04-14 23:19:20,217 - INFO - Val Loss: 1.9587, Val Acc: 0.3987
+2025-04-14 23:19:36,957 - INFO - Epoch 99/120:
+2025-04-14 23:19:36,957 - INFO - Train Loss: 2.0548, Train Acc: 0.2919
+2025-04-14 23:19:36,959 - INFO - Confidence Threshold: 0.2976
+2025-04-14 23:19:36,960 - INFO - Val Loss: 1.9678, Val Acc: 0.4012
+2025-04-14 23:19:36,960 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:19:53,604 - INFO - Epoch 100/120:
+2025-04-14 23:19:53,605 - INFO - Train Loss: 2.0542, Train Acc: 0.2875
+2025-04-14 23:19:53,606 - INFO - Confidence Threshold: 0.2980
+2025-04-14 23:19:53,607 - INFO - Val Loss: 1.9578, Val Acc: 0.3975
+2025-04-14 23:20:10,605 - INFO - Epoch 101/120:
+2025-04-14 23:20:10,606 - INFO - Train Loss: 2.0540, Train Acc: 0.2819
+2025-04-14 23:20:10,606 - INFO - Confidence Threshold: 0.2985
+2025-04-14 23:20:10,607 - INFO - Val Loss: 1.9612, Val Acc: 0.4025
+2025-04-14 23:20:10,608 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:20:28,175 - INFO - Epoch 102/120:
+2025-04-14 23:20:28,175 - INFO - Train Loss: 2.0489, Train Acc: 0.3016
+2025-04-14 23:20:28,176 - INFO - Confidence Threshold: 0.2989
+2025-04-14 23:20:28,177 - INFO - Val Loss: 1.9580, Val Acc: 0.3962
+2025-04-14 23:20:28,178 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:20:44,756 - INFO - Epoch 103/120:
+2025-04-14 23:20:44,757 - INFO - Train Loss: 2.0566, Train Acc: 0.2941
+2025-04-14 23:20:44,758 - INFO - Confidence Threshold: 0.2992
+2025-04-14 23:20:44,759 - INFO - Val Loss: 1.9480, Val Acc: 0.4275
+2025-04-14 23:21:01,404 - INFO - Epoch 104/120:
+2025-04-14 23:21:01,405 - INFO - Train Loss: 2.0429, Train Acc: 0.3050
+2025-04-14 23:21:01,406 - INFO - Confidence Threshold: 0.2993
+2025-04-14 23:21:01,406 - INFO - Val Loss: 1.9482, Val Acc: 0.4088
+2025-04-14 23:21:01,407 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:21:18,018 - INFO - Epoch 105/120:
+2025-04-14 23:21:18,019 - INFO - Train Loss: 2.0478, Train Acc: 0.2984
+2025-04-14 23:21:18,019 - INFO - Confidence Threshold: 0.2998
+2025-04-14 23:21:18,020 - INFO - Val Loss: 1.9499, Val Acc: 0.4163
+2025-04-14 23:21:18,021 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:21:35,943 - INFO - Epoch 106/120:
+2025-04-14 23:21:35,944 - INFO - Train Loss: 2.0387, Train Acc: 0.3031
+2025-04-14 23:21:35,945 - INFO - Confidence Threshold: 0.3003
+2025-04-14 23:21:35,946 - INFO - Val Loss: 1.9406, Val Acc: 0.4300
+2025-04-14 23:21:52,482 - INFO - Epoch 107/120:
+2025-04-14 23:21:52,483 - INFO - Train Loss: 2.0394, Train Acc: 0.3075
+2025-04-14 23:21:52,484 - INFO - Confidence Threshold: 0.3008
+2025-04-14 23:21:52,486 - INFO - Val Loss: 1.9375, Val Acc: 0.4288
+2025-04-14 23:22:09,100 - INFO - Epoch 108/120:
+2025-04-14 23:22:09,101 - INFO - Train Loss: 2.0356, Train Acc: 0.2975
+2025-04-14 23:22:09,102 - INFO - Confidence Threshold: 0.3009
+2025-04-14 23:22:09,102 - INFO - Val Loss: 1.9225, Val Acc: 0.4338
+2025-04-14 23:22:25,725 - INFO - Epoch 109/120:
+2025-04-14 23:22:25,726 - INFO - Train Loss: 2.0363, Train Acc: 0.3147
+2025-04-14 23:22:25,727 - INFO - Confidence Threshold: 0.3013
+2025-04-14 23:22:25,728 - INFO - Val Loss: 1.9241, Val Acc: 0.4375
+2025-04-14 23:22:25,729 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:22:42,979 - INFO - Epoch 110/120:
+2025-04-14 23:22:42,982 - INFO - Train Loss: 2.0199, Train Acc: 0.3066
+2025-04-14 23:22:42,983 - INFO - Confidence Threshold: 0.3019
+2025-04-14 23:22:42,984 - INFO - Val Loss: 1.9161, Val Acc: 0.4225
+2025-04-14 23:23:00,425 - INFO - Epoch 111/120:
+2025-04-14 23:23:00,426 - INFO - Train Loss: 2.0232, Train Acc: 0.3266
+2025-04-14 23:23:00,427 - INFO - Confidence Threshold: 0.3021
+2025-04-14 23:23:00,428 - INFO - Val Loss: 1.9285, Val Acc: 0.4313
+2025-04-14 23:23:00,429 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:23:16,934 - INFO - Epoch 112/120:
+2025-04-14 23:23:16,934 - INFO - Train Loss: 2.0028, Train Acc: 0.3319
+2025-04-14 23:23:16,935 - INFO - Confidence Threshold: 0.3023
+2025-04-14 23:23:16,937 - INFO - Val Loss: 1.9129, Val Acc: 0.4437
+2025-04-14 23:23:33,684 - INFO - Epoch 113/120:
+2025-04-14 23:23:33,685 - INFO - Train Loss: 2.0106, Train Acc: 0.3278
+2025-04-14 23:23:33,686 - INFO - Confidence Threshold: 0.3027
+2025-04-14 23:23:33,687 - INFO - Val Loss: 1.9134, Val Acc: 0.4250
+2025-04-14 23:23:33,688 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:23:50,164 - INFO - Epoch 114/120:
+2025-04-14 23:23:50,165 - INFO - Train Loss: 2.0066, Train Acc: 0.3350
+2025-04-14 23:23:50,165 - INFO - Confidence Threshold: 0.3030
+2025-04-14 23:23:50,166 - INFO - Val Loss: 1.9120, Val Acc: 0.4238
+2025-04-14 23:24:08,189 - INFO - Epoch 115/120:
+2025-04-14 23:24:08,190 - INFO - Train Loss: 2.0105, Train Acc: 0.3116
+2025-04-14 23:24:08,191 - INFO - Confidence Threshold: 0.3038
+2025-04-14 23:24:08,191 - INFO - Val Loss: 1.8976, Val Acc: 0.4525
+2025-04-14 23:24:24,737 - INFO - Epoch 116/120:
+2025-04-14 23:24:24,738 - INFO - Train Loss: 2.0012, Train Acc: 0.3456
+2025-04-14 23:24:24,740 - INFO - Confidence Threshold: 0.3040
+2025-04-14 23:24:24,741 - INFO - Val Loss: 1.8976, Val Acc: 0.4612
+2025-04-14 23:24:41,833 - INFO - Epoch 117/120:
+2025-04-14 23:24:41,834 - INFO - Train Loss: 2.0023, Train Acc: 0.3344
+2025-04-14 23:24:41,836 - INFO - Confidence Threshold: 0.3048
+2025-04-14 23:24:41,836 - INFO - Val Loss: 1.8830, Val Acc: 0.4612
+2025-04-14 23:24:58,484 - INFO - Epoch 118/120:
+2025-04-14 23:24:58,485 - INFO - Train Loss: 2.0008, Train Acc: 0.3306
+2025-04-14 23:24:58,486 - INFO - Confidence Threshold: 0.3055
+2025-04-14 23:24:58,487 - INFO - Val Loss: 1.8732, Val Acc: 0.4625
+2025-04-14 23:25:15,623 - INFO - Epoch 119/120:
+2025-04-14 23:25:15,624 - INFO - Train Loss: 1.9903, Train Acc: 0.3319
+2025-04-14 23:25:15,625 - INFO - Confidence Threshold: 0.3060
+2025-04-14 23:25:15,629 - INFO - Val Loss: 1.8903, Val Acc: 0.4675
+2025-04-14 23:25:15,630 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:25:33,170 - INFO - Epoch 120/120:
+2025-04-14 23:25:33,171 - INFO - Train Loss: 1.9886, Train Acc: 0.3391
+2025-04-14 23:25:33,173 - INFO - Confidence Threshold: 0.3068
+2025-04-14 23:25:33,173 - INFO - Val Loss: 1.8793, Val Acc: 0.4738
+2025-04-14 23:25:33,175 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:25:33,176 - INFO - 
+Starting Fold 5/5
+2025-04-14 23:25:33,429 - INFO - Starting learning rate finder...
+2025-04-14 23:25:36,842 - INFO - Optimal learning rate found: 0.000021
+2025-04-14 23:25:53,412 - INFO - Epoch 1/120:
+2025-04-14 23:25:53,415 - INFO - Train Loss: 2.3756, Train Acc: 0.1078
+2025-04-14 23:25:53,417 - INFO - Confidence Threshold: 0.9161
+2025-04-14 23:25:53,418 - INFO - Val Loss: 2.3229, Val Acc: 0.0912
+2025-04-14 23:26:10,164 - INFO - Epoch 2/120:
+2025-04-14 23:26:10,165 - INFO - Train Loss: 2.3814, Train Acc: 0.1062
+2025-04-14 23:26:10,166 - INFO - Confidence Threshold: 0.8841
+2025-04-14 23:26:10,166 - INFO - Val Loss: 2.3236, Val Acc: 0.0975
+2025-04-14 23:26:10,168 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:26:28,113 - INFO - Epoch 3/120:
+2025-04-14 23:26:28,114 - INFO - Train Loss: 2.3724, Train Acc: 0.0981
+2025-04-14 23:26:28,115 - INFO - Confidence Threshold: 0.8538
+2025-04-14 23:26:28,116 - INFO - Val Loss: 2.3235, Val Acc: 0.0950
+2025-04-14 23:26:28,116 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:26:44,802 - INFO - Epoch 4/120:
+2025-04-14 23:26:44,804 - INFO - Train Loss: 2.3809, Train Acc: 0.0984
+2025-04-14 23:26:44,806 - INFO - Confidence Threshold: 0.8251
+2025-04-14 23:26:44,807 - INFO - Val Loss: 2.3194, Val Acc: 0.0912
+2025-04-14 23:27:01,364 - INFO - Epoch 5/120:
+2025-04-14 23:27:01,365 - INFO - Train Loss: 2.3797, Train Acc: 0.0959
+2025-04-14 23:27:01,366 - INFO - Confidence Threshold: 0.7977
+2025-04-14 23:27:01,367 - INFO - Val Loss: 2.3227, Val Acc: 0.0925
+2025-04-14 23:27:01,368 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:27:18,151 - INFO - Epoch 6/120:
+2025-04-14 23:27:18,153 - INFO - Train Loss: 2.3733, Train Acc: 0.1094
+2025-04-14 23:27:18,154 - INFO - Confidence Threshold: 0.7718
+2025-04-14 23:27:18,155 - INFO - Val Loss: 2.3184, Val Acc: 0.0887
+2025-04-14 23:27:35,299 - INFO - Epoch 7/120:
+2025-04-14 23:27:35,300 - INFO - Train Loss: 2.3811, Train Acc: 0.0919
+2025-04-14 23:27:35,300 - INFO - Confidence Threshold: 0.7468
+2025-04-14 23:27:35,301 - INFO - Val Loss: 2.3197, Val Acc: 0.0862
+2025-04-14 23:27:35,302 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:27:52,868 - INFO - Epoch 8/120:
+2025-04-14 23:27:52,868 - INFO - Train Loss: 2.3732, Train Acc: 0.1066
+2025-04-14 23:27:52,870 - INFO - Confidence Threshold: 0.7233
+2025-04-14 23:27:52,872 - INFO - Val Loss: 2.3165, Val Acc: 0.0938
+2025-04-14 23:28:10,147 - INFO - Epoch 9/120:
+2025-04-14 23:28:10,148 - INFO - Train Loss: 2.3784, Train Acc: 0.1016
+2025-04-14 23:28:10,149 - INFO - Confidence Threshold: 0.7009
+2025-04-14 23:28:10,150 - INFO - Val Loss: 2.3152, Val Acc: 0.0938
+2025-04-14 23:28:26,984 - INFO - Epoch 10/120:
+2025-04-14 23:28:26,984 - INFO - Train Loss: 2.3820, Train Acc: 0.1037
+2025-04-14 23:28:26,986 - INFO - Confidence Threshold: 0.6796
+2025-04-14 23:28:26,987 - INFO - Val Loss: 2.3135, Val Acc: 0.0925
+2025-04-14 23:28:44,180 - INFO - Epoch 11/120:
+2025-04-14 23:28:44,181 - INFO - Train Loss: 2.3695, Train Acc: 0.1097
+2025-04-14 23:28:44,183 - INFO - Confidence Threshold: 0.6592
+2025-04-14 23:28:44,184 - INFO - Val Loss: 2.3108, Val Acc: 0.0950
+2025-04-14 23:29:02,598 - INFO - Epoch 12/120:
+2025-04-14 23:29:02,600 - INFO - Train Loss: 2.3833, Train Acc: 0.0909
+2025-04-14 23:29:02,601 - INFO - Confidence Threshold: 0.6400
+2025-04-14 23:29:02,602 - INFO - Val Loss: 2.3278, Val Acc: 0.0887
+2025-04-14 23:29:02,603 - INFO - EarlyStopping counter: 1 out of 10
+2025-04-14 23:29:19,586 - INFO - Epoch 13/120:
+2025-04-14 23:29:19,587 - INFO - Train Loss: 2.3749, Train Acc: 0.1028
+2025-04-14 23:29:19,588 - INFO - Confidence Threshold: 0.6212
+2025-04-14 23:29:19,589 - INFO - Val Loss: 2.3179, Val Acc: 0.0862
+2025-04-14 23:29:19,590 - INFO - EarlyStopping counter: 2 out of 10
+2025-04-14 23:29:36,381 - INFO - Epoch 14/120:
+2025-04-14 23:29:36,382 - INFO - Train Loss: 2.3753, Train Acc: 0.1066
+2025-04-14 23:29:36,383 - INFO - Confidence Threshold: 0.6038
+2025-04-14 23:29:36,384 - INFO - Val Loss: 2.3127, Val Acc: 0.1087
+2025-04-14 23:29:36,385 - INFO - EarlyStopping counter: 3 out of 10
+2025-04-14 23:29:53,614 - INFO - Epoch 15/120:
+2025-04-14 23:29:53,614 - INFO - Train Loss: 2.3770, Train Acc: 0.1022
+2025-04-14 23:29:53,615 - INFO - Confidence Threshold: 0.5872
+2025-04-14 23:29:53,616 - INFO - Val Loss: 2.3206, Val Acc: 0.0975
+2025-04-14 23:29:53,617 - INFO - EarlyStopping counter: 4 out of 10
+2025-04-14 23:30:12,274 - INFO - Epoch 16/120:
+2025-04-14 23:30:12,275 - INFO - Train Loss: 2.3738, Train Acc: 0.0969
+2025-04-14 23:30:12,276 - INFO - Confidence Threshold: 0.5713
+2025-04-14 23:30:12,277 - INFO - Val Loss: 2.3194, Val Acc: 0.0875
+2025-04-14 23:30:12,278 - INFO - EarlyStopping counter: 5 out of 10
+2025-04-14 23:30:29,075 - INFO - Epoch 17/120:
+2025-04-14 23:30:29,076 - INFO - Train Loss: 2.3735, Train Acc: 0.1044
+2025-04-14 23:30:29,077 - INFO - Confidence Threshold: 0.5562
+2025-04-14 23:30:29,078 - INFO - Val Loss: 2.3143, Val Acc: 0.0963
+2025-04-14 23:30:29,079 - INFO - EarlyStopping counter: 6 out of 10
+2025-04-14 23:30:46,016 - INFO - Epoch 18/120:
+2025-04-14 23:30:46,017 - INFO - Train Loss: 2.3687, Train Acc: 0.1106
+2025-04-14 23:30:46,018 - INFO - Confidence Threshold: 0.5419
+2025-04-14 23:30:46,019 - INFO - Val Loss: 2.3140, Val Acc: 0.1037
+2025-04-14 23:30:46,020 - INFO - EarlyStopping counter: 7 out of 10
+2025-04-14 23:31:04,239 - INFO - Epoch 19/120:
+2025-04-14 23:31:04,241 - INFO - Train Loss: 2.3644, Train Acc: 0.1131
+2025-04-14 23:31:04,243 - INFO - Confidence Threshold: 0.5281
+2025-04-14 23:31:04,244 - INFO - Val Loss: 2.3197, Val Acc: 0.0975
+2025-04-14 23:31:04,245 - INFO - EarlyStopping counter: 8 out of 10
+2025-04-14 23:31:22,488 - INFO - Epoch 20/120:
+2025-04-14 23:31:22,489 - INFO - Train Loss: 2.3725, Train Acc: 0.1075
+2025-04-14 23:31:22,491 - INFO - Confidence Threshold: 0.5149
+2025-04-14 23:31:22,491 - INFO - Val Loss: 2.3155, Val Acc: 0.0912
+2025-04-14 23:31:22,493 - INFO - EarlyStopping counter: 9 out of 10
+2025-04-14 23:31:39,302 - INFO - Epoch 21/120:
+2025-04-14 23:31:39,303 - INFO - Train Loss: 2.3663, Train Acc: 0.1084
+2025-04-14 23:31:39,305 - INFO - Confidence Threshold: 0.5028
+2025-04-14 23:31:39,306 - INFO - Val Loss: 2.3119, Val Acc: 0.1050
+2025-04-14 23:31:39,306 - INFO - EarlyStopping counter: 10 out of 10
+2025-04-14 23:31:39,307 - INFO - Early stopping triggered!
+2025-04-14 23:31:51,806 - INFO - 
+Final Test Metrics:
+2025-04-14 23:31:51,807 - INFO - Accuracy: 0.5499
+2025-04-14 23:31:51,809 - INFO - Precision: 0.5735
+2025-04-14 23:31:51,809 - INFO - Recall: 0.5499
+2025-04-14 23:31:51,810 - INFO - F1 Score: 0.5294
